@@ -1,0 +1,12 @@
+/dev/nvme0n1p1 /boot    vfat noatime 0 2
+/dev/nvme0n1p2 /        xfs  discard,noatime 0 1
+/dev/nvme0n1p3 /home    xfs  discard,noatime 0 1
+
+#tmpfs /var/tmp/portage tmpfs rw,nosuid,noatime,nodev,size=10G,mode=775,uid=portage,gid=portage,x-mount.mkdir=775 0 0
+
+###################################################################
+# Added 4 lines to use RAM instead of SSD for temp and log files
+tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
+tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0
+tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0
+tmpfs /var/tmp tmpfs defaults,noatime,mode=1777 0 0
