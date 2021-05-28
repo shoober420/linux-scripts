@@ -1,0 +1,7 @@
+syntax enable
+set nocompatible
+set backspace=indent,eol,start
+set ruler
+set wildmenu
+set noerrorbells
+set novisualbell
