@@ -1,0 +1,20 @@
+#font="Mx437 IBM VGA 8x16"                                                                                                                                                 
+font="IBM Plex Mono"
+style-regular="Regular"
+style-bold="SemiBold"
+style-italic="Italic"
+font-symbol="MxPlus IBM VGA 8x16"
+font-color="MxPlus IBM VGA 8x16"
+font-size=12
+dpi=96
+
+term="xterm-256color"
+no-dynamic-title=true
+blink="true:500:500:-1"
+decorations=none
+
+colorscheme="xterm"
+bg-color="#00000099"
+fg-color="#00ff7f"
+h-bg-color="#000000"
+h-fg-color="#00ff7f"
