@@ -1,0 +1,82 @@
+#xwayland disable
+
+font pango:IBMPlexMono-Regular 0
+
+#default_border none
+#default_floating_border none
+default_border pixel 1
+default_floating_border pixel 1
+titlebar_border_thickness 1
+titlebar_padding 1
+
+#bar hidden_state hide
+#bar mode hide
+#mode hide
+
+focus_follows_mouse no
+
+#output * max_render_time 1
+
+input * {
+    xkb_layout "us"
+}
+
+input 1189:32769:BenQ_ZOWIE_BenQ_ZOWIE_Gaming_Mouse {
+accel_profile flat
+pointer_accel 0
+}
+
+input 1118:71:Microsoft_Microsoft_5-Button_Mouse_with_Intellieye(TM) {
+accel_profile flat
+pointer_accel 0
+}
+
+input * xkb_numlock enable
+
+output * bg ~/wallpaper.png fill
+#output * bg #000000 solid_color
+
+#output * res 640x480@75Hz
+output * res 1920x1080@240Hz
+
+output LVDS-1 disable
+
+output * scale_filter nearest
+
+output * adaptive_sync off
+
+for_window [app_id="csgo_linux64"] max_render_time 1
+for_window [app_id="hl_linux"] max_render_time 1
+for_window [app_id="hl2_linux"] max_render_time 1
+
+set $mod Mod4
+
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+
+bindsym $mod+Shift+Q kill
+
+bindsym $mod+Shift+Escape exit
+
+bindsym $mod+Shift+Return exec wayst
+
+bindsym $mod+Shift+c reload
+
+seat seat0 xcursor_theme Chicago95_Cursor_White 0
