@@ -1,2 +1,2 @@
 # rootscripts
-Backup of the scripts in my root directory. 
+Backup of the scripts in my Gentoo Linux root directory. 
