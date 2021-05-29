@@ -15,7 +15,7 @@ titlebar_padding 1
 
 focus_follows_mouse no
 
-#output * max_render_time 1
+output * max_render_time 1
 
 input * {
     xkb_layout "us"
@@ -75,7 +75,7 @@ bindsym $mod+Shift+Q kill
 
 bindsym $mod+Shift+Escape exit
 
-bindsym $mod+Shift+Return exec wayst
+bindsym $mod+Shift+Return exec alacritty
 
 bindsym $mod+Shift+c reload
 
