@@ -1,2 +1,2 @@
 # rootbackup
-Backup of my root directory scripts.
+Directory tree backup of the scripts in my root directory. 
