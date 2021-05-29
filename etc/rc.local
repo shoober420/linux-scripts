@@ -19,7 +19,7 @@ cpupower frequency-set -d 4200000
 
 #rm -rf /usr/share/gtk-2.0/gtkrc
 
-chmod -R 755 /home/lokiju420_-
+#chmod -R 755 /home/$USER
 #chmod 660 /dev/input/*
 
 #ln -sfT dash /usr/bin/sh
