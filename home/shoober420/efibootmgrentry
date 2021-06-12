@@ -1,0 +1,9 @@
+efibootmgr --disk /dev/nvme0n1 --part 1 --create --label "Gentoo" --loader "\efi\boot\bootx64.efi" --unicode 'root=/dev/nvme0n1p2 ro ipv6.disable=1 nowatchdog elevator=noop mitigations=off numa=off usbhid.mousepoll=1 usbhid.kbpoll=1 initrd=\initramfs-x.x.x-pfX+.img init=/sbin/runit-init' --verbose
+
+# efibootmgr -v for UUID
+# efibootmgr --bootorder XXXX,XXXX --verbose
+# efibootmgr -Bb XXXX --verbose
+
+# nvidia-drm.modeset=1
+# usbhid.jspoll=1
+# init=/sbin/runit-init
