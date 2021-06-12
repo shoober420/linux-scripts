@@ -1,0 +1,1 @@
+for i in $(pgrep steam); do sed '/\.local/!d;s/.* //g' /proc/$i/maps; done | sort | uniq
