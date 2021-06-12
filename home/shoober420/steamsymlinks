@@ -1,0 +1,6 @@
+doas ln -s /usr/lib/libtcmalloc_minimal.so /usr/lib/libtcmalloc_minimal.so.0
+doas ln -s /usr/lib64/libtcmalloc_minimal.so /usr/lib64/libtcmalloc_minimal.so.0
+doas ln -s /usr/lib/libcurl.so.4 /usr/lib/libcurl-gnutls.so.4
+doas ln -s /usr/lib64/libcurl.so.4 /usr/lib64/libcurl-gnutls.so.4
+doas ln -s /usr/lib/libcurl.so.4 /usr/lib/libcurl-gnutls.so.3
+doas ln -s /usr/lib64/libcurl.so.4 /usr/lib64/libcurl-gnutls.so.3
