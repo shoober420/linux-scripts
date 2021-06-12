@@ -1,0 +1,3 @@
+# protontricks --command $WINE /home/$USER/Downloads/patch.exe gameprefix
+
+# WINEPREFIX="/home/$USER/.steam/steam/steamapps/compatdata/appid/pfx" /usr/share/steam/compatibilitytools.d/proton-ge-custom/dist/bin/wine /home/$USER/Downloads/patch.exe
