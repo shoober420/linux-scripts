@@ -1,0 +1,2 @@
+# Proton / Wine requires this setting to be enabled to launch
+echo "1" > /proc/sys/kernel/unprirvileged_userns_clone
