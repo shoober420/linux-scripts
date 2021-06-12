@@ -1,0 +1,51 @@
+### NES / FAMICOM RESOLUTION AND REFRESH RATE ###
+xrandr --output DVI-I-0 --mode 768x720_60.10     # 256x240_60.098813897441
+
+### SNES / SUPER FAMICOM RESOLUTION AND REFRESH RATE ###
+xrandr --output DVI-I-0 --mode 768x732_60.10     # 256x244_60.098813897441
+
+### TURBOGRAFX-16 / PC ENGINE RESOLUTION AND REFRESH RATE ###
+xrandr --output DVI-I-0 --mode 768x717_59.83     # 256×239_59.826105453482
+
+### SEGA GENESIS / MEGA DRIVE RESOLUTION AND REFRESH RATE ###
+xrandr --output DVI-I-0 --mode 640x448_59.92     # 320x224_59.922751013551
+
+### SONY PLAYSTATION REFRESH RATE ###
+xrandr --output DVI-I-0 --mode 2048x1536_59.29   # _59.292862561956
+
+### 4:3 RESOLUTIONS ###
+
+# 640x480
+xrandr --output DVI-I-0 --mode 640x480_170.00
+
+# 800x600
+xrandr --output DVI-I-0 --mode 800x600_170.00
+
+# 1024x768
+xrandr --output DVI-I-0 --mode 1024x768_155.00
+
+# 1280x960
+xrandr --output DVI-I-0 --mode 1280x960_120.00
+
+# 1600x1200
+xrandr --output DVI-I-0 --mode 1600x1200_100.00
+
+# 2048x1536
+xrandr --output DVI-I-0 --mode 2048x1536
+
+### 16:9 and 16:10 RESOLUTIONS ###
+
+# 640x400 (For Doom engine games)
+xrandr --output DVI-I-0 --mode 640x400_170.00
+
+# 1280x800
+xrandr --output DVI-I-0 --mode 1280x800_60.00
+
+# 1920x1080
+xrandr --output DVI-I-0 --mode 1920x1080_60.00
+
+# 1920x1200
+xrandr --output DVI-I-0 --mode 1920x1200_60.00
+
+# 2048x1152
+xrandr --output DVI-I-0 --mode 2048x1152_85.00
