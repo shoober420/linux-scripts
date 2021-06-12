@@ -1,0 +1,2 @@
+# needed after every git update
+chmod +s /usr/bin/sway
