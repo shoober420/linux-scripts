@@ -1,0 +1,5 @@
+rm -rf ~/.local/share/Steam/steamapps/common/Proton*
+
+rm -rf ~/.local/share/Steam/ubuntu12_32/steam-runtime*
+
+rm -rf ~/.local/share/Steam/ubuntu12_64/steam-runtime*
