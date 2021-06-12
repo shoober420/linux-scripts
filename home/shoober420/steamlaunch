@@ -1,0 +1,5 @@
+export STEAM_RUNTIME=0
+export STEAM_RUNTIME_HEAVY=0
+#export STEAM_RUNTIME_PREFER_HOST_LIBRARIES=1
+export DBUS_FATAL_WARNINGS=0
+exec /home/lokiju420_-/steam-launcher/steam
