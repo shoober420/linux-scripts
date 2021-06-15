@@ -1,3 +1,8 @@
+### proton ge custom bin
+# https://github.com/GloriousEggroll/proton-ge-custom/releases/download/6.10-GE-1/Proton-6.10-GE-1.tar.gz
+## mkdir /home/$USER/.steam/root/compatibilitytools.d
+## tar -xf Proton*.tar.gz -C /home/$USER/.steam/root/compatibilitytools.d/
+
 ### d3d8to9 wrapper                                                                                                                                                       
 # https://github.com/crosire/d3d8to9/releases/download/v1.11.0/d3d8.dll
 
