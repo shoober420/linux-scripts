@@ -109,6 +109,7 @@ dev-libs/libgcrypt-compat abi_x86_32
 # dev-libs/libappindicator abi_x86_32
 # dev-libs/libdbusmenu abi_x86_32
 dev-util/google-perftools abi_x86_32
+dev-util/vulkan-tools abi_x86_32
 media-libs/speexdsp abi_x86_32
 media-libs/libsndfile abi_x86_32
 media-libs/libcanberra abi_x86_32
