@@ -1,5 +1,5 @@
-dev-util/vulkan-tools -X
-media-libs/vulkan-loader -X
+#dev-util/vulkan-tools -X
+#media-libs/vulkan-loader -X
 
 #dev-util/vulkan-tools -wayland
 #media-libs/vulkan-loader -wayland
