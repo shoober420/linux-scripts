@@ -101,6 +101,7 @@ sys-fs/eudev abi_x86_32
 # STEAM_RUNTIME=0
 # app-accessibility/at-spi2-atk abi_x86_32
 # app-accessibility/at-spi2-core abi_x86_32
+app-crypt/p11-kit abi_x86_32
 dev-libs/dbus-glib abi_x86_32
 dev-libs/libltdl abi_x86_32
 dev-libs/libgpg-error abi_x86_32
