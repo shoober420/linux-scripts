@@ -14,6 +14,7 @@ dev-libs/libpthread-stubs abi_x86_32
 dev-libs/libtasn1 abi_x86_32
 dev-libs/libunistring abi_x86_32
 dev-libs/libxml2 abi_x86_32
+dev-libs/libxslt abi_x86_32
 dev-libs/lzo abi_x86_32
 dev-libs/nettle abi_x86_32
 dev-libs/nspr abi_x86_32
@@ -26,6 +27,7 @@ media-gfx/graphite2 abi_x86_32
 media-libs/fontconfig abi_x86_32
 media-libs/freetype abi_x86_32
 media-libs/harfbuzz abi_x86_32
+media-libs/lcms abi_x86_32
 media-libs/libpng abi_x86_32
 media-libs/mesa abi_x86_32
 media-libs/openal abi_x86_32
