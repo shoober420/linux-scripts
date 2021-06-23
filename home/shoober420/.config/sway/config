@@ -45,9 +45,9 @@ output * scale_filter nearest
 
 output * adaptive_sync off
 
-for_window [app_id="csgo_linux64"] max_render_time 1
-for_window [app_id="hl_linux"] max_render_time 1
-for_window [app_id="hl2_linux"] max_render_time 1
+#for_window [app_id="csgo_linux64"] max_render_time 1
+#for_window [app_id="hl_linux"] max_render_time 1
+#for_window [app_id="hl2_linux"] max_render_time 1
 
 set $mod Mod4
 
