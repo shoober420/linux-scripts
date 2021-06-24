@@ -1,0 +1,22 @@
+# login as root
+
+# cp /usr/src/linux/.config /usr/src/linuxNEWKERNEL/.config
+# eselect kernel list
+# eselect kernel set 2   (new kernel)
+# cd /usr/src/linux
+
+# mv /usr/src/linux/.config /home/$USER/configbackup
+# bash -c "make clean && make mrproper"
+# mv /home/$USER/configbackup /usr/src/linux/.config
+# make oldconfig
+# make menuconfig
+# bash -c "make -j16 && make modules_install && make install"
+# genkernel --install --kernel-config=/usr/src/linux/.config initramfs
+
+# cp /boot/vmlinuz-X.XX.0-pfX+ /boot/efi/boot/bootx64.efi
+## mount -o remount,rw /sys/firmware/efi/efivars
+# sh githubscripts/efibootmgrentrygentoo
+
+# reboot
+# doas eclean-kernel -n 1
+# doas emerge -cav "=sys-kernel/pf-sources-X.XX_p9999"
