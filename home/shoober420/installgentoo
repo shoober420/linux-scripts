@@ -1,0 +1,268 @@
+#====================================#
+######     install gentoo like its 1999     ######
+#====================================#
+
+# gentoo minimal installation boot media only
+
+# partition disk (parted or gdisk)
+# format disk (mkfs)
+
+# mount /dev/nvme0n1p2 /mnt/gentoo
+# cd /mnt/gentoo
+
+# wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64/stage3-amd64-20210331T214503Z.tar.xz     (tar.xz date format is YEAR/MONTH/DAY T)
+
+# tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner
+
+# mkdir /mnt/gentoo/mnt2
+# mount /dev/sdX1 /mnt/gentoo/mnt2     (external drive)
+# mount /dev/nvmeon1p1 /mnt/gentoo/boot
+# mount /dev/nvmeon1p3 /mnt/gentoo/home
+# cp -rf /mnt/gentoo/mnt2/githubscripts /mnt/gentoo/home
+# umount /dev/sdX1
+
+# cp --dereference /etc/resolv.conf /mnt/gentoo/etc
+
+# mount --types proc /proc /mnt/gentoo/proc
+# mount --rbind /sys /mnt/gentoo/sys
+# mount --rbind /dev /mnt/gentoo/dev
+
+# chroot /mnt/gentoo /bin/bash
+# source /etc/profile
+# export PS1="(chroot) ${PS1}"
+
+# emerge-webrsync
+# emerge --sync
+
+# eselect profile list
+# eselect profile set 1 (default minimal stable)
+
+# emerge --ask --verbose --update --deep --newuse @world
+
+# mkdir /etc/portage/package.accept_keywords
+# cp githubscripts/z.accept /etc/portage/package.accept_keywords
+
+# emerge -av --autounmask "=dev-vcs/git-9999-r1"
+
+# emerge -av sys-process/runit
+
+# emerge -av --autounmask "=app-editors/vim-9999"
+## emerge -av app-eselect/eselect-vi
+# eselect vi list
+# eselect vi set 1  (vim)
+## mkdir /etc/vim
+# cp githubscripts/vimrc /etc/vim/vimrc.local
+
+# cp githubscripts/timezone /etc/timezone
+# emerge --config sys-libs/timezone-data
+
+# cp githubscripts/locale.gen /etc/locale.gen
+# locale-gen
+# eselect locale list
+# eselect locale set 4 (en_US.utf8)
+# cp githubscripts/locale.conf /etc/locale.conf
+# env-update && source /etc/profile && export PS1="(chroot) ${PS1}"
+
+# emerge -av app-text/wgetpaste
+# emerge -av app-eselect/eselect-repository
+## emerge -av sys-apps/pciutils
+
+# mkdir -p /var/db/repos/localrepo/{metadata,profiles}
+# chown -R portage:portage /var/db/repos/localrepo
+# echo 'localrepo' > /var/db/repos/localrepo/profiles/repo_name
+# cp githubscripts/layout.conf /var/db/repos/localrepo/metadata/
+# mkdir /etc/portage/repos.conf
+# cp githubscripts/localrepo.conf /etc/portage/repos.conf/
+
+# cp githubscripts/localrepo /var/db/repos/
+
+# emerge -av --autounmask "=sys-kernel/pf-sources-x.xx_p9999"
+# emerge -av --autounmask "=sys-kernel/linux-firmware-99999999"
+## emerge -av sys-kernel/pf-sources
+
+# emerge -av sys-kernel/genkernel
+# emerge -av app-admin/eclean-kernel
+# eselect kernel list
+# eselect kernel set 1 (linux-pf kernel)
+
+# cd /usr/src/linux
+# cp githubscripts/config /usr/src/linux/.config
+# make oldconfig
+# make menuconfig
+
+# bash -c "make -j16 && make modules_install && make install"
+# genkernel --install --kernel-config=/usr/src/linux/.config initramfs
+# emerge --depclean
+# emerge -av @module-rebuild
+
+# cp githubscripts/fstab /etc/fstab
+# cp githubscripts/hostname /etc/hostname
+# cp githubscripts/hosts /etc/hosts
+# cp githubscripts/rc.local /etc/rc.local
+# cp githubscripts/sysctl.conf /etc/sysctl.conf
+
+# passwd (set root password)
+
+# emerge -av --autounmask sys-firmware/intel-microcode
+# emerge -av sys-boot/efibootmgr
+# mkdir -p /boot/efi/boot
+# cp /boot/vmlinuz-x.x.x-pf /boot/efi/boot/bootx64.efi
+# sh githubscripts/efibootmgrentrygentoo
+
+# emerge -av app-shells/dash
+# emerge -av app-shells/yash
+# useradd -m -G users,audio -s /bin/yash $USER
+# passwd $USER
+# chsh -s /bin/bash root
+# chsh -s /bin/yash $USER
+
+# emerge -av app-eselect/eselect-sh
+# eselect sh list
+# eselect sh set 2   (dash)
+# mv githubscripts into /home/$USER
+# cp githubscripts/yashrc /home/$USER/.yashrc
+# cp githubscripts/yash_profile /home/$USER/.yash_profile
+# cp githubscripts/shells /etc/shells
+# rm /stage3-*
+
+# emerge -av app-admin/doas
+# echo 'permit $USER' > /etc/doas.conf
+
+# emerge -av sys-power/cpupower
+# emerge -av sys-process/htop
+# emerge -av app-portage/gentoolkit
+# emerge -av media-sound/alsa-utils
+# emerge -av sys-devel/autogen
+# emerge -av app-portage/eix
+
+# emerge -av --autounmask "=net-libs/libnftnl-9999"
+# emerge -av --autounmask "=net-firewall/nftables-9999"
+# cp githubscripts/nftables.conf /etc/nftables.conf
+
+# emerge -av --autounmask "=app-portage/smart-live-rebuild-9999"
+# emerge -av --autounmask "=app-portage/repoman-9999"
+# emerge -av --autounmask "=app-misc/neofetch-9999"
+
+# exit
+# umount /dev/nvme0n1p3
+# umount /dev/nvme0n1p1
+## umount /dev/nvme0n1p2
+# reboot
+
+#========================================#
+######     post install gentoo like its 1999     ######
+#========================================#
+
+# emerge -av --autounmask "=sys-apps/kmod-9999"
+# emerge -av --autounmask "=sys-apps/kbd-9999"
+# emerge -av --autounmask "=sys-fs/eudev-9999"
+# emerge -av --autounmask "=dev-libs/libevdev-9999"
+# emerge -av --autounmask "=media-libs/mesa-9999"
+## emerge -av --autounmask x11-drivers/nvidia-drivers
+## emerge -av --autounmask "=x11-apps/mesa-progs-9999"
+# emerge -av --autounmask "=x11-libs/libdrm-9999"
+# emerge -av --autounmask "=media-libs/vulkan-loader-9999"
+# emerge -av --autounmask "=dev-util/vulkan-headers-9999"
+# emerge -av --autounmask "=media-libs/harfbuzz-9999"
+# emerge -av --autounmask "=media-libs/freetype-9999"
+## emerge -av --autounmask "=dev-libs/wayland-9999"
+## emerge -av --autounmask "=dev-libs/wayland-protocols-9999"
+## emerge -av --autounmask "=gui-apps/grim-9999"
+# emerge -av --autounmask "=media-libs/libglvnd-9999"
+## emerge -av --autounmask "=sys-auth/seatd-9999"
+## emerge -av --autounmask "=gui-apps/swaybg-9999"
+## emerge -av --autounmask "=gui-libs/wlroots-9999"
+## emerge -av --autounmask "=gui-wm/sway-9999"
+# emerge -av --autounmask "=dev-libs/json-c-9999"
+# emerge -av --autounmask "=media-libs/libepoxy-9999"
+## emerge -av --autounmask "=x11-drivers/xf86-video-amdgpu-9999"
+## emerge -av --autounmask "=X11-drivers/xf86-video-ati-9999"
+## emerge -av --autounmask "=x11-base/xorg-server-9999"
+# emerge -av --autounmask "=x11-base/xorg-proto-9999"
+# emerge -av --autounmask "=x11-misc/xkeyboard-config-9999"
+## emerge -av --autounmask "=x11-libs/cairo-9999"
+# emerge -av --autounmask "=x11-libs/pixman-9999"
+# emerge -av --autounmask "=media-libs/glu-9999"
+# emerge -av --autounmask "=net-libs/nghttp3-9999"
+# emerge -av --autounmask "=net-libs/ngtcp2-9999"
+# emerge -av --autounmask "=net-libs/nghttp2-9999"
+# emerge -av --autounmask "=net-libs/quiche-9999"
+# emerge -av --autounmask "=dev-libs/libnl-99999999"
+# emerge -av --autounmask "=x11-libs/libva-9999"
+# emerge -av --autounmask "=x11-libs/libvdpau-99999"
+# emerge -av --autounmask "=media-libs/libsndfile-9999"
+# emerge -av --autounmask "=media-sound/cmus-9999"
+# emerge -av --autounmask "=app-arch/bzip2-9999"
+# emerge -av --autounmask "=dev-util/pkgconfig-9999"
+## emerge -av --autounmask "=net-print/cups-9999"
+# emerge -av --autounmask "=sys-apps/attr-9999"
+## emerge -av --autounmask "=sys-apps/util-linux-9999"
+# emerge -av --autounmask "=media-video/pipewire-9999"
+# emerge -av --autounmask "=net-misc/iputils-99999999"
+# emerge -av --autounmask "=x11-libs/libXfont2-9999"
+# emerge -av --autounmask "=dev-libs/libuv-9999"
+# emerge -av --autounmask "=net-libs/libnet-x.x-9999"
+# emerge -av --autounmask "=net-libs/libpcap-9999"
+# emerge -av --autounmask "=net-misc/netifrc-9999"
+# emerge -av --autounmask "=sys-apps/iproute2-9999"
+# emerge -av --autounmask "=sys-apps/net-tools-9999"
+# emerge -av --autounmask "=sys-apps/openrc-9999"
+# emerge -av --autounmask "=sys-auth/pambase-999999999"
+# emerge -av --autounmask "=sys-devel/binutils-config-9999"
+# emerge -av --autounmask "=sys-devel/gnuconfig-99999999"
+# emerge -av --autounmask "=sys-devel/libtool-9999"
+# emerge -av --autounmask "=sys-devel/llvm-xx.x.x.9999"
+# emerge -av --autounmask "=sys-devel/llvm-common-xx.x.x.9999"
+# emerge -av --autounmask "=sys-kernel/genkernel-9999"
+# emerge -av --autounmask "=sys-kernel/linux-firmware-99999999"
+# emerge -av --autounmask "=sys-libs/libseccomp-9999"
+# emerge -av --autounmask "=x11-apps/xauth-9999"
+# emerge -av --autounmask "=sys-apps/portage-9999"
+## emerge -av --autounmask "=dev-util/vulkan-tools-9999"
+# emerge -av dev-libs/libgcrypt-compat
+# emerge -av media-fonts/ibm-plex
+
+## mkdir -p /var/db/repos/localrepo/app-admin/ananicy
+## cp githubscripts/ananicy-9999.ebuild /var/db/repos/localrepo/app-admin/ananicy
+## ebuild /var/db/repos/localrepo/app-admin/ananicy/ananicy-9999.ebuild manifest
+## emerge -av --autounmask "=app-admin/ananicy-9999"
+
+## mkdir -p /var/db/repos/localrepo/gui-apps/wayst
+## cp githubscripts/wayst-99999.ebuild /var/db/repos/localrepo/gui-apps/wayst
+## ebuild /var/db/repos/localrepo/gui-apps/wayst/wayst-9999.ebuild manifest
+## emerge -av --autounmask "=gui-apps/wayst-9999"
+## mkdir -p /home/$USER/.config/wayst
+## cp githubscripts/waystconfig /home/$USER/.config/wayst/config
+
+# eselect python list
+# eselect python set 2   (latest python)
+# cp githubscripts/pythonuse /etc/portage/package.use/
+
+## mkdir -p /home/$USER/.config/sway
+## cp githubscripts/swayconfig /home/$USER/.config/sway/config
+## cp githubscipts/wallpaper.png /home/$USER/wallpaper.png
+# cp githubscripts/alsoft.conf /etc/openal/alsoft.conf
+
+# chown -R $USER:$USER /home/$USER/githubscripts
+# chown -R $USER:$USER /home/$USER/.yash_profile
+# chown -R $USER:$USER /home/$USER/.config
+
+#===================================#
+######     install gentoo commands     ######
+#===================================#
+
+# emerge --sync    // sync package ebuilds 
+# emerge -DNuav @world    // update system
+# emerge -av --keep-going @smart-live-rebuild   // update all 9999 packages
+# emerge -cav   // clean system and uninstall removed package from @world with its dependencies
+# emerge -Cav   // force uninstall package
+# emerge -av   // install package and all its dependencies
+# emerge -av --autounmask "=foo/foo-9999"   // install 9999 package
+# emerge -Wav   // remove package from @world
+# emerge -Oav   // reinstall package in @world (if dependenies are already installed)
+# emerge -eav   // reinstall package in @world and all its dependencies
+# emerge -1av   // reinstall package dependency not in @world
+# emerge -eav --keep-going @world   // rebuild all system packages
+# equery list "*"   // list all installed packages
+# EIX_LIMIT=0 eix -I*   // list all installed packages with use flags
+# emerge -1av skalibs execline s6 s6-rc s6-linux-utils s6-portable-utils oblibs 66 66-tools boot-66serv   // reinstall s6-66
