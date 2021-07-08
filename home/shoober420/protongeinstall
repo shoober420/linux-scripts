@@ -1,0 +1,3 @@
+cd ~/.steam/root/compatibilitytools.d
+wget https://github.com/GloriousEggroll/proton-ge-custom/releases/download/X.XX-GE-X/Proton-X.XX-GE-X.tar.gz
+tar -xf Proton-VERSION.tar.gz -C ~/.steam/root/compatibilitytools.d/
