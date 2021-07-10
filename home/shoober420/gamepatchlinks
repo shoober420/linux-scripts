@@ -1,7 +1,7 @@
 ### proton ge custom bin
-# https://github.com/GloriousEggroll/proton-ge-custom/releases/download/6.10-GE-1/Proton-6.10-GE-1.tar.gz
+# https://github.com/GloriousEggroll/proton-ge-custom/releases/download/X.XX-GE-1/Proton-X.XX-GE-X.tar.gz
 ## mkdir /home/$USER/.steam/root/compatibilitytools.d
-## tar -xf Proton*.tar.gz -C /home/$USER/.steam/root/compatibilitytools.d/
+## tar -xf Proton*
 
 ### d3d8to9 wrapper                                                                                                                                                       
 # https://github.com/crosire/d3d8to9/releases/download/v1.11.0/d3d8.dll
@@ -9,6 +9,9 @@
 ### deus ex
 # https://kentie.net/article/dxguide/files/DeusExe-v8.1.zip
 # https://www.cwdohnal.com/utglr/dxglr21.zip
+
+### deus ex revision
+# wget -O Revision_1_6_1_0_SteamInstaller.zip https://www.moddb.com/downloads/mirror/91726/123/d3e88de3815fc5761a9c0e546db2ca4e
 
 ### dgvoodoo2
 # https://github.com/dege-diosg/dgVoodoo2/releases/download/v2.74.1/dgVoodoo2_74_1.zip
