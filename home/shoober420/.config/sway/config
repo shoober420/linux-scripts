@@ -73,6 +73,8 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 
 bindsym $mod+Shift+Q kill
 
+bindsym $mod+Shift+S exec grim
+
 bindsym $mod+Shift+Escape exit
 
 bindsym $mod+Shift+Return exec wayst
