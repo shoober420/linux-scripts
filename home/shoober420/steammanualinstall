@@ -1,0 +1,11 @@
+# mkdir /etc/portage/sets
+# cp githubscripts/steamset /etc/portage/sets/steam
+# emerge -av --keep-going --noreplace @steam
+
+# mkdir /etc/portage/package.use
+# cp githubscripts/steam32gentoo /etc/portage/package.use/steam
+# emerge -av --changed-use --keep-going --deep @world
+
+# cd /home/$USER
+# wget https://repo.steampowered.com/steam/pool/steam/s/steam/steam_X.X.X.XX.tar.gz
+# tar -xvzpf steam_1.0.0.70.tar.gz
