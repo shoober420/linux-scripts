@@ -266,3 +266,7 @@
 # equery list "*"   // list all installed packages
 # EIX_LIMIT=0 eix -I*   // list all installed packages with use flags
 # emerge -1av skalibs execline s6 s6-rc s6-linux-utils s6-portable-utils oblibs 66 66-tools boot-66serv   // reinstall s6-66
+
+### complete system rebuild ###
+## emerge -1av --keep-going --autounmask glibc binutils icu gcc clang "=llvm-xx.0.0.9999" 
+## emerge -eav --keep-going --exclude "glibc binutils icu gcc clang llvm:xx" @world
