@@ -1,0 +1,13 @@
+# gdisk /dev/nvme0n1
+
+### d - 1
+### d - 2
+### d - 3 (should automaticaly delete 3)
+
+# o
+
+# n - 1 - blank - +1G - ef00               ( /dev/nvme0n1p1 - boot )
+# n - 2 - blank - +50G - blank[8300]                ( /dev/nvme0n1p2 - root )
+# n - 3 - blank - blank - blank[8300]                ( /dev/nvme0n1p3 - home)
+
+# w
