@@ -1,0 +1,16 @@
+# cp githubscripts/66tools-overlay.conf /etc/portage/repos.conf/
+# eselect repository enable 66tools-overlay
+# emerge --sync 66tools-overlay
+# ln -s /var/db/repos/66tools-overlay/profiles/package.accept_keywords/s6-66tools.accept /etc/portage/package.accept_keywords/s6-66tools.accept
+# eselect profile list
+# eselect profile set --force 36  (s6-66)
+# emerge -DNuav @world
+# emerge --depclean
+
+# 66-tree -n boot
+# 66-enable -t boot -C -F boot@system
+# 66-env -t boot -e vim boot@system
+# 66-enable -t boot -F boot@system
+# vim /sbin/init (66-boot -m /run)
+# 66-tree -nEc root
+# 66-intree
