@@ -1,0 +1,19 @@
+# libcups required for: steam browser gui
+# lib32-libcups required for: GoldSrc
+# at-spi2-atk / at-spi2-core required for: steam browser gui
+# libvorbis / libogg required for: amnesnia / ion fury
+# libtheora required for: amnesia
+# glu required for: soma / amnesia
+# lib32-glu required for: undertale / momodora-rum / shadowgate
+# openssl-1.0 / lib32-openssl-1.0 required for: undertale / planescape torment / momodora-rum
+# devil / lcms2 / jasper required for: soma
+# libfmod required for: soma
+# lib32-libcurl-compat-minimal-git required for: momodora-rum
+# mono required for: axiom verge
+# glfw-x11 required for: crypt of the necrodancer
+
+# gigantic army may need libjpeg.so.8 symlinks in /usr/lib and /usr/lib32
+# cave story+ requires LD_PRELOAD=/usr/lib32/libcurl.so.3 # OPENSSL RC4
+# aquatic advanture of the last human requires LD_PRELOAD=/usr/lib32/libcurl.so.3 %command% # OPENSSL RC4
+# momodora-rum requires LD_PRELOAD=/usr/lib/libcurl.so.3 %command% # OPENSSL RC4
+# timespinner requires TERM="" %command#
