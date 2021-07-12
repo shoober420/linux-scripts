@@ -1,0 +1,3 @@
+# mkfs.fat -F 32 /dev/nvme0n1p1   (boot)
+# mkfs.xfs -f /dev/nvme0n1p2   (root)
+# mkfs.xfs -f /dev/nvme0n1p3   (home)
