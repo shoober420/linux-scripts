@@ -6,6 +6,9 @@
 ### d3d8to9 wrapper                                                                                                                                                       
 # wget https://github.com/crosire/d3d8to9/releases/download/v1.11.0/d3d8.dll
 
+### VS2010 runtimes
+# wget http://download.microsoft.com/download/C/6/D/C6D0FD4E-9E53-4897-9B91-836EBA2AACD3/vcredist_x86.exe
+
 ### deus ex
 # wget https://kentie.net/article/dxguide/files/DeusExe-v8.1.zip
 # wget https://www.cwdohnal.com/utglr/dxglr21.zip
