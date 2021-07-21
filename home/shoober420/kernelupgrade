@@ -6,7 +6,7 @@
 # cd /usr/src/linux
 
 # mv /usr/src/linux/.config /home/$USER/configbackup
-# bash -c "make clean && make mrproper"
+# make clean && make mrproper
 # mv /home/$USER/configbackup /usr/src/linux/.config
 # make oldconfig
 # make menuconfig
