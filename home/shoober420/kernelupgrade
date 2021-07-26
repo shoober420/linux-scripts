@@ -6,11 +6,11 @@
 # cd /usr/src/linux
 
 # mv /usr/src/linux/.config /home/$USER/configbackup
-# make clean && make mrproper
+# doas bash -c "make clean && make mrproper"
 # mv /home/$USER/configbackup /usr/src/linux/.config
 # make oldconfig
 # make menuconfig
-# make -j16 && make modules_install && make install
+# doas bash -c "make -j16 && make modules_install && make install"
 # genkernel --install --kernel-config=/usr/src/linux/.config initramfs
 
 # cp /boot/vmlinuz-X.XX.0-pfX+ /boot/efi/boot/bootx64.efi
