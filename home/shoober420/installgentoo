@@ -266,8 +266,12 @@
 # equery list "*"   // list all installed packages
 # EIX_LIMIT=0 eix -I*   // list all installed packages with use flags
 # emerge -av libdrm vulkan-headers vulkan-loader mesa xorg-server wlroots swaybg sway   // rebuild graphics stack
-# emerge -Cav liberation-fonts urw-fonts   // uninstall bloat fonts
 # emerge -1av skalibs execline s6 s6-rc s6-linux-utils s6-portable-utils oblibs 66 66-tools boot-66serv   // reinstall s6-66
+
+### remove bloat fonts ###
+# emerge -Cav liberation-fonts urw-fonts
+# rm -rf /usr/share/fonts/truetype
+# rm -rf /usr/share/fonts/xscreensaver
 
 ### complete system rebuild ###
 ## emerge -1av --keep-going --autounmask glibc binutils icu gcc clang "=llvm-xx.0.0.9999" 
