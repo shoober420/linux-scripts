@@ -135,6 +135,7 @@ media-libs/sdl2-mixer abi_x86_32
 media-libs/sdl2-ttf abi_x86_32
 media-libs/sdl2-net abi_x86_32
 media-plugins/alsa-plugins abi_x86_32
+media-sound/fluidsynth abi_x86_32
 media-sound/pulseaudio abi_x86_32
 media-video/pipewire abi_x86_32
 net-libs/libasync abi_x86_32
