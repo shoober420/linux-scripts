@@ -221,6 +221,8 @@
 ## emerge -av --autounmask "=dev-util/vulkan-tools-9999"
 # emerge -av dev-libs/libgcrypt-compat
 # emerge -av media-fonts/ibm-plex
+## emerge -av --autounmask "=media-libs/dav1d-9999"
+## emerge -av --autounmask "=media-libs/x264-9999"
 
 ## mkdir -p /var/db/repos/localrepo/app-admin/ananicy
 ## cp githubscripts/ananicy-9999.ebuild /var/db/repos/localrepo/app-admin/ananicy
