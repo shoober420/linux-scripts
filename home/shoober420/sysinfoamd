@@ -1,0 +1,83 @@
+Computer Information:
+    Manufacturer:  Unknown
+    Model:  Unknown
+    Form Factor: Desktop
+    No Touch Input Detected
+
+Processor Information:
+    CPU Vendor:  GenuineIntel
+    CPU Brand:  Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+    CPU Family:  0x6
+    CPU Model:  0x9e
+    CPU Stepping:  0x9
+    CPU Type:  0x0
+    Speed:  4200 Mhz
+    4 logical processors
+    4 physical processors
+    HyperThreading:  Unsupported
+    FCMOV:  Supported
+    SSE2:  Supported
+    SSE3:  Supported
+    SSSE3:  Supported
+    SSE4a:  Unsupported
+    SSE41:  Supported
+    SSE42:  Supported
+    AES:  Supported
+    AVX:  Supported
+    AVX2:  Unsupported
+    AVX512F:  Unsupported
+    AVX512PF:  Unsupported
+    AVX512ER:  Unsupported
+    AVX512CD:  Unsupported
+    AVX512VNNI:  Unsupported
+    SHA:  Unsupported
+    CMPXCHG16B:  Supported
+    LAHF/SAHF:  Supported
+    PrefetchW:  Unsupported
+
+Operating System Version:
+    Gentoo Linux 5.x (64 bit)
+    Kernel Name:  Linux
+    Kernel Version:  5.13.0-pf4+
+    X Server Vendor:  The X.Org Foundation
+    X Server Release:  12100099
+    X Window Manager:  wlroots wm
+    Steam Runtime Version:  <Runtime disabled>
+
+Video Card:
+    Driver:  AMD Radeon RX 5500 XT (NAVI14, DRM 3.41.0, 5.13.0-pf4+, LLVM 14.0.0)
+    Driver Version:  4.6 (Compatibility Profile) Mesa 21.3.0-devel (git-b705114d9c)
+    OpenGL Version: 4.6
+    Desktop Color Depth: 24 bits per pixel
+    Monitor Refresh Rate: 239 Hz
+    VendorID:  0x1002
+    DeviceID:  0x7340
+    Revision Not Detected
+    Number of Monitors:  1
+    Number of Logical Video Cards:  1
+    Primary Display Resolution:  1920 x 1080
+    Desktop Resolution: 1920 x 1080
+    Primary Display Size: 21.26" x 11.81" (24.29" diag)
+                                            54.0cm x 30.0cm (61.7cm diag)
+    Primary VRAM: 8192 MB
+
+Sound card:
+    Audio device: USB Mixer
+
+Memory:
+    RAM:  64262 Mb
+
+VR Hardware:
+    VR Headset: None detected
+
+Miscellaneous:
+    UI Language:  English
+    LANG:  en_US.UTF-8
+    Total Hard Disk Space Available:  425728 Mb
+    Largest Free Hard Disk Block:  210044 Mb
+
+Storage:
+    Number of SSDs: 0
+    SSD sizes: %s1
+    Number of HDDs: 0
+    HDD sizes: %s1
