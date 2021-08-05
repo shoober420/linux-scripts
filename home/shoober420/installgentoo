@@ -1,6 +1,6 @@
-#====================================#
-######     install gentoo like its 1999     ######
-#====================================#
+#=====================================================#
+  ######     install gentoo like its 1999     ######
+#=====================================================#
 
 # gentoo minimal installation boot media only
 
@@ -149,9 +149,9 @@
 ## umount /dev/nvme0n1p2
 # reboot
 
-#========================================#
-######     post install gentoo like its 1999     ######
-#========================================#
+#===========================================================#
+  ######     post install gentoo like its 1999     ######
+#===========================================================#
 
 # emerge -av --autounmask "=sys-apps/kmod-9999"
 # emerge -av --autounmask "=sys-apps/kbd-9999"
@@ -271,8 +271,8 @@
 # emerge -av libdrm vulkan-headers vulkan-loader mesa xorg-server wlroots swaybg sway   // rebuild graphics stack
 # emerge -1av skalibs execline s6 s6-rc s6-linux-utils s6-portable-utils oblibs 66 66-tools boot-66serv   // reinstall s6-66
 
-### remove bloat fonts ###
-# emerge -Cav liberation-fonts urw-fonts
+### remove bloat fonts and icons ###
+# emerge -Cav liberation-fonts urw-fonts adawaita-icon-theme gnome-themes-standard gtk-engines-adawaita hicolor-icon-theme sound-theme-freedesktop
 # rm -rf /usr/share/fonts/truetype
 # rm -rf /usr/share/fonts/xscreensaver
 
