@@ -1,1 +1,1 @@
-media-sound/pulseaudio -alsa -alsa-plugin -daemon -udev -ssl -webrtc-aec
+media-sound/pulseaudio -alsa -alsa-plugin -daemon -udev -ssl -webrtc-aec -X -tcpd
