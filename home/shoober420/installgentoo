@@ -153,6 +153,7 @@
   ######     post install gentoo like its 1999     ######
 #===========================================================#
 
+# emerge -av --autounmask "=dev-util/meson-9999"
 # emerge -av --autounmask "=sys-apps/kmod-9999"
 # emerge -av --autounmask "=sys-apps/kbd-9999"
 # emerge -av --autounmask "=sys-fs/eudev-9999"
