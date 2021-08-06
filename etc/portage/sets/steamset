@@ -11,7 +11,7 @@ media-libs/freetype:2
 media-libs/libjpeg-turbo
 media-libs/libogg
 media-libs/libpng-compat:1.2
-media-libs/libsdl
+media-libs/libsdl2
 media-libs/libtheora
 media-libs/libvorbis
 media-libs/openal
