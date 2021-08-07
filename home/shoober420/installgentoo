@@ -180,6 +180,7 @@
 ## emerge -av --autounmask "=X11-drivers/xf86-video-ati-9999"
 ## emerge -av --autounmask "=x11-base/xorg-server-9999"
 # emerge -av --autounmask "=x11-base/xorg-proto-9999"
+# emerge -av --autounmask "=x11-base/libxcvt-9999"
 # emerge -av --autounmask "=x11-misc/xkeyboard-config-9999"
 ## emerge -av --autounmask "=x11-libs/cairo-9999"
 # emerge -av --autounmask "=x11-libs/pixman-9999"
