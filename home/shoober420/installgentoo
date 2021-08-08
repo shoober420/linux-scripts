@@ -154,7 +154,7 @@
 #===========================================================#
 
 # emerge -av --autounmask "=sys-devel/automake-9999"
-## emerge -av --autounmask "=dev-util/meson-9999"   # borks build compilation, keep at latest stable
+## emerge -av --autounmask "=dev-util/meson-9999"   # borks certain build compilations, keep at latest stable
 # emerge -av --autounmask "=sys-libs.glibc-9999"
 # emerge -av --autounmask "=sys-apps/kmod-9999"
 # emerge -av --autounmask "=sys-apps/kbd-9999"
