@@ -153,6 +153,7 @@
   ######     post install gentoo like its 1999     ######
 #===========================================================#
 
+# emerge -av --autounmask "=sys-devel/automake-9999"
 ## emerge -av --autounmask "=dev-util/meson-9999"   # borks certain programs, keep at latest stable
 # emerge -av --autounmask "=sys-apps/kmod-9999"
 # emerge -av --autounmask "=sys-apps/kbd-9999"
