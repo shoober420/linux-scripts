@@ -188,9 +188,9 @@
 # emerge -av --autounmask "=x11-libs/pixman-9999"
 # emerge -av --autounmask "=media-libs/glu-9999"
 # emerge -av --autounmask "=net-libs/nghttp3-9999"
-# emerge -av --autounmask "=net-libs/ngtcp2-9999"
-# emerge -av --autounmask "=net-libs/nghttp2-9999"
 # emerge -av --autounmask "=net-libs/quiche-9999"
+## emerge -av --autounmask "=net-libs/ngtcp2-9999"   # not needed with nghttp3 / quiche
+## emerge -av --autounmask "=net-libs/nghttp2-9999"   # not needed with nghttp3 / quiche
 # emerge -av --autounmask "=dev-libs/libnl-99999999"
 # emerge -av --autounmask "=x11-libs/libva-9999"
 # emerge -av --autounmask "=x11-libs/libvdpau-99999"
