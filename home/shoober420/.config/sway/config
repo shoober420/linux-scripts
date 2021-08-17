@@ -33,7 +33,7 @@ pointer_accel 0
 
 input * xkb_numlock enable
 
-output * bg ~/wallpaper.png fill
+#output * bg ~/wallpaper.png fill
 #output * bg #000000 solid_color
 
 #output * res 640x480@75Hz
