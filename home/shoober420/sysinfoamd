@@ -36,17 +36,17 @@ Processor Information:
     PrefetchW:  Unsupported
 
 Operating System Version:
-    Gentoo Linux 5.x (64 bit)
+    Linux 5.x (64 bit)
     Kernel Name:  Linux
-    Kernel Version:  5.13.0-pf5+
+    Kernel Version:  5.13.0-pf6+
     X Server Vendor:  The X.Org Foundation
     X Server Release:  12100099
     X Window Manager:  wlroots wm
     Steam Runtime Version:  <Runtime disabled>
 
 Video Card:
-    Driver:  AMD Radeon RX 5500 XT (NAVI14, DRM 3.41.0, 5.13.0-pf5+, LLVM 14.0.0)
-    Driver Version:  4.6 (Compatibility Profile) Mesa 21.3.0-devel (git-777de86eb1)
+    Driver:  AMD Radeon RX 5500 XT (NAVI14, DRM 3.41.0, 5.13.0-pf6+, LLVM 14.0.0)
+    Driver Version:  4.6 (Compatibility Profile) Mesa 21.3.0-devel (git-fee4f7ef43)
     OpenGL Version: 4.6
     Desktop Color Depth: 24 bits per pixel
     Monitor Refresh Rate: 239 Hz
@@ -74,7 +74,7 @@ Miscellaneous:
     UI Language:  English
     LANG:  en_US.UTF-8
     Total Hard Disk Space Available:  425728 Mb
-    Largest Free Hard Disk Block:  197639 Mb
+    Largest Free Hard Disk Block:  203450 Mb
 
 Storage:
     Number of SSDs: 0
