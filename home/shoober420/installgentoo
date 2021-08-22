@@ -228,6 +228,8 @@
 ## emerge -av --autounmask "=media-libs/dav1d-9999"
 ## emerge -av --autounmask "=media-libs/x264-9999"
 ## emerge -av --autounmask "=media-sound/ffmpeg-9999"
+## crossdev --target x86_64-w64-mingw32
+## crossdev --target i686-w64-mingw32
 
 ## mkdir -p /var/db/repos/localrepo/app-admin/ananicy
 ## cp githubscripts/ananicy-9999.ebuild /var/db/repos/localrepo/app-admin/ananicy
