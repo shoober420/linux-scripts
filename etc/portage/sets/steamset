@@ -4,7 +4,7 @@ dev-libs/libgcrypt
 dev-libs/nspr
 dev-libs/nss
 gnome-base/gconf
-gnome-extra/zenity
+# gnome-extra/zenity   # not needed - prevents installation of gtk3
 media-libs/alsa-lib
 media-libs/fontconfig
 media-libs/freetype:2
