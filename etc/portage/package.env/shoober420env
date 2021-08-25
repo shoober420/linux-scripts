@@ -12,8 +12,8 @@ sys-devel/clang nolto.conf
 sys-devel/llvm nolto.conf
 sys-libs/efivar ltopartition.conf
 sys-libs/glibc glibc.conf    # no-semantic-interposition borks mesa / -fassociative-math borks lots of games
-sys-devel/gcc noltofipapta.conf   # fipa-pita fails during build / flto not needed since its enabled via USE flags
-cross-x86_64-w64-mingw32/gcc noltofipapta.conf # fipa-pita fails during build / flto not needed since its enabled via USE flags
+sys-devel/gcc gcc.conf   # fipa-pita fails during build / flto not needed since its enabled via USE flags
+cross-x86_64-w64-mingw32/gcc gcc.conf # fipa-pita fails during build / flto not needed since its enabled via USE flags
 net-libs/quiche ofastquiche.conf
 dev-scheme/guile nolto.conf ofastmath.conf
 dev-lang/ruby nolto.conf
