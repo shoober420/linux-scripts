@@ -259,9 +259,9 @@
 # chown -R $USER:$USER /home/$USER/.yash_profile
 # chown -R $USER:$USER /home/$USER/.config
 
-#==============================================#
-######     install gentoo commands     ######
-#==============================================#
+#===============================================#
+  ######     install gentoo commands     ######
+#===============================================#
 
 # emerge --sync    // sync package ebuilds 
 # emerge -DNuav @world    // update system
