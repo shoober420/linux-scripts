@@ -42,11 +42,11 @@
 # mkdir /etc/portage/package.accept_keywords
 # cp githubscripts/z.accept /etc/portage/package.accept_keywords
 
-# emerge -av --autounmask "=dev-vcs/git-9999-r1"
+# emerge -av --autounmask =dev-vcs/git-9999-r1
 
 # emerge -av sys-process/runit
 
-# emerge -av --autounmask "=app-editors/vim-9999"
+# emerge -av --autounmask =app-editors/vim-9999
 ## emerge -av app-eselect/eselect-vi
 # eselect vi list
 # eselect vi set 1  (vim)
@@ -76,8 +76,8 @@
 
 # cp githubscripts/localrepo /var/db/repos/
 
-# emerge -av --autounmask "=sys-kernel/pf-sources-x.xx_p9999"
-# emerge -av --autounmask "=sys-kernel/linux-firmware-99999999"
+# emerge -av --autounmask =sys-kernel/pf-sources-x.xx_p9999
+# emerge -av --autounmask =sys-kernel/linux-firmware-99999999
 ## emerge -av sys-kernel/pf-sources
 
 # emerge -av sys-kernel/genkernel
@@ -135,13 +135,13 @@
 # emerge -av sys-devel/autogen
 # emerge -av app-portage/eix
 
-# emerge -av --autounmask "=net-libs/libnftnl-9999"
-# emerge -av --autounmask "=net-firewall/nftables-9999"
+# emerge -av --autounmask =net-libs/libnftnl-9999
+# emerge -av --autounmask =net-firewall/nftables-9999
 # cp githubscripts/nftables.conf /etc/nftables.conf
 
-# emerge -av --autounmask "=app-portage/smart-live-rebuild-9999"
-# emerge -av --autounmask "=app-portage/repoman-9999"
-# emerge -av --autounmask "=app-misc/neofetch-9999"
+# emerge -av --autounmask =app-portage/smart-live-rebuild-9999
+# emerge -av --autounmask =app-portage/repoman-9999
+# emerge -av --autounmask =app-misc/neofetch-9999
 
 # exit
 # umount /dev/nvme0n1p3
@@ -153,93 +153,94 @@
   ######     post install gentoo like its 1999     ######
 #===========================================================#
 
-# emerge -av --autounmask "=sys-devel/automake-9999"
-## emerge -av --autounmask "=dev-util/meson-9999"   # borks certain build compilations, keep at latest stable
-# emerge -av --autounmask "=sys-libs.glibc-9999"
-# emerge -av --autounmask "=sys-apps/kmod-9999"
-# emerge -av --autounmask "=sys-apps/kbd-9999"
-# emerge -av --autounmask "=sys-fs/eudev-9999"
-# emerge -av --autounmask "=dev-libs/libevdev-9999"
-# emerge -av --autounmask "=media-libs/mesa-9999"
+# emerge -av --autounmask =sys-devel/gcc-xx.0.0_pre9999
+# emerge -av --autounmask =sys-devel/automake-9999
+## emerge -av --autounmask =dev-util/meson-9999   # borks certain build compilations, keep at latest stable
+# emerge -av --autounmask =sys-libs/glibc-9999
+# emerge -av --autounmask =sys-apps/kmod-9999
+# emerge -av --autounmask =sys-apps/kbd-9999
+# emerge -av --autounmask =sys-fs/eudev-9999
+# emerge -av --autounmask =dev-libs/libevdev-9999
+# emerge -av --autounmask =media-libs/mesa-9999
 ## emerge -av --autounmask x11-drivers/nvidia-drivers
-## emerge -av --autounmask "=x11-apps/mesa-progs-9999"
-# emerge -av --autounmask "=x11-libs/libdrm-9999"
-# emerge -av --autounmask "=media-libs/vulkan-loader-9999"
-# emerge -av --autounmask "=dev-util/vulkan-headers-9999"
-# emerge -av --autounmask "=media-libs/harfbuzz-9999"
-# emerge -av --autounmask "=media-libs/freetype-9999"
-## emerge -av --autounmask "=dev-libs/wayland-9999"
-## emerge -av --autounmask "=dev-libs/wayland-protocols-9999"
-## emerge -av --autounmask "=gui-apps/grim-9999"
-# emerge -av --autounmask "=media-libs/libglvnd-9999"
-## emerge -av --autounmask "=sys-auth/seatd-9999"
-## emerge -av --autounmask "=gui-apps/swaybg-9999"   # not needed at all
-## emerge -av --autounmask "=gui-libs/wlroots-9999"
-## emerge -av --autounmask "=gui-wm/sway-9999"
-# emerge -av --autounmask "=dev-libs/json-c-9999"
-# emerge -av --autounmask "=media-libs/libepoxy-9999"
-## emerge -av --autounmask "=x11-drivers/xf86-video-amdgpu-9999"
-## emerge -av --autounmask "=X11-drivers/xf86-video-ati-9999"
-## emerge -av --autounmask "=x11-base/xorg-server-9999"
-# emerge -av --autounmask "=x11-base/xorg-proto-9999"
-# emerge -av --autounmask "=x11-base/libxcvt-9999"
-# emerge -av --autounmask "=x11-misc/xkeyboard-config-9999"
-## emerge -av --autounmask "=x11-libs/cairo-9999"
-# emerge -av --autounmask "=x11-libs/pixman-9999"
-# emerge -av --autounmask "=media-libs/glu-9999"
-# emerge -av --autounmask "=net-libs/nghttp3-9999"
-## emerge -av --autounmask "=net-libs/quiche-9999"   # not needed with nghttp3
-## emerge -av --autounmask "=net-libs/ngtcp2-9999"   # not needed with nghttp3
-## emerge -av --autounmask "=net-libs/nghttp2-9999"   # not needed with nghttp3
-# emerge -av --autounmask "=dev-libs/libnl-99999999"
-# emerge -av --autounmask "=x11-libs/libva-9999"
-# emerge -av --autounmask "=x11-libs/libvdpau-99999"
-# emerge -av --autounmask "=media-libs/libsndfile-9999"
-# emerge -av --autounmask "=media-sound/cmus-9999"
-# emerge -av --autounmask "=app-arch/bzip2-9999"
-# emerge -av --autounmask "=dev-util/pkgconfig-9999"
-## emerge -av --autounmask "=net-print/cups-9999"
-# emerge -av --autounmask "=sys-apps/attr-9999"
-## emerge -av --autounmask "=sys-apps/util-linux-9999"
-# emerge -av --autounmask "=media-video/pipewire-9999"
-# emerge -av --autounmask "=net-misc/iputils-99999999"
-# emerge -av --autounmask "=x11-libs/libXfont2-9999"
-# emerge -av --autounmask "=dev-libs/libuv-9999"
-# emerge -av --autounmask "=net-libs/libnet-x.x-9999"
-# emerge -av --autounmask "=net-libs/libpcap-9999"
-# emerge -av --autounmask "=net-misc/netifrc-9999"
-# emerge -av --autounmask "=sys-apps/iproute2-9999"
-# emerge -av --autounmask "=sys-apps/net-tools-9999"
-# emerge -av --autounmask "=sys-apps/openrc-9999"
-# emerge -av --autounmask "=sys-auth/pambase-999999999"
-# emerge -av --autounmask "=sys-devel/binutils-config-9999"
-# emerge -av --autounmask "=sys-devel/gnuconfig-99999999"
-# emerge -av --autounmask "=sys-devel/libtool-9999"
-# emerge -av --autounmask "=sys-devel/llvm-xx.x.x.9999"
-# emerge -av --autounmask "=sys-devel/llvm-common-xx.x.x.9999"
-# emerge -av --autounmask "=sys-kernel/genkernel-9999"
-# emerge -av --autounmask "=sys-kernel/linux-firmware-99999999"
-# emerge -av --autounmask "=sys-libs/libseccomp-9999"
-# emerge -av --autounmask "=x11-apps/xauth-9999"
-# emerge -av --autounmask "=sys-apps/portage-9999"
-## emerge -av --autounmask "=dev-util/vulkan-tools-9999"
+## emerge -av --autounmask =x11-apps/mesa-progs-9999
+# emerge -av --autounmask =x11-libs/libdrm-9999
+# emerge -av --autounmask =media-libs/vulkan-loader-9999
+# emerge -av --autounmask =dev-util/vulkan-headers-9999
+# emerge -av --autounmask =media-libs/harfbuzz-9999
+# emerge -av --autounmask =media-libs/freetype-9999
+## emerge -av --autounmask =dev-libs/wayland-9999
+## emerge -av --autounmask =dev-libs/wayland-protocols-9999
+## emerge -av --autounmask =gui-apps/grim-9999
+# emerge -av --autounmask =media-libs/libglvnd-9999
+## emerge -av --autounmask =sys-auth/seatd-9999
+## emerge -av --autounmask =gui-apps/swaybg-9999   # not needed at all
+## emerge -av --autounmask =gui-libs/wlroots-9999
+## emerge -av --autounmask =gui-wm/sway-9999
+# emerge -av --autounmask =dev-libs/json-c-9999
+# emerge -av --autounmask =media-libs/libepoxy-9999
+## emerge -av --autounmask =x11-drivers/xf86-video-amdgpu-9999
+## emerge -av --autounmask =X11-drivers/xf86-video-ati-9999
+## emerge -av --autounmask =x11-base/xorg-server-9999
+# emerge -av --autounmask =x11-base/xorg-proto-9999
+# emerge -av --autounmask =x11-base/libxcvt-9999
+# emerge -av --autounmask =x11-misc/xkeyboard-config-9999
+## emerge -av --autounmask =x11-libs/cairo-9999
+# emerge -av --autounmask =x11-libs/pixman-9999
+# emerge -av --autounmask =media-libs/glu-9999
+# emerge -av --autounmask =net-libs/nghttp3-9999
+## emerge -av --autounmask =net-libs/quiche-9999   # not needed with nghttp3
+## emerge -av --autounmask =net-libs/ngtcp2-9999   # not needed with nghttp3
+## emerge -av --autounmask =net-libs/nghttp2-9999   # not needed with nghttp3
+# emerge -av --autounmask =dev-libs/libnl-99999999
+# emerge -av --autounmask =x11-libs/libva-9999
+# emerge -av --autounmask =x11-libs/libvdpau-99999
+# emerge -av --autounmask =media-libs/libsndfile-9999
+# emerge -av --autounmask =media-sound/cmus-9999
+# emerge -av --autounmask =app-arch/bzip2-9999
+# emerge -av --autounmask =dev-util/pkgconfig-9999
+## emerge -av --autounmask =net-print/cups-9999
+# emerge -av --autounmask =sys-apps/attr-9999
+## emerge -av --autounmask =sys-apps/util-linux-9999
+# emerge -av --autounmask =media-video/pipewire-9999
+# emerge -av --autounmask =net-misc/iputils-99999999
+# emerge -av --autounmask =x11-libs/libXfont2-9999
+# emerge -av --autounmask =dev-libs/libuv-9999
+# emerge -av --autounmask =net-libs/libnet-x.x-9999
+# emerge -av --autounmask =net-libs/libpcap-9999
+# emerge -av --autounmask =net-misc/netifrc-9999
+# emerge -av --autounmask =sys-apps/iproute2-9999
+# emerge -av --autounmask =sys-apps/net-tools-9999
+# emerge -av --autounmask =sys-apps/openrc-9999
+# emerge -av --autounmask =sys-auth/pambase-999999999
+# emerge -av --autounmask =sys-devel/binutils-config-9999
+# emerge -av --autounmask =sys-devel/gnuconfig-99999999
+# emerge -av --autounmask =sys-devel/libtool-9999
+# emerge -av --autounmask =sys-devel/llvm-xx.x.x.9999
+# emerge -av --autounmask =sys-devel/llvm-common-xx.x.x.9999
+# emerge -av --autounmask =sys-kernel/genkernel-9999
+# emerge -av --autounmask =sys-kernel/linux-firmware-99999999
+# emerge -av --autounmask =sys-libs/libseccomp-9999
+# emerge -av --autounmask =x11-apps/xauth-9999
+# emerge -av --autounmask =sys-apps/portage-9999
+## emerge -av --autounmask =dev-util/vulkan-tools-9999
 # emerge -av dev-libs/libgcrypt-compat
 # emerge -av media-fonts/ibm-plex
-## emerge -av --autounmask "=media-libs/dav1d-9999"
-## emerge -av --autounmask "=media-libs/x264-9999"
-## emerge -av --autounmask "=media-sound/ffmpeg-9999"
+## emerge -av --autounmask =media-libs/dav1d-9999
+## emerge -av --autounmask =media-libs/x264-9999
+## emerge -av --autounmask =media-sound/ffmpeg-9999
 ## crossdev --target x86_64-w64-mingw32
 ## crossdev --target i686-w64-mingw32
 
 ## mkdir -p /var/db/repos/localrepo/app-admin/ananicy
 ## cp githubscripts/ananicy-9999.ebuild /var/db/repos/localrepo/app-admin/ananicy
 ## ebuild /var/db/repos/localrepo/app-admin/ananicy/ananicy-9999.ebuild manifest
-## emerge -av --autounmask "=app-admin/ananicy-9999"
+## emerge -av --autounmask =app-admin/ananicy-9999
 
 ## mkdir -p /var/db/repos/localrepo/gui-apps/wayst
 ## cp githubscripts/wayst-99999.ebuild /var/db/repos/localrepo/gui-apps/wayst
 ## ebuild /var/db/repos/localrepo/gui-apps/wayst/wayst-9999.ebuild manifest
-## emerge -av --autounmask "=gui-apps/wayst-9999"
+## emerge -av --autounmask =gui-apps/wayst-9999
 ## mkdir -p /home/$USER/.config/wayst
 ## cp githubscripts/waystconfig /home/$USER/.config/wayst/config
 
@@ -266,7 +267,7 @@
 # emerge -cav   // clean system and uninstall removed package from @world with its dependencies
 # emerge -Cav   // force uninstall package
 # emerge -av   // install package and all its dependencies
-# emerge -av --autounmask "=foo/foo-9999"   // install 9999 package
+# emerge -av --autounmask =foo/foo-9999   // install 9999 package
 # emerge -Wav   // remove package from @world
 # emerge -Oav   // reinstall package in @world (if dependenies are already installed)
 # emerge -eav   // reinstall package in @world and all its dependencies
@@ -283,5 +284,5 @@
 # rm -rf /usr/share/fonts/xscreensaver
 
 ### complete system rebuild ###
-## emerge -1av --keep-going --autounmask glibc binutils icu gcc clang "=llvm-xx.0.0.9999" 
+## emerge -1av --keep-going --autounmask glibc binutils icu gcc clang =llvm-xx.0.0.9999 
 ## emerge -eav --keep-going --exclude "glibc binutils icu gcc clang llvm:xx" @world
