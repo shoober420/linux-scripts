@@ -286,5 +286,5 @@
 # rm -rf /usr/share/fonts/xscreensaver
 
 ### complete system rebuild ###
-## emerge -1av --keep-going --autounmask sys-devel/gcc sys-devel/binutils automake libtool glibc icu =llvm-xx.0.0.9999    # clang
-## emerge -eav --keep-going --exclude "sys-devel/gcc sys-devel/binutils automake libtool glibc icu =llvm-xx.0.0.9999" @world   # clang
+## emerge -1av --keep-going --autounmask sys-devel/gcc sys-devel/binutils automake libtool glibc icu llvm    # clang
+## emerge -eav --keep-going --exclude "sys-devel/gcc sys-devel/binutils automake libtool glibc icu llvm" @world   # clang
