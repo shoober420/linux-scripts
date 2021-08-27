@@ -154,6 +154,8 @@
 #===========================================================#
 
 # emerge -av --autounmask =sys-devel/gcc-xx.0.0_pre9999
+# emerge -av --autounmask =sys-devel/libtool-9999
+# emerge -av --autounmask =sys-devel/binutils-9999
 # emerge -av --autounmask =sys-devel/automake-9999
 ## emerge -av --autounmask =dev-util/meson-9999   # borks certain build compilations, keep at latest stable
 # emerge -av --autounmask =sys-libs/glibc-9999
