@@ -149,9 +149,9 @@
 ## umount /dev/nvme0n1p2
 # reboot
 
-#===========================================================#
+#==========================================================#
   ######     post install gentoo like its 1999     ######
-#===========================================================#
+#==========================================================#
 
 # emerge -av --autounmask =sys-devel/gcc-xx.0.0_pre9999
 # emerge -av --autounmask =sys-devel/libtool-9999
@@ -259,9 +259,9 @@
 # chown -R $USER:$USER /home/$USER/.yash_profile
 # chown -R $USER:$USER /home/$USER/.config
 
-#===================================#
+#===============================================#
 ######     install gentoo commands     ######
-#===================================#
+#===============================================#
 
 # emerge --sync    // sync package ebuilds 
 # emerge -DNuav @world    // update system
@@ -277,6 +277,7 @@
 # emerge -eav --keep-going @world   // rebuild all system packages
 # equery list "*"   // list all installed packages
 # EIX_LIMIT=0 eix -I*   // list all installed packages with use flags
+
 # emerge -av libdrm vulkan-headers vulkan-loader mesa xorg-server wlroots sway swaybg  // rebuild graphics stack
 # emerge -1av skalibs execline s6 s6-rc s6-linux-utils s6-portable-utils oblibs 66 66-tools boot-66serv   // reinstall s6-66
 
