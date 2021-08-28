@@ -283,6 +283,14 @@
 # emerge -1av skalibs execline s6 s6-rc s6-linux-utils s6-portable-utils oblibs 66 66-tools boot-66serv   // reinstall s6-66
 
 
+### upgrade gcc ###
+
+emerge -1av =sys-devel/gcc-xx.0.0_pre9999
+gcc-config --list-profiles
+gcc-config 2
+. /etc/profile
+emerge -1av --usepkg=n sys-devel/libtool
+gcc --version
 
 ### remove bloat fonts and icons ###
 
