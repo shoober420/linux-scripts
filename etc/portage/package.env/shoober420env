@@ -5,7 +5,7 @@ dev-libs/libbsd nolto.conf
 games-fps/tyrquake nounsafemath.conf   # -fassociative-math crashes tyrquake
 games-fps/yamagi-quake2 o2.conf # player stuck in world model
 media-libs/alsa-lib ltopartition.conf
-media-libs/mesa nolto.conf   # fixes vulkan black screen bug
+media-libs/mesa nolto.conf gccstable.conf   # fixes vulkan black screen bug / mesa doesnt compile against gcc 9999
 sys-apps/groff ofastgroff.conf
 sys-apps/sandbox nolto.conf
 sys-devel/clang nolto.conf
