@@ -1,0 +1,1 @@
+=sys-devel/gcc-11.2.0 -lto -graphite -pgo -custom-cflags -ssp -sanitize
