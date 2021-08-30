@@ -8,7 +8,7 @@ dev-scheme/guile nolto.conf ofastmath.conf
 games-fps/tyrquake nounsafemath.conf   # -fassociative-math crashes tyrquake
 games-fps/yamagi-quake2 o2.conf # player stuck in world model
 media-libs/alsa-lib ltopartition.conf
-media-libs/mesa nolto.conf   # fixes vulkan black screen bug
+# media-libs/mesa nolto.conf   # fixes vulkan black screen bug=should be fixed now
 net-libs/quiche ofastquiche.conf
 sys-apps/groff ofastgroff.conf
 sys-apps/sandbox nolto.conf
