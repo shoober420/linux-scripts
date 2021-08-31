@@ -1,2 +1,2 @@
-=sys-devel/gcc-11.2.0 -lto -graphite -pgo -custom-cflags -ssp -sanitize
-cross-x86_64-w64-mingw32/gcc -custom-cflags -lto -pgo -graphite -pie -nptl -openmp -pch -ssp
+=sys-devel/gcc-11.2.0 -lto -graphite -pgo -custom-cflags -ssp -sanitize -pie -pch -nptl -openmp -zstd
+cross-x86_64-w64-mingw32/gcc -custom-cflags -pgo -pie -nptl -openmp -pch -ssp -graphite -lto -zstd
