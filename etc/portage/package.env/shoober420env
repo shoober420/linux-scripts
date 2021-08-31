@@ -1,6 +1,6 @@
 # shoober420 -OfastLTO env script
 app-crypt/gpgme nolto.conf
-# cross-x86_64-w64-mingw32/gcc default.conf
+cross-x86_64-w64-mingw32/gcc default.conf gccstable.conf
 dev-lang/python ofastmath.conf
 dev-lang/ruby nolto.conf
 dev-libs/libbsd nolto.conf
