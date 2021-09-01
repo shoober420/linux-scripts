@@ -3,7 +3,7 @@
 # mv /usr/src/linux/.config /home/$USER/configbackup
 # eselect kernel list
 # eselect kernel set 2   (new kernel)
-# doas emerge -cav =sys-kernel/pf-sources-X.XX_p9999
+# doas emerge -cav =sys-kernel/pf-sources-X.XX_p9999 (old kernel)
 # cd /usr/src/linux
 
 # mv /usr/src/linux/.config /home/$USER/configbackup
