@@ -1,4 +1,4 @@
-cross-i686-w64-mingw32/gcc -custom-cflags -pie -openmp cxx nptl pch ssp pgo graphite lto  # -zstd -nptl -pch -ssp -pgo -graphite -lto
+cross-i686-w64-mingw32/gcc -custom-cflags -pie cxx nptl pch ssp pgo graphite lto openmp  # -zstd -nptl -pch -ssp -pgo -graphite -lto -openmp
 cross-i686-w64-mingw32/mingw64-runtime libraries -idl -tools
-cross-x86_64-w64-mingw32/gcc -custom-cflags -pie -openmp cxx nptl pch ssp pgo graphite lto  # -zstd -nptl -pch -ssp -pgo -graphite -lto
+cross-x86_64-w64-mingw32/gcc -custom-cflags -pie cxx nptl pch ssp pgo graphite lto openmp  # -zstd -nptl -pch -ssp -pgo -graphite -lto -openmp
 cross-x86_64-w64-mingw32/mingw64-runtime libraries -idl -tools
