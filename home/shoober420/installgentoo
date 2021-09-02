@@ -302,12 +302,12 @@ gcc --version
 ## crossdev --target x86_64-w64-mingw32
 ## emerge -av cross-x86_64-w64-mingw32/binutils
 ## emerge -av cross-x86_64-w64-mingw32/mingw64-runtime
-## emerge -av cross-x86_64-w64-mingw32/gcc
+## emerge -av --autounmask =cross-x86_64-w64-mingw32/gcc-XX-0.0_pre9999
 
 ## crossdev --target i686-w64-mingw32
 ## emerge -av cross-i686-w64-mingw32/binutils
 ## emerge -av cross-i686-w64-mingw32/mingw64-runtime
-## emerge -av cross-i686-w64-mingw32/gcc
+## emerge -av --autounmask =cross-i686-w64-mingw32/gcc-XX.0.0_pre9999
 
 ### complete system rebuild ###
 
