@@ -300,14 +300,14 @@ gcc --version
 
 ## emerge -av --autounmask =sys-devel/crossdev-999999999
 ## crossdev --target x86_64-w64-mingw32
-## emerge -av --autounmask =cross-x86_64-w64-mingw32/binutils-9999
+## emerge -av cross-x86_64-w64-mingw32/binutils
 ## emerge -av cross-x86_64-w64-mingw32/mingw64-runtime
-## EXTRA_ECONF="--enable-threads=posix" doas emerge -av cross-x86_64-w64-mingw32/gcc
+## emerge -av cross-x86_64-w64-mingw32/gcc
 
 ## crossdev --target i686-w64-mingw32
-## emerge -av --autounmask =cross-i686-w64-mingw32/binutils-9999
+## emerge -av cross-i686-w64-mingw32/binutils
 ## emerge -av cross-i686-w64-mingw32/mingw64-runtime
-## EXTRA_ECONF="--enable-threads=posix" doas emerge -av cross-i686-w64-mingw32/gcc
+## emerge -av cross-i686-w64-mingw32/gcc
 
 ### complete system rebuild ###
 
