@@ -233,6 +233,10 @@
 ## emerge -av --autounmask =media-sound/ffmpeg-9999
 
 ## emerge -av --autounmask =sys-devel/crossdev-999999999
+## emerge -av --autounmask =cross-x86_64-w64-mingw32/binutils-9999
+## emerge -av cross-x86_64-w64-mingw32/mingw64-runtime
+## emerge -av cross-x86_64-w64-mingw32/gcc
+
 ## crossdev --target x86_64-w64-mingw32
 ## crossdev --target i686-w64-mingw32
 
