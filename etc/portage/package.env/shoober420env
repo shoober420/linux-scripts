@@ -3,12 +3,12 @@
 #######################################
 
 app-crypt/gpgme nolto.conf
-cross-i686-w64-mingw32/binutils default.conf
-cross-i686-w64-mingw32/gcc default.conf mingwgcc.conf
-cross-i686-w64-mingw32/mingw64-runtime default.conf
-cross-x86_64-w64-mingw32/binutils default.conf
-cross-x86_64-w64-mingw32/gcc default.conf mingwgcc.conf
-cross-x86_64-w64-mingw32/mingw64-runtime default.conf
+# cross-i686-w64-mingw32/binutils default.conf
+cross-i686-w64-mingw32/gcc gcc.conf mingwgcc.conf
+cross-i686-w64-mingw32/mingw64-runtime nolto.conf
+# cross-x86_64-w64-mingw32/binutils default.conf
+cross-x86_64-w64-mingw32/gcc gcc.conf mingwgcc.conf
+cross-x86_64-w64-mingw32/mingw64-runtime nolto.conf
 dev-lang/python ofastmath.conf
 dev-lang/ruby nolto.conf
 dev-libs/libbsd nolto.conf
