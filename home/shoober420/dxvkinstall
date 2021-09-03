@@ -1,4 +1,2 @@
-rm -rf ~/.steam/root/compatibilitytools.d/Proton-X.XX-GE-X/files/lib/wine/dxvk
-rm -rf ~/.steam/root/compatibilitytools.d/Proton-X.XX-GE-X/files/lib64/wine/dxvk
-cp -rf /usr/lib/dxvk/ ~/.steam/root/compatibilitytools.d/Proton-X.XX-GE-X/files/lib/wine/dxvk
-cp -rf /usr/lib64/dxvk/ ~/.steam/root/compatibilitytools.d/Proton-X.XX-GE-X/files/lib64/wine/dxvk
+cp -rf /usr/lib/dxvk/* ~/.steam/root/compatibilitytools.d/Proton-X.XX-GE-X/files/lib/wine/dxvk/
+cp -rf /usr/lib64/dxvk/* ~/.steam/root/compatibilitytools.d/Proton-X.XX-GE-X/files/lib64/wine/dxvk/
