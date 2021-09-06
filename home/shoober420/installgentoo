@@ -16,8 +16,8 @@
 
 # mkdir /mnt/gentoo/mnt2
 # mount /dev/sdX1 /mnt/gentoo/mnt2     (external drive)
-# mount /dev/nvmeon1p1 /mnt/gentoo/boot
-# mount /dev/nvmeon1p3 /mnt/gentoo/home
+# mount /dev/nvme0n1p1 /mnt/gentoo/boot
+# mount /dev/nvme0n1p3 /mnt/gentoo/home
 # cp -rf /mnt/gentoo/mnt2/githubscripts /mnt/gentoo/home
 # umount /dev/sdX1
 
