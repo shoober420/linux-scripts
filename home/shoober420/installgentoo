@@ -159,7 +159,7 @@
 # emerge -av --autounmask =sys-devel/automake-9999
 ## emerge -av --autounmask =dev-util/meson-9999   # borks certain build compilations, keep at latest stable
 # emerge -av --autounmask =sys-libs/glibc-9999
-## emerge -av --autounmask =net-misc/dhcpcd-9999
+## emerge -av --autounmask =net-misc/dhcpcd-9999   # might be needed for troublesome routers
 # emerge -av --autounmask =sys-apps/kmod-9999
 # emerge -av --autounmask =sys-apps/kbd-9999
 # emerge -av --autounmask =sys-fs/eudev-9999
