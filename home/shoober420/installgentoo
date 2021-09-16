@@ -161,6 +161,7 @@
 # emerge -av --autounmask =sys-libs/glibc-9999
 ## emerge -av --autounmask =net-wireless/iwd-9999   # needed for wifi
 ## emerge -av --autounmask =net-wireless/wpa_supplicant   # possibly needed if IWD isn't working
+## emerge -av --autounmask =app-misc/livecd-tools-9999   # last resort for wifi
 ## emerge -av --autounmask =net-misc/dhcpcd-9999   # possibly needed for troublesome routers and wifi
 ## emerge -av --autounmask =x11-terms/st-9999   # possibly needed for troublesome terminal
 # emerge -av --autounmask =sys-apps/kmod-9999
