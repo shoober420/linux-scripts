@@ -11,7 +11,7 @@
 # mv /home/$USER/configbackup /usr/src/linux/.config
 # make oldconfig
 # make menuconfig
-# doas bash -c "make -j16 && make modules_install && make install"
+# doas bash -c "make -j16 && make modules_install && make install"  -i -k
 # genkernel --install --kernel-config=/usr/src/linux/.config initramfs
 
 # cp /boot/vmlinuz-X.XX.0-pfX+ /boot/efi/boot/bootx64.efi
