@@ -167,9 +167,10 @@
 ## emerge -av --autounmask =net-dns/openresolv-9999   # possibly needed for wireless
 ## emerge -av --autounmask =dev-lang/swig-9999   # possibly needed for wireless
 ## emerge -av --autounmask =x11-terms/st-9999   # possibly needed troublesome terminals
-## emerge -av --autounmask =sys-libs/libxcrypt-9999
-## emerge -av --autounmask =app-crypt/rhash-9999
-## emerge -av --autounmask =dev-util/re2c-9999
+# emerge -av --autounmask =dev-libs/jsoncpp-9999
+# emerge -av --autounmask =sys-libs/libxcrypt-9999
+# emerge -av --autounmask =app-crypt/rhash-9999
+# emerge -av --autounmask =dev-util/re2c-9999
 # emerge -av --autounmask =sys-apps/kmod-9999
 # emerge -av --autounmask =sys-apps/kbd-9999
 # emerge -av --autounmask =sys-fs/eudev-9999
