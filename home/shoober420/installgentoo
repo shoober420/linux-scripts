@@ -160,9 +160,12 @@
 ## emerge -av --autounmask =dev-util/meson-9999   # borks certain build compilations, keep at latest stable
 # emerge -av --autounmask =sys-libs/glibc-9999
 ## emerge -av --autounmask =net-wireless/iwd-9999   # needed for wifi
-## emerge -av --autounmask =net-wireless/wpa_supplicant   # possibly needed if IWD isn't working
-## emerge -av --autounmask =app-misc/livecd-tools-9999   # last resort for wifi
+## emerge -av --autounmask =net-wireless/wpa_supplicant-9999   # possibly needed if IWD isn't working
+## emerge -av --autounmask =app-misc/livecd-tools-9999   # last resort for wifi (net-setup)
 ## emerge -av --autounmask =net-misc/dhcpcd-9999   # possibly needed for troublesome routers and wifi
+## emerge -av --autounmask =net-wireless/wireless-regdb-9999   # possibly needed for wireles
+## emerge -av --autounmask =net-dns/openresolv-9999   # possibly needed for wireless
+## emerge -av --autounmask =dev-lang/swig-9999   # possibly needed for wireless
 ## emerge -av --autounmask =x11-terms/st-9999   # possibly needed for troublesome terminal
 # emerge -av --autounmask =sys-apps/kmod-9999
 # emerge -av --autounmask =sys-apps/kbd-9999
