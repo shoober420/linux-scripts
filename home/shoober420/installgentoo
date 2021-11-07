@@ -237,7 +237,7 @@
 # emerge -av --autounmask =sys-kernel/linux-firmware-99999999
 # emerge -av --autounmask =sys-libs/libseccomp-9999
 # emerge -av --autounmask =x11-apps/xauth-9999
-# emerge -av --autounmask =sys-apps/portage-9999
+## emerge -av --autounmask =sys-apps/portage-9999    # too risky
 ## emerge -av --autounmask =dev-util/vulkan-tools-9999
 # emerge -av dev-libs/libgcrypt-compat
 # emerge -av media-fonts/ibm-plex
