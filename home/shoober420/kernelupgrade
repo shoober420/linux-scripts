@@ -1,17 +1,18 @@
 # login as root
 
 # mv /usr/src/linux/.config /home/$USER/configbackup
+# emerge -av --autounmask =sys-kernel/pf-sources-X.XX_p9999
 # eselect kernel list
 # eselect kernel set 2   (new kernel)
-# doas emerge -cav =sys-kernel/pf-sources-X.XX_p9999 (old kernel)
+# emerge -cav =sys-kernel/pf-sources-X.XX_p9999 (old kernel)
 # cd /usr/src/linux
 
 # mv /usr/src/linux/.config /home/$USER/configbackup
-# doas bash -c "make clean && make mrproper"
+# bash -c "make clean && make mrproper"
 # mv /home/$USER/configbackup /usr/src/linux/.config
 # make oldconfig
 # make menuconfig
-# doas bash -c "make -j16 && make modules_install && make install"  -i -k
+# bash -c "make -j16 && make modules_install && make install"  -i -k
 # genkernel --install --kernel-config=/usr/src/linux/.config initramfs
 
 # cp /boot/vmlinuz-X.XX.0-pfX+ /boot/efi/boot/bootx64.efi
@@ -19,5 +20,4 @@
 # sh githubscripts/efibootmgrentrygentoo
 
 # reboot
-# doas eclean-kernel -n 1
-# doas emerge -cav "=sys-kernel/pf-sources-X.XX_p9999"
+# eclean-kernel -n 1
