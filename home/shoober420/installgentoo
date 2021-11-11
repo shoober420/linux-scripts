@@ -218,6 +218,7 @@
 # emerge -av --autounmask =sys-apps/attr-9999
 ## emerge -av --autounmask =sys-apps/util-linux-9999
 # emerge -av --autounmask =media-video/pipewire-9999
+$ emerge -av --autounmask =media-video/wireplumber-9999
 # emerge -av --autounmask =net-misc/iputils-99999999
 # emerge -av --autounmask =x11-libs/libXfont2-9999
 # emerge -av --autounmask =dev-libs/libuv-9999
