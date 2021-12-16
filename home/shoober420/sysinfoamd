@@ -1,6 +1,6 @@
 Computer Information:
-    Manufacturer:  Unknown
-    Model:  Unknown
+    Manufacturer:  Dell Inc.
+    Model:  0MWYPT
     Form Factor: Desktop
     No Touch Input Detected
 
@@ -24,7 +24,7 @@ Processor Information:
     SSE42:  Supported
     AES:  Supported
     AVX:  Supported
-    AVX2:  Unsupported
+    AVX2:  Supported
     AVX512F:  Unsupported
     AVX512PF:  Unsupported
     AVX512ER:  Unsupported
@@ -36,17 +36,17 @@ Processor Information:
     PrefetchW:  Unsupported
 
 Operating System Version:
-    Linux 5.x (64 bit)
+    Gentoo Linux 5.x (64 bit)
     Kernel Name:  Linux
-    Kernel Version:  5.13.0-pf6+
+    Kernel Version:  5.15.0-pf5+
     X Server Vendor:  The X.Org Foundation
-    X Server Release:  12100099
+    X Server Release:  12101099
     X Window Manager:  wlroots wm
     Steam Runtime Version:  <Runtime disabled>
 
 Video Card:
-    Driver:  AMD Radeon RX 5500 XT (NAVI14, DRM 3.41.0, 5.13.0-pf6+, LLVM 14.0.0)
-    Driver Version:  4.6 (Compatibility Profile) Mesa 21.3.0-devel (git-fee4f7ef43)
+    Driver:  AMD AMD Radeon RX 5500 XT (navi14, LLVM 14.0.0, DRM 3.42, 5.15.0-pf5+)
+    Driver Version:  4.6 (Compatibility Profile) Mesa 22.0.0-devel (git-7a22967de3)
     OpenGL Version: 4.6
     Desktop Color Depth: 24 bits per pixel
     Monitor Refresh Rate: 239 Hz
@@ -65,7 +65,7 @@ Sound card:
     Audio device: USB Mixer
 
 Memory:
-    RAM:  64262 Mb
+    RAM:  64262 MB
 
 VR Hardware:
     VR Headset: None detected
@@ -73,11 +73,9 @@ VR Hardware:
 Miscellaneous:
     UI Language:  English
     LANG:  en_US.UTF-8
-    Total Hard Disk Space Available:  425728 Mb
-    Largest Free Hard Disk Block:  203450 Mb
+    Total Hard Disk Space Available:  425728 MB
+    Largest Free Hard Disk Block:  205627 MB
 
 Storage:
     Number of SSDs: 0
-    SSD sizes: %s1
     Number of HDDs: 0
-    HDD sizes: %s1
