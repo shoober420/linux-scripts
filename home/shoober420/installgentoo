@@ -203,6 +203,9 @@
 ## emerge -av --autounmask =x11-libs/cairo-9999
 # emerge -av --autounmask =x11-libs/pixman-9999
 # emerge -av --autounmask =media-libs/glu-9999
+# emerge -av --autounmask =media-libs/glew-9999
+# emerge -av --autounmask =media-libs/glew-1.10.0
+# emerge -av --autounmask =media-libs/glew-1.6.0
 # emerge -av --autounmask =net-libs/nghttp3-9999
 ## emerge -av --autounmask =net-libs/quiche-9999   # not needed with nghttp3
 ## emerge -av --autounmask =net-libs/ngtcp2-9999   # not needed with nghttp3
