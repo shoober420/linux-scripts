@@ -248,6 +248,7 @@ $ emerge -av --autounmask =media-video/wireplumber-9999
 # emerge -av --autounmask jpeg-compat
 # emerge -av --autounmask sys-libs/ncurses-compat
 # emerge -av --autounmask dev-libs/libffi-compat
+# emerge -av --autounmask x11-libs/libva-compat
 # emerge -av sys-apps/lsb-release
 # emerge -av dev-libs/libgcrypt-compat
 # emerge -av media-fonts/ibm-plex
