@@ -250,6 +250,7 @@ $ emerge -av --autounmask =media-video/wireplumber-9999
 # emerge -av --autounmask dev-libs/libffi-compat
 # emerge -av --autounmask x11-libs/libva-compat
 # emerge -av --autounmask dev-libs/nettle-compat
+# emerge -av --autounmask net-dns/libidn-compat
 # emerge -av --autounmask media-libs/jpeg-compat
 # emerge -av sys-apps/lsb-release
 # emerge -av dev-libs/libgcrypt-compat
