@@ -242,15 +242,15 @@ $ emerge -av --autounmask =media-video/wireplumber-9999
 ## emerge -av --autounmask =sys-apps/portage-9999    # too risky, breaks things
 ## emerge -av --autounmask =dev-util/vulkan-tools-9999
 # emerge -av --autounmask =media-video/rtmpdump-9999
+# emerge -av --autounmask media-libs/jpeg-compat
 # emerge -av --autounmask virtual/jpeg-compat
 # emerge -av --autounmask sys-libs/ncurses-compat
 # emerge -av --autounmask =dev-libs/libffi-compat-3.2.1-r3 =dev-libs/libffi-compat-3.3-r2
-# emerge -av --autounmask media-libs/libpng-compat:1.2 media-libs/libpng-compat:1.5
 # emerge -av --autounmask =media-libs/glew-1.10.0-r100 =media-libs/glew-1.6.0-r100
+# emerge -av --autounmask media-libs/libpng-compat:1.2 media-libs/libpng-compat:1.5
 # emerge -av --autounmask x11-libs/libva-compat
 # emerge -av --autounmask dev-libs/nettle-compat
 # emerge -av --autounmask net-dns/libidn-compat
-# emerge -av --autounmask media-libs/jpeg-compat
 # emerge -av --autounmask x11-libs/pangox-compat
 # emerge -av sys-apps/lsb-release
 # emerge -av dev-libs/libgcrypt-compat
