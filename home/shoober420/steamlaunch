@@ -3,3 +3,6 @@ export STEAM_RUNTIME_HEAVY=0
 #export STEAM_RUNTIME_PREFER_HOST_LIBRARIES=1
 export DBUS_FATAL_WARNINGS=0
 exec /home/lokiju420_-/steam-launcher/steam
+
+# GAME_DEBUGGER=gdb steam   # debug games
+# STEAM_DEBUGGER=gdb steam   # debug steam client   
