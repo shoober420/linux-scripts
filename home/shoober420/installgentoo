@@ -249,7 +249,7 @@ $ emerge -av --autounmask =media-video/wireplumber-9999
 # emerge -av media-fonts/ibm-plex
 
 # emerge -av --autounmask =dev-libs/libffi-compat-3.2.1-r3 =dev-libs/libffi-compat-3.3-r2
-# emerge -av --autounmask =media-libs/glew-1.10.0-r100 =media-libs/glew-1.6.0-r100
+# emerge -av --autounmask =media-libs/glew-1.6.0-r100 =media-libs/glew-1.10.0-r100
 # emerge -av --autounmask media-libs/libpng-compat:1.2 media-libs/libpng-compat:1.5
 # emerge -av --autounmask virtual/jpeg-compat
 # emerge -av --autounmask media-libs/jpeg-compat
