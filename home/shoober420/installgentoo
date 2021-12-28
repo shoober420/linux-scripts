@@ -159,7 +159,7 @@
 # emerge -av --autounmask =sys-devel/automake-9999
 ## emerge -av --autounmask =dev-util/meson-9999   # borks certain build compilations, keep at latest stable
 # emerge -av --autounmask =sys-libs/glibc-9999
-## emerge -av --autounmask =dev-libs/libffi-9999   # too risky, ABI changed and breaks compatibility
+## emerge -av --autounmask =dev-libs/libffi-9999   # too risky, ABI changes frequently and breaks compatibility
 ## emerge -av --autounmask =net-wireless/iwd-9999   # needed for wifi
 ## emerge -av --autounmask =net-wireless/wpa_supplicant-9999   # possibly needed if IWD isn't working
 ## emerge -av --autounmask =app-misc/livecd-tools-9999   # last resort for wifi (net-setup)
