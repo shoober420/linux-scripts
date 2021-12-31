@@ -241,11 +241,11 @@ $ emerge -av --autounmask =media-video/wireplumber-9999
 # emerge -av --autounmask =sys-libs/libseccomp-9999
 # emerge -av --autounmask =x11-apps/xauth-9999
 ## emerge -av --autounmask =sys-apps/portage-9999    # too risky, breaks things
-## emerge -av --autounmask =dev-util/vulkan-tools-9999
+## emerge -av --autounmask =dev-util/vulkan-tools-9999   # test vulkan
 # emerge -av --autounmask =media-video/rtmpdump-9999
+# emerge -av --autounmask =x11-libs/fltk-x.x.9999
 ## emerge -av --autounmask =media-libs/dav1d-9999
 ## emerge -av --autounmask =media-libs/x264-9999
-# emerge -av --autounmask =x11-libs/fltk-x.x.9999
 ## emerge -av --autounmask =media-sound/ffmpeg-9999
 # emerge -av --autounmask =media-libs/gstreamer-9999
 # emerge -av sys-apps/lsb-release
