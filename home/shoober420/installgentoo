@@ -42,6 +42,11 @@
 # mkdir /etc/portage/package.accept_keywords
 # cp githubscripts/z.accept /etc/portage/package.accept_keywords
 
+# emerge -av app-eselect/eselect-python
+# eselect python list
+# eselect python set 2   (latest python)
+# cp githubscripts/pythonuse /etc/portage/package.use/
+
 # emerge -av --autounmask =dev-vcs/git-9999-r1
 
 # emerge -av sys-process/runit
@@ -66,6 +71,8 @@
 # emerge -av app-text/wgetpaste
 # emerge -av app-eselect/eselect-repository
 ## emerge -av sys-apps/pciutils
+
+# 
 
 # mkdir -p /var/db/repos/localrepo/{metadata,profiles}
 # chown -R portage:portage /var/db/repos/localrepo
@@ -275,10 +282,6 @@ $ emerge -av --autounmask =media-video/wireplumber-9999
 ## emerge -av --autounmask =gui-apps/wayst-9999
 ## mkdir -p /home/$USER/.config/wayst
 ## cp githubscripts/waystconfig /home/$USER/.config/wayst/config
-
-# eselect python list
-# eselect python set 2   (latest python)
-# cp githubscripts/pythonuse /etc/portage/package.use/
 
 ## mkdir -p /home/$USER/.config/sway
 ## cp githubscripts/swayconfig /home/$USER/.config/sway/config
