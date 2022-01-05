@@ -251,6 +251,7 @@ $ emerge -av --autounmask =media-video/wireplumber-9999
 ## emerge -av --autounmask =dev-util/vulkan-tools-9999   # test vulkan
 # emerge -av --autounmask =media-video/rtmpdump-9999
 # emerge -av --autounmask =x11-libs/fltk-x.x.9999
+# emerge -av --autounmask =media-libs/libsamplerate-9999
 # emerge -av sys-apps/lsb-release
 # emerge -av media-fonts/ibm-plex
 
