@@ -251,6 +251,8 @@
 # emerge -av --autounmask =x11-apps/xauth-9999
 ## emerge -av --autounmask =sys-apps/portage-9999    # too risky, breaks things
 ## emerge -av --autounmask =dev-util/vulkan-tools-9999   # test vulkan
+## emerge -av --autounmask =dev-python/bcrypt-9999   # localrepo ebuild currently not working
+## emerge -av --autounmask =media-libs/libcaca-9999   # localrepo ebuild currently not working
 # emerge -av --autounmask =media-video/rtmpdump-9999
 # emerge -av --autounmask =x11-libs/fltk-x.x.9999
 # emerge -av --autounmask =media-libs/libsamplerate-9999
