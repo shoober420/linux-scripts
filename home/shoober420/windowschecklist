@@ -1,0 +1,7 @@
+Run windows update
+
+- Open Network and Sharing Center
+ + change adapter settings, right click device and properties, uncheck unneeded protocols
+ + change advanced sharing settings, disable network discovery and file and printer sharing
+
+Run services.msc and disable unneeded services
