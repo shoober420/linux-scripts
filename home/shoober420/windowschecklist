@@ -4,6 +4,9 @@ Run windows update
  + change adapter settings, right click device and properties, uncheck unneeded protocols
  + change advanced sharing settings, disable network discovery and file and printer sharing
 
+- Open System
+ + click advanced system setting, disable Remote Assistance, tweak unneeded settings
+
 - Open Programs and Features
  + turn Windows features on or off, uncheck unneeded features
 
