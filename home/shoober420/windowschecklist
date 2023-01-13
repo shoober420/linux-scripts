@@ -10,4 +10,8 @@ Run windows update
 - Open Programs and Features
  + turn Windows features on or off, uncheck unneeded features
 
+- Open Windows security
+ + Virus & threat protection, manage ransomware protection, turn on controlled folder access
+ + Firewall & network protection, Windows defender firewall properties, use block all connections for inbound connections and allow outbound connections, block unicast response under settings, remove all rules
+
 Run services.msc and disable unneeded services
