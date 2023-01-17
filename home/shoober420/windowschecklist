@@ -30,7 +30,8 @@ Run windows update
 
 - Open File Explorer
  + three dots then options, view tab and uncheck show sync provider notifications
- 
+ + right click on C: and go to properties, under general tab uncheck allow files on this drive to have contents indexed
+
 - Open Registry Editor
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard, right click create dword 32, EnableVirtualizationBasedSecurity, value 0
 
