@@ -14,4 +14,7 @@ Run windows update
  + Virus & threat protection, manage ransomware protection, turn on controlled folder access
  + Firewall & network protection, Windows defender firewall properties, use block all connections for inbound connections and allow outbound connections, block unicast response under settings, remove all rules
 
+- Open Settings
+ + system then power & battery, power mode best performance
+
 Run services.msc and disable unneeded services - blackviper.com
