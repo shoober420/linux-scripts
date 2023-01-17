@@ -24,4 +24,7 @@ Run windows update
 - Open File Explorer
  + three dots then options, view tab and uncheck show sync provider notifications
  
+- Open Registry Editor
+ + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard, right click create dword 32, EnableVirtualizationBasedSecurity, value 0
+
 Run services.msc and disable unneeded services - blackviper.com
