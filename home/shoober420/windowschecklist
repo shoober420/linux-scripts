@@ -19,6 +19,7 @@ Run windows update
  + system then power & battery, power mode best performance, then storage and click temporary files and remove
  + Bluetooth & devices then mouse, additional mouse settings then pointer options tab, 6/11 and uncheck enhance pointer precision 
  + network & internet then click device, edit DNS server assignment, IPv4 on using 1.1.1.1 and DNS over HTTS on (automatic)
+ + personalization then turn off transparency effects
  + privacy & security, find my device then turn off, general then disable all options, speech then disable all, inking & typing personalization then disable all, diagnostics & feedback then disable all except send optional diagnostic data (needed for insider builds), activity history then turn off and clear history, scroll down then location, turn off, go to camera and turn off, turn off microphone 
  + notifications and scroll down, additional settings then disable all
  + apps then startup, turn off any bloat startup apps
