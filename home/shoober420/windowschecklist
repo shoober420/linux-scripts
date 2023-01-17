@@ -31,6 +31,9 @@ Run windows update
 - Open Registry Editor
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard, right click create dword 32, EnableVirtualizationBasedSecurity, value 0
 
+- Open Disk Cleanup
+ + clean all old files
+
 Run services.msc and disable unneeded services - blackviper.com
 
 Download shutup10++, open in downloads and disable most settings
