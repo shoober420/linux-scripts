@@ -26,6 +26,7 @@ Run windows update
  + accounts then turn off automatically save my restartable apps and restart them when I sign back in
  + gaming then game mode, turn on game mode
  + accessibility then turn off transparency and animation effects
+ + Windows update then delivery optimization, turn off allow downloads from other PCs
 
 - Open File Explorer
  + three dots then options, view tab and uncheck show sync provider notifications
