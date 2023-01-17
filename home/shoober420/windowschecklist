@@ -20,6 +20,7 @@ Run windows update
  + privacy & security, general then disable all options, speech then disable all, inking & typing personalization then disable all, diagnostics & feedback then disable all except send optional diagnostic data (needed for insider builds)
  + notifications and scroll down, additional settings then disable all
  + apps then startup, turn off any bloat startup apps
+ + gaming then game mode, turn on game mode
 
 - Open File Explorer
  + three dots then options, view tab and uncheck show sync provider notifications
