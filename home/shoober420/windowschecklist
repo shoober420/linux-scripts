@@ -12,7 +12,8 @@ Run windows update
 
 - Open Windows security
  + Virus & threat protection, manage ransomware protection, turn on controlled folder access
- + Firewall & network protection, Windows defender firewall properties, use block all connections for inbound connections and allow outbound connections, block unicast response under settings, remove all rules
+ + Firewall & network protection then advanced settings, Windows defender firewall properties, use block all connections for inbound connections and allow outbound connections, block unicast response under settings, remove all rules
+ + device security then core isolation, memory integrity off for gaming performance
 
 - Open Settings
  + system then power & battery, power mode best performance
