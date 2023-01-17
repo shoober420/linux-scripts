@@ -5,7 +5,7 @@ Run windows update
  + change advanced sharing settings, disable network discovery and file and printer sharing
 
 - Open System
- + click advanced system setting, disable Remote Assistance, tweak unneeded settings
+ + click advanced system setting, remote tab then disable Remote Assistance, advanced tab then performance settings, use adjust for best performance, tweak unneeded settings
 
 - Open Programs and Features
  + turn Windows features on or off, uncheck unneeded features
