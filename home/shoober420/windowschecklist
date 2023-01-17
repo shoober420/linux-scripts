@@ -31,3 +31,5 @@ Run windows update
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard, right click create dword 32, EnableVirtualizationBasedSecurity, value 0
 
 Run services.msc and disable unneeded services - blackviper.com
+
+Download shutup10++, open in downloads and disable most settings
