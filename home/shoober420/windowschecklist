@@ -1,5 +1,8 @@
 Run windows update
 
+- Open Command Prompt
+ + powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+
 - Open Network and Sharing Center
  + change adapter settings, right click device and properties, uncheck unneeded protocols, click on IPv4 and go to properties, advanced, WINS tab, disable LMHOSTS lookup and disable NetBIOS over TCP/IP
  + change advanced sharing settings, disable network discovery and file and printer sharing
