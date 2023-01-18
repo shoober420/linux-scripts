@@ -11,7 +11,7 @@ Run windows update
  + change advanced sharing settings, disable network discovery and file and printer sharing
 
 - Open System
- + click advanced system setting, remote tab then disable Remote Assistance, advanced tab then performance settings, use adjust for best performance, tweak unneeded settings
+ + click advanced system setting, remote tab then disable Remote Assistance, advanced tab then performance settings, use adjust for best performance, advanced tab then select programs for adjust for best performance, virtual memory then change, uncheck automatically manage paging file, then check system managed size, tweak unneeded settings
 
 - Open Programs and Features
  + turn Windows features on or off, uncheck unneeded features
