@@ -25,6 +25,7 @@ Run windows update
  + system then power & battery, power mode best performance, then storage and click temporary files and remove
  + system then sound, scroll down to more sound settings, disable any unused sound devices under playback tab, tweak used devices to 44100 and uncheck enable audio enhancements, disable unused devices under recording tab, tweak used devices to 44100 and uncheck enable audio enhancements, disable sounds under sounds tab, enable do nothing under communicatios tab  
  + system then notifications, turn off notifications and scroll down, additional settings then disable all
+ + system then multitasking, turn off snap windows
  + Bluetooth & devices then mouse, additional mouse settings then pointer options tab, 6/11 and uncheck enhance pointer precision 
  + network & internet then click device, edit DNS server assignment, IPv4 on using 1.1.1.1 and DNS over HTTS on (automatic)
  + personalization then turn off transparency effects
