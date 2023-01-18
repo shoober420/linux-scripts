@@ -50,6 +50,7 @@ Run windows update
 - Open Disk Cleanup
  + clean all old files
  + Windowskey+R then %temp%, delete everything in folder 
+ + Windowskey+R then temp, delete everything in folder
 
 Run services.msc and disable unneeded services - blackviper.com
 
