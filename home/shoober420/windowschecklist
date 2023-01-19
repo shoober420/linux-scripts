@@ -54,6 +54,11 @@ Run windows update
  + Windowskey+R then %temp%, delete everything in folder 
  + Windowskey+R then temp, delete everything in folder
 
+- Open PowerShell
+ + Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol
+ + Set-SmbServerConfiguration -EnableSMB1Protocol $false
+ + Set-SmbServerConfiguration -EnableSMB2Protocol $false
+
 Run services.msc and disable unneeded services - blackviper.com
  + disable SysMain - Superfetch
 
