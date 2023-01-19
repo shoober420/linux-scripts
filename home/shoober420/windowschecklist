@@ -53,6 +53,7 @@ Run windows update
  + Windowskey+R then temp, delete everything in folder
 
 Run services.msc and disable unneeded services - blackviper.com
+ + disable SysMain - Superfetch
 
 Download shutup10++, open in downloads and disable most settings
 
