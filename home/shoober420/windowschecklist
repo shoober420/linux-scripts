@@ -33,7 +33,7 @@ Run windows update
  + network & internet then click device, edit DNS server assignment, IPv4 on using 1.1.1.1 and DNS over HTTS on (automatic)
  + personalization then turn off transparency effects
  + privacy & security, find my device then turn off, general then disable all options, speech then disable all, inking & typing personalization then disable all, diagnostics & feedback then disable all except send optional diagnostic data (needed for insider builds), activity history then turn off and clear history, scroll down then location, turn off, go to camera and turn off, turn off microphone 
- + apps then startup, turn off any bloat startup apps, then apps for websites, turn off any programs, then video playback, battery options select optimize for video quality
+ + apps then startup, turn off any bloat startup apps, then apps for websites, turn off any programs, then video playback, battery options select optimize for video quality, optional features then uninstall bloat
  + accounts then turn off automatically save my restartable apps and restart them when I sign back in
  + gaming then game mode, turn on game mode, Xbox game bar then turn off open Xbox game bar using button
  + accessibility then turn off transparency and animation effects
