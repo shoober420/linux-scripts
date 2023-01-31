@@ -61,6 +61,7 @@ Run windows update
  + Set-SmbServerConfiguration -EnableSMB1Protocol $false
  + Set-SmbServerConfiguration -EnableSMB2Protocol $false
  + winget uninstall "windows web experience pack"
+ + winget uninstall onedrive
 
 Run services.msc and disable unneeded services - blackviper.com
  + disable SysMain - Superfetch
