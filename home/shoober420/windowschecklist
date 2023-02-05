@@ -81,4 +81,4 @@ Download SG TCP Optimizer
 
  + set MTU
  +++ open Command Prompt
- +++ ping www.google.com -f -l 1500 (keep lower -l value until packets aren't fragmented)
+ +++ ping www.google.com -f -l 1500 (keep lower -l value until packets aren't fragmented, 1500 to probably 1472)
