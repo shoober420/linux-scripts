@@ -92,3 +92,13 @@ Download SG TCP Optimizer
  + TCP chimney offload - disabled
  + large send offload LSO - disabled
  + TCP 1323 Timestamps - disabled
+ + LocalPriority - 4
+ + HostPriority - 5
+ + DnsPriority - 6
+ + NetbtPriority - 7
+ + NetworkThrottlingIndex - disabled: ffffffff
+ + SystemResponsiveness - gaming: 0
+ + TcpAckFrequency - disabled: 1
+ + TCPNoDelay - enabled: 1
+ + TcpDelAckTicks - disable: 0
+ + LargeSystemCache - disabled: 0
