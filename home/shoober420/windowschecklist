@@ -83,4 +83,12 @@ Download SG TCP Optimizer
   +++ ping www.google.com -f -l 1500 (keep lower -l value until packets aren't fragmented, 1500 to probably 1472)
  + TCP window auto-tuning - normal
  + Windows scaling heuristics - disabled
- + congestion control provider - 
+ + congestion control provider - ctcp
+ + receive side scaling RSS - enabled
+ + r segment coalescing RSC - disabled
+ + time to live TTL - ?
+ + ECN Capability - disabled
+ + checksum offloading - enabled
+ + TCP chimney offload - disabled
+ + large send offload LSO - disabled
+ + TCP 1323 Timestamps - disabled
