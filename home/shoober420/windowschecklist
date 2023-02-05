@@ -78,7 +78,9 @@ Download TimerResolution and run, choose Maximum when running games, default whe
 Download SG TCP Optimizer
  + test internet speed
  + set connection speed
-
  + set MTU
- +++ open Command Prompt
- +++ ping www.google.com -f -l 1500 (keep lower -l value until packets aren't fragmented, 1500 to probably 1472)
+  +++ open Command Prompt
+  +++ ping www.google.com -f -l 1500 (keep lower -l value until packets aren't fragmented, 1500 to probably 1472)
+ + TCP window auto-tuning - normal
+ + Windows scaling heuristics - disabled
+ + congestion control provider - 
