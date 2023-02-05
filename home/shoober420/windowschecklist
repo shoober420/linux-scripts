@@ -74,3 +74,11 @@ Download QuickCPU, open and max out sliders to %100 percent
 Download CCleaner / Bleach it and run
 
 Download TimerResolution and run, choose Maximum when running games, default when using desktop
+
+Download SG TCP Optimizer
+ + test internet speed
+ + set connection speed
+
+ + set MTU
+ +++ open Command Prompt
+ +++ ping www.google.com -f -l 1500 (keep lower -l value until packets aren't fragmented)
