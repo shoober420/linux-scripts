@@ -77,6 +77,9 @@ Download CCleaner / Bleach it and run
 
 Download TimerResolution and run, choose Maximum when running games, default when using desktop
 
+- Open Command Prompt
+ + netstat -ab and check for bloat listening on ports
+
 Download SG TCP Optimizer
  + test internet speed
  + set connection speed
