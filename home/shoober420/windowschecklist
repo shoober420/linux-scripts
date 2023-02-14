@@ -50,6 +50,7 @@ Run windows update
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management, LargeSystemCache 0
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile, NetworkThrottlingIndex FFFFFFF hexadecimal, SystemResponsiveness 0 hexidecimal
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games, Affinity 0, Background Only "False", Clock Rate 2710, GPU Priority 8, Priority 6, Scheduling Category "High", SFIO Priority "High"
+ + HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search, AllowCortana 0 (dword 32)
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters, SMB1 0, SMB2 0
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced, TaskbarDa 0
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive, DisableFileSyncNGSC 1
@@ -70,6 +71,8 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable SysMain - Superfetch
 
 Download shutup10++, open in downloads and disable most settings
+
+Download ThisIsWin11, debloat windows 11 tab and remove camera, get help, people, 
 
 Download QuickCPU, open and max out sliders to %100 percent
 
