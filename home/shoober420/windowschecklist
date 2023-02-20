@@ -29,6 +29,7 @@ Run windows update
  + system then notifications, turn off notifications and scroll down, additional settings then disable all
  + system then nearby sharing, turn off
  + system then multitasking, turn off snap windows, show Microsoft edge tabs: don't show tabs, title bar window shake off
+ + system then troubleshoot, recommended troubleshooter: ask me before running
  + system then remote desktop, turn off remote desktop
  + Bluetooth & devices then mouse, additional mouse settings then pointer options tab, 6/11 and uncheck enhance pointer precision 
  + network & internet then click device, edit DNS server assignment, IPv4 on using 1.1.1.1 and DNS over HTTS on (automatic)
