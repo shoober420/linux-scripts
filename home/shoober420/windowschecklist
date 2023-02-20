@@ -73,6 +73,8 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable SysMain / Superfetch
  + disable AVTCP and Connected Devices Platform Service (Bluetooth and Xbox)
  + disable Data Sharing Service (SMB related)
+ + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host
+
 
 Download shutup10++, open in downloads and disable most settings
 
