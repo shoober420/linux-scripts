@@ -68,7 +68,8 @@ Run windows update
  + winget uninstall onedrive
 
 Run services.msc and disable unneeded services - blackviper.com
- + disable SysMain - Superfetch
+ + disable SysMain / Superfetch
+ + disable AVTCP and Connected Devices Platform Service (Bluetooth and Xbox)
 
 Download shutup10++, open in downloads and disable most settings
 
