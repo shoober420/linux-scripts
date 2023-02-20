@@ -66,8 +66,9 @@ Run windows update
  + Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol
  + Set-SmbServerConfiguration -EnableSMB1Protocol $false
  + Set-SmbServerConfiguration -EnableSMB2Protocol $false
- + winget uninstall "windows web experience pack" (removes widgets, needs done after big updates)
  + winget uninstall onedrive
+ + winget uninstall "windows web experience pack" (removes widgets, needs done after big updates)
+ + get-appxpackage *edge* (PackageFullName), Remove-appxpackage (PackageFullName)
 
 Run services.msc and disable unneeded services - blackviper.com
  + disable SysMain / Superfetch
