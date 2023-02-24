@@ -81,11 +81,10 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host
  + disable program compatibility assistant service
  + disable windows biometric service
- + disable text input management service (to be continued)
 
 Download shutup10++, open in downloads and disable most settings
 
-Download ThisIsWin11, debloat windows 11 tab and remove camera, get help, people, Microsoft.549981C3F5F10 (Cortana), photos, phone link (your phone), MicrosoftWindows.Client.CBS (text input management service)
+Download ThisIsWin11, debloat windows 11 tab and remove camera, get help, people, Microsoft.549981C3F5F10 (Cortana), photos, phone link (your phone)
 
 Download QuickCPU, open and max out sliders to %100 percent
 
