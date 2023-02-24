@@ -51,8 +51,10 @@ Run windows update
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard, right click create dword 32, EnableVirtualizationBasedSecurity, value 0
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power, HibernateEnabled 0
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management, LargeSystemCache 0
+ + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services, WinHttpAutoProxySrc 4
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile, NetworkThrottlingIndex FFFFFFF hexadecimal, SystemResponsiveness 0 hexidecimal
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games, Affinity 0, Background Only "False", Clock Rate 2710, GPU Priority 8, Priority 6, Scheduling Category "High", SFIO Priority "High"
+ + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp\DisableWpad 0
  + HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search, AllowCortana 0 (dword 32)
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters, SMB1 0, SMB2 0
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced, TaskbarDa 0
