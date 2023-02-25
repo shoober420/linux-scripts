@@ -85,6 +85,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable connected devices Platform service
  + disable radio management service
  + disable Data usage
+ + disable dcsvc (declared configuration)
  + disable inventory and compatibility appraisal service
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications system service (registry)
