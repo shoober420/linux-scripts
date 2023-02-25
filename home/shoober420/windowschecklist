@@ -81,6 +81,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host
  + disable program compatibility assistant service
  + disable windows biometric service
+ + disable Microsoft storage spaces smp
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications system service (registry)
  + disable clipboard user service (registry)
