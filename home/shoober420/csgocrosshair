@@ -1,8 +1,8 @@
 ### MAIN CROSSHAIR
-# cl_crosshairalpha 999;cl_crosshaircolor 1;cl_crosshairdot 1;cl_crosshairgap -5;cl_crosshairsize 0 ;cl_crosshairstyle 4 ;cl_crosshairusealpha 1 ;cl_crosshairthickness 0;cl_crosshair_sniper_width 1;cl_crosshair_drawoutline 1;cl_crosshait_t 1;cl_crosshairgap_useweaponvalue 0;cl_crosshair_outlinethickness 0.5;cl_crosshaircolor_r 50;cl_crosshaircolor_g 250;cl_crosshaircolor_b 50
+# cl_crosshairalpha 999;cl_crosshaircolor 1;cl_crosshairdot 1;cl_crosshairgap -5;cl_crosshairsize 0;cl_crosshairstyle 4;cl_crosshairusealpha 1;cl_crosshairthickness 0;cl_crosshair_sniper_width 1;cl_crosshair_drawoutline 1;cl_crosshair_t 1;cl_crosshairgap_useweaponvalue 0;cl_crosshair_outlinethickness 0.5;cl_crosshaircolor_r 50;cl_crosshaircolor_g 250;cl_crosshaircolor_b 50
 
 ### ALTERNATE CROSSHAIR
-# cl_crosshairalpha 999;cl_crosshaircolor 1;cl_crosshairdot 0;cl_crosshairgap -3;cl_crosshairsize 0.5;cl_crosshairstyle 4;cl_crosshairusealpha 1;cl_crosshairthickness 0;cl_crosshair_sniper_width 1;cl_crosshair_drawoutline 0;cl_crosshait_t 0;cl_crosshairgap_useweaponvalue 0;cl_crosshair_outlinethickness 0;cl_crosshaircolor_r 50;cl_crosshaircolor_g 250;cl_crosshaircolor_b 50
+# cl_crosshairalpha 999;cl_crosshaircolor 1;cl_crosshairdot 0;cl_crosshairgap -3;cl_crosshairsize 0.5;cl_crosshairstyle 4;cl_crosshairusealpha 1;cl_crosshairthickness 0;cl_crosshair_sniper_width 1;cl_crosshair_drawoutline 0;cl_crosshair_t 0;cl_crosshairgap_useweaponvalue 0;cl_crosshair_outlinethickness 0;cl_crosshaircolor_r 50;cl_crosshaircolor_g 250;cl_crosshaircolor_b 50
 
 ### CS1.6 LARGE CROSSHAIR
-# cl_crosshairalpha 999;cl_crosshaircolor 1;cl_crosshairdot 0;cl_crosshairgap 0;cl_crosshairsize 5;cl_crosshairstyle 4;cl_crosshairusealpha 1;cl_crosshairthickness 0;cl_crosshair_sniper_width 1;cl_crosshair_drawoutline 0;cl_crosshait_t 0;cl_crosshairgap_useweaponvalue 0;cl_crosshair_outlinethickness 0;cl_crosshaircolor_r 50;cl_crosshaircolor_g 250;cl_crosshaircolor_b 50
+# cl_crosshairalpha 999;cl_crosshaircolor 1;cl_crosshairdot 0;cl_crosshairgap 0;cl_crosshairsize 5;cl_crosshairstyle 4;cl_crosshairusealpha 1;cl_crosshairthickness 0;cl_crosshair_sniper_width 1;cl_crosshair_drawoutline 0;cl_crosshair_t 0;cl_crosshairgap_useweaponvalue 0;cl_crosshair_outlinethickness 0;cl_crosshaircolor_r 50;cl_crosshaircolor_g 250;cl_crosshaircolor_b 50
