@@ -90,6 +90,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows mobile hotspot service
  + disable Windows camera frame server
  + disable Windows camera frame server monitor
+ + disable phone service
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications system service (registry)
  + disable clipboard user service (registry)
