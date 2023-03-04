@@ -32,6 +32,7 @@ Run windows update
  + system then troubleshoot, recommended troubleshooter: ask me before running
  + system then remote desktop, turn off remote desktop
  + system then clipboard, clipboard history off, suggested actions off
+ + system then about, Rename this PC ( remember to include a minus symbol - )
  + Bluetooth & devices then mouse, additional mouse settings then pointer options tab, 6/11 and uncheck enhance pointer precision 
  + network & internet then click device, edit DNS server assignment, IPv4 on using 1.1.1.1 and DNS over HTTS on (automatic)
  + personalization then colors, turn off transparency effects, then start and turn off show recently added apps and check more pins, then taskbar and turn off search,widgets, chat, task view
