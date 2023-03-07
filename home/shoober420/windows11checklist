@@ -92,6 +92,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows camera frame server
  + disable Windows camera frame server monitor
  + disable phone service
+ + disable display enhancement service
  + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight) (ASUS services installed by windows update on Asus machines)
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications system service (registry)
