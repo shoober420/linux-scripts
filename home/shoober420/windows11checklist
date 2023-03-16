@@ -78,7 +78,10 @@ Run windows update
 Run services.msc and disable unneeded services - blackviper.com
  + disable tcp/ip netbios helper
  + disable SSDP discovery
+ + disable ip helper
+ + disable geolocation
  + disable secure socket tunneling protocol service
+ + disable distributed link tracking client
  + disable net.tcp port sharing service
  + disable secondary login
  + disable routing and remote access
@@ -94,6 +97,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable SysMain / Superfetch
  + disable AVTCP and Connected Devices Platform Service (Bluetooth and Xbox)
  + disable Data Sharing Service (SMB related)
+ + disable connected user experiences and telemetry
  + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host
  + disable program compatibility assistant service
  + disable windows biometric service
@@ -109,17 +113,22 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows camera frame server monitor
  + disable shared PC account manager
  + disable phone service
+ + disable downloaded maps manager
  + disable display enhancement service
  + disable workstation
  + disable server
  + disable telephony
  + disable Windows search
+ + disable auto time zone updater
+ + disable hv Host service
+ + disable hyper-v* servicss
  + disable Microsoft software shadow copy provider
  + disable bitlocker drive encryption service
  + disable Microsoft edge beta elevation service, elevation service, update service (edgeupdate), update service (edgeupdatem)
  + disable AMD user experience program data uploader (needs disabled again after driver update)
  + disable AMD crash defender service (needs disabled again after driver update)
  + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight) (ASUS services installed by windows update on Asus machines)
+ + disable Dolby dax API service
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications system service (registry)
  + disable clipboard user service_xxxxx (registry)
