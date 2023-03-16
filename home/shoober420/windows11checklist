@@ -95,6 +95,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable display enhancement service
  + disable workstation
  + disable server
+ + disable telephony
  + disable Microsoft software shadow copy provider
  + disable bitlocker drive encryption service
  + disable AMD user experience program data uploader (needs disabled again after driver update)
