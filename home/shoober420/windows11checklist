@@ -102,11 +102,12 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight) (ASUS services installed by windows update on Asus machines)
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications system service (registry)
- + disable clipboard user service (registry)
+ + disable clipboard user service_xxxxx (registry)
  + disable NPSMSvc_xxxxx (registry)
  + disable Sync Host_xxxxx (registry)
  + disable DevicesFlowUserSvc_xxxxx (registry)
  + disable connected devices Platform user service (registry)
+ + disable GameDVR and Broadcast User Service_xxxxx (registry)
  ++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE and go to the command prompt, regedit, load the registry hive, and revert the change
 
 Download shutup10++, open in downloads and disable most settings
