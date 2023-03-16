@@ -76,6 +76,20 @@ Run windows update
  + winget uninstall "windows web experience pack" (removes widgets, needs done after big updates)
 
 Run services.msc and disable unneeded services - blackviper.com
+ + disable tcp/ip netbios helper
+ + disable SSDP discovery
+ + disable secure socket tunneling protocol service
+ + disable secondary login
+ + disable routing and remote access
+ + disable remote registry
+ + disable remote procedure call (rpc) locator
+ + disable remote desktop services usermode port redirector
+ + disable remote desktop services
+ + disable remote desktop configuration
+ + disable remote access connection manager
+ + disable remote access auto connection manager
+ + disable recommended troubleshooting service
+ + disable print spooler
  + disable SysMain / Superfetch
  + disable AVTCP and Connected Devices Platform Service (Bluetooth and Xbox)
  + disable Data Sharing Service (SMB related)
@@ -89,13 +103,16 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable dcsvc (declared configuration)
  + disable inventory and compatibility appraisal service
  + disable Windows mobile hotspot service
+ + disable Windows image acquisition (wia)
  + disable Windows camera frame server
  + disable Windows camera frame server monitor
+ + disable shared PC account manager
  + disable phone service
  + disable display enhancement service
  + disable workstation
  + disable server
  + disable telephony
+ + disable Windows search
  + disable Microsoft software shadow copy provider
  + disable bitlocker drive encryption service
  + disable AMD user experience program data uploader (needs disabled again after driver update)
