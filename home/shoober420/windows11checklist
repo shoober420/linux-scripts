@@ -96,8 +96,8 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable workstation
  + disable server
  + disable Microsoft software shadow copy provider
- + disable AMD user experience program data uploader
- + disable AMD crash defender service
+ + disable AMD user experience program data uploader (needs disabled again after driver update)
+ + disable AMD crash defender service (needs disabled again after driver update)
  + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight) (ASUS services installed by windows update on Asus machines)
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications system service (registry)
