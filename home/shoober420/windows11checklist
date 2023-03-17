@@ -52,7 +52,7 @@ Run windows update
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard, right click create dword 32, EnableVirtualizationBasedSecurity, value 0
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power, HibernateEnabled 0
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management, LargeSystemCache 0
- + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services, WinHttpAutoProxySrc 4, WpnUserService 4 (Windows push notifications system service), WpnUserService_xxxxx 4 (Windows push notifications user service), cbdhsvc 4 (clipboard user service), cbdhsvc_xxxxx 4 (clipboard user service), NPSMSvc 4 (now playing session manager), NPSMSvc_xxxxx 4 (now playing session manager), OneSyncSvc 4 (Sync Host), OneSyncSvc_xxxxx 4 (Sync Host), CDPUserSvc 4 (connected devices Platform user service), CDPUserSvc_xxxxx 4 (connected devices Platform user service), DevicesFlowUserSvc 4, DevicesFlowUserSvc_xxxxx 4, DevicePickerUserSvc 4, DevicePickerUserSvc_xxxxx 4        : 0 boot, 1 system, 2 automatic, 3 manual, 4 disabled 
+ + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services, WinHttpAutoProxySrc 4, WpnUserService/WpnUserService_xxxxx 4 (Windows push notifications user service_xxxxx), cbdhsvc/cbdhsvc_xxxxx 4 (clipboard user service_xxxxx), NPSMSvc/NPSMSvc_xxxxx 4 (NPSMSvc_xxxxx/now playing session manager), OneSyncSvc/OneSyncSvc_xxxxx 4 (Sync Host_xxxxx), CDPUserSvc/CDPUserSvc_xxxxx 4 (connected devices Platform user service_xxxxx), DevicesFlowUserSvc/DevicesFlowUserSvc_xxxxx 4 (DevicesFlow_xxxxx), DevicePickerUserSvc/DevicePickerUserSvc_xxxxx 4 (DevicePicker_xxxxx), BcastDVRUserService/BcastDVRUserService_xxxxx 4 (GameDVR and Broadcast User Service_xxxxx)        : 0 boot, 1 system, 2 automatic, 3 manual, 4 disabled 
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile, NetworkThrottlingIndex FFFFFFF hexadecimal, SystemResponsiveness 0 hexidecimal
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games, Affinity 0, Background Only "False", Clock Rate 2710, GPU Priority 8, Priority 6, Scheduling Category "High", SFIO Priority "High"
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp\DisableWpad 0 (dword 32)
@@ -108,6 +108,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable dcsvc (declared configuration)
  + disable inventory and compatibility appraisal service
  + disable Windows mobile hotspot service
+ + disable Windows push notifications system service
  + disable Windows image acquisition (wia)
  + disable Windows camera frame server
  + disable Windows camera frame server monitor
@@ -130,14 +131,14 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight) (ASUS services installed by windows update on Asus machines)
  + disable Dolby dax API service
  + disable WinHTTP web proxy auto discovery service (registry)
- + disable Windows push notifications system service (registry)
+ + disable Windows push notifications user service_xxxxx (registry)
  + disable clipboard user service_xxxxx (registry)
  + disable NPSMSvc_xxxxx (registry)
  + disable Sync Host_xxxxx (registry)
- + disable DevicesFlowUserSvc_xxxxx (registry)
+ + disable DevicesFlow_xxxxx (registry)
  + disable connected devices Platform user service_xxxxx (registry)
  + disable GameDVR and Broadcast User Service_xxxxx (registry)
- ++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE and go to the command prompt, regedit, load the registry hive, and revert the change
+ +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE and go to the command prompt, regedit, load the registry hive, and revert the change
 
 Download shutup10++, open in downloads and disable most settings
 
