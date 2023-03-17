@@ -122,7 +122,8 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows search
  + disable auto time zone updater
  + disable hv Host service
- + disable hyper-v* servicss
+ + disable hyper-v* services
+ + disable Xbox* services
  + disable Microsoft software shadow copy provider
  + disable bitlocker drive encryption service
  + disable Microsoft edge beta elevation service, elevation service, update service (edgeupdate), update service (edgeupdatem)
