@@ -122,8 +122,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows search
  + disable auto time zone updater
  + disable hv Host service
- + disable hyper-v* services
- + disable Xbox* services
+ + disable hyper-v* servicss
  + disable Microsoft software shadow copy provider
  + disable bitlocker drive encryption service
  + disable Microsoft edge beta elevation service, elevation service, update service (edgeupdate), update service (edgeupdatem)
@@ -131,6 +130,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable AMD crash defender service (needs disabled again after driver update)
  + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight) (ASUS services installed by windows update on Asus machines)
  + disable Dolby dax API service
+ + disable Realtek Audio Universal Service (bloat)
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications user service_xxxxx (registry)
  + disable clipboard user service_xxxxx (registry)
