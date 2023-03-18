@@ -80,7 +80,12 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable SSDP discovery
  + disable ip helper
  + disable geolocation
+ + disable internet connection sharing (ics)
+ + disable ip translation configuration service
+ + disable ktmrm for distributed transaction coordinator 
  + disable secure socket tunneling protocol service
+ + disable function discovery provider Host
+ + disable function discovery resource publication 
  + disable distributed link tracking client
  + disable distributed transaction coordinator 
  + disable net.tcp port sharing service
@@ -97,6 +102,8 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable remote access auto connection manager
  + disable recommended troubleshooting service
  + disable print spooler
+ + disable fax
+ + disable file history service
  + disable SysMain / Superfetch
  + disable AVTCP and Connected Devices Platform Service (Bluetooth and Xbox)
  + disable Data Sharing Service (SMB related)
