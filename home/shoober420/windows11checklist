@@ -108,6 +108,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable SysMain / Superfetch
  + disable AVTCP and Connected Devices Platform Service (Bluetooth and Xbox)
  + disable Data Sharing Service (SMB related)
+ + disable netlogon
  + disable connected user experiences and telemetry
  + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host, Diagnostic Execution Service
  + disable Windows error reporting service
@@ -125,6 +126,8 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows image acquisition (wia)
  + disable Windows camera frame server
  + disable Windows camera frame server monitor
+ + disable Microsoft windows sms router service
+ + disable natural authentication 
  + disable shared PC account manager
  + disable phone service
  + disable downloaded maps manager
