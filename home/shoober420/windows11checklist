@@ -1,3 +1,5 @@
+
+
 Run windows update
 
 - Open Command Prompt
@@ -98,7 +100,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable AVTCP and Connected Devices Platform Service (Bluetooth and Xbox)
  + disable Data Sharing Service (SMB related)
  + disable connected user experiences and telemetry
- + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host
+ + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host, Diagnostic Execution Service
  + disable Windows error reporting service
  + disable program compatibility assistant service
  + disable windows biometric service
