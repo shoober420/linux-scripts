@@ -162,7 +162,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable connected devices Platform user service_xxxxx (registry)
  + disable GameDVR and Broadcast User Service_xxxxx (registry)
  + disable client license service (ClipSVC) (registry)
- +++ NEVET disable capability access manager service, needed for taskbar ui
+ +++ NEVER disable capability access manager service, needed for taskbar ui
  +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE and go to the command prompt, regedit, load the registry hive, and revert the change
 
 Download shutup10++, open in downloads and disable most settings
