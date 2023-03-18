@@ -83,6 +83,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable internet connection sharing (ics)
  + disable ip translation configuration service
  + disable ktmrm for distributed transaction coordinator 
+ + disable link layer topology discovery mapper
  + disable secure socket tunneling protocol service
  + disable function discovery provider Host
  + disable function discovery resource publication 
@@ -118,6 +119,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Data usage
  + disable dcsvc (declared configuration)
  + disable inventory and compatibility appraisal service
+ + disable Microsoft (r) Diagnostic hub standard collector service 
  + disable Windows mobile hotspot service
  + disable Windows push notifications system service
  + disable Windows image acquisition (wia)
