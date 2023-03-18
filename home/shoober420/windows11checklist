@@ -82,6 +82,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable geolocation
  + disable secure socket tunneling protocol service
  + disable distributed link tracking client
+ + disable distributed transaction coordinator 
  + disable net.tcp port sharing service
  + disable application layer gateway service
  + disable DevQuery Background Discovery Broker
