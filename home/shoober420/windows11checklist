@@ -99,6 +99,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Data Sharing Service (SMB related)
  + disable connected user experiences and telemetry
  + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host
+ + disable Windows error reporting service
  + disable program compatibility assistant service
  + disable windows biometric service
  + disable Microsoft storage spaces smp
@@ -134,6 +135,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Dolby dax API service
  + disable Realtek Audio Universal Service (bloat)
  + disable capability access manager service
+ + disable Microsoft store install service
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications user service_xxxxx (registry)
  + disable clipboard user service_xxxxx (registry)
