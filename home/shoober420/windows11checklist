@@ -164,7 +164,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable client license service (ClipSVC) (registry)
  + disable AppX Deployment Service (AppXSVC) (registry)
  + disable Gaming Services (registry)
- +++ NEVER disable capability access manager service, needed for taskbar ui
+ ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
  +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE and go to the command prompt, regedit, load the registry hive, and revert the change
 
 Download shutup10++, open in downloads and disable most settings
