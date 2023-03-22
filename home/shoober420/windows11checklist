@@ -167,6 +167,9 @@ Run services.msc and disable unneeded services - blackviper.com
  ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
  +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE and go to the command prompt, regedit, load the registry hive, and revert the change
 
+ --- Enable for Windows update only, then disable after updating (every Wednesday)
+ - Update Orchestrator Service
+
 Download shutup10++, open in downloads and disable most settings
 
 Download ThisIsWin11, debloat windows 11 tab and remove camera, get help, people, Microsoft.549981C3F5F10 (Cortana), photos, phone link (your phone), xboxgameoverlay, Xboxgamingoverlay, Xboxidentityprovider, xboxspeechtotextoverlay, Microsoftedge.beta, Microsoftedge.stable, callingshellapp/gaming services (tbcont.)
