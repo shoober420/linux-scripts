@@ -147,6 +147,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable AMD user experience program data uploader (needs disabled again after driver update)
  + disable AMD crash defender service (needs disabled again after driver update)
  + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight) (ASUS services installed by windows update on Asus machines)
+ + disable Armoury Crate Control Interface  (bloat)
  + disable Dolby dax API service
  + disable Realtek Audio Universal Service (bloat)
  + disable Microsoft store install service
@@ -169,6 +170,7 @@ Run services.msc and disable unneeded services - blackviper.com
 
  --- Enable for Windows update only, then disable after updating (every Wednesday)
  - Update Orchestrator Service
+ - Windows Insider Service
 
 Download shutup10++, open in downloads and disable most settings
 
