@@ -136,6 +136,13 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable server
  + disable telephony
  + disable Windows search
+ + disable ActiveX installer (axinstsv)
+ + disable alljoyn router service
+ + disable block level backup engine service
+ + disable cellular time
+ + disable certificate propagation
+ + disable encrypting file system (efs)
+ + disable Microsoft iscsi initiator service 
  + disable auto time zone updater
  + disable hv Host service
  + disable hyper-v* services
@@ -166,6 +173,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable client license service (ClipSVC) (registry)
  + disable AppX Deployment Service (AppXSVC) (registry)
  + disable Gaming Services (registry)
+ + disable application identity (registry)
  + disable security center (registry) TBCONT... 
  + disable Windows security service (registry) TBCONT... 
  ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
@@ -174,6 +182,8 @@ Run services.msc and disable unneeded services - blackviper.com
  --- Enable for Windows update only, then disable after updating (every Wednesday)
  - Update Orchestrator Service
  - Windows Insider Service
+ - Windows update
+ - background intelligent transfer service
 
 Download shutup10++, open in downloads and disable most settings
 
