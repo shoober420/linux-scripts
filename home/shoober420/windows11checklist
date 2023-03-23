@@ -101,8 +101,18 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable remote desktop configuration
  + disable remote access connection manager
  + disable remote access auto connection manager
+ + disable Windows remote management (ws-management)
+ + disable peer name resolution protocol
+ + disable peer network grouping
+ + disable peer networking identity manager
+ + disable PNRP machine name publication service
+ + disable snmp trap
+ + disable upnp device host
+ + disable webclient
+ + disable spatial data service 
  + disable recommended troubleshooting service
  + disable print spooler
+ + disable printer extensions and notifications 
  + disable fax
  + disable file history service
  + disable SysMain / Superfetch
@@ -112,6 +122,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable connected user experiences and telemetry
  + disable Diagnostic Policy Service, Diagnostic Service Host, Diagnostic System Host, Diagnostic Execution Service
  + disable Windows error reporting service
+ + disable problem reports control panel support
  + disable program compatibility assistant service
  + disable windows biometric service
  + disable Microsoft storage spaces smp
@@ -129,12 +140,26 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Microsoft windows sms router service
  + disable natural authentication 
  + disable shared PC account manager
+ + disable sensor data service
+ + disable sensor monitoring service
+ + disable sensor service
  + disable phone service
+ + disable retail demo service
  + disable downloaded maps manager
  + disable display enhancement service
  + disable workstation
  + disable server
  + disable telephony
+ + disable smart card
+ + disable smart card device enumerator service
+ + disable smart card removal policy
+ + disable volume shadow copy
+ + disable volumetric audio compositor service
+ + disable walletservice
+ + disable Windows mixed reality openxr service
+ + disable Windows perception service
+ + disable Windows perception simulation service
+ + disable quality Windows audio video experience 
  + disable Windows search
  + disable ActiveX installer (axinstsv)
  + disable alljoyn router service
@@ -142,7 +167,10 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable cellular time
  + disable certificate propagation
  + disable encrypting file system (efs)
- + disable Microsoft iscsi initiator service 
+ + disable Windows encryption provider Host service
+ + disable Microsoft iscsi initiator service
+ + disable parental controls
+ + disable payments and nfc/se manager 
  + disable auto time zone updater
  + disable hv Host service
  + disable hyper-v* services
@@ -158,6 +186,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Dolby dax API service
  + disable Realtek Audio Universal Service (bloat)
  + disable Microsoft store install service
+ + disable Windows pushtoinstall service
  + disable portable device enumerator service 
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications user service_xxxxx (registry)
