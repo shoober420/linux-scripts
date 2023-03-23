@@ -146,7 +146,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Microsoft edge beta elevation service, elevation service, update service (edgeupdate), update service (edgeupdatem)
  + disable AMD user experience program data uploader (needs disabled again after driver update)
  + disable AMD crash defender service (needs disabled again after driver update)
- + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight) (ASUS services installed by windows update on Asus machines)
+ + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight), Update Service (asus/asusm)         (ASUS services installed by windows update on Asus machines)
  + disable Armoury Crate Control Interface  (very minimal, needed for rgb)
  + disable Dolby dax API service
  + disable Realtek Audio Universal Service (bloat)
