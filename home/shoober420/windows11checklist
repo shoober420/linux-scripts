@@ -143,7 +143,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable GameInput service
  + disable Microsoft software shadow copy provider
  + disable bitlocker drive encryption service
- + disable Microsoft edge beta elevation service, elevation service, update service (edgeupdate), update service (edgeupdatem)
+ + disable Microsoft edge beta elevation service, elevation service, update service (edgeupdate/edgeupdatem)
  + disable AMD user experience program data uploader (needs disabled again after driver update)
  + disable AMD crash defender service (needs disabled again after driver update)
  + disable ASUS App Service, Link Near/Link Remote (for linking phone), System Analysis/System Diagnosis (for troubleshooting wizard), Switch (for backup), Optimization (for keyboard backlight), Update Service (asus/asusm)         (ASUS services installed by windows update on Asus machines)
