@@ -187,7 +187,11 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Realtek Audio Universal Service (bloat)
  + disable Microsoft store install service
  + disable Windows pushtoinstall service
- + disable portable device enumerator service 
+ + disable portable device enumerator service
+ + disable network connections broker
+ + disable windows management instrumentation
+ + disable windows license manager service
+ + disable windows connect now - config registrar
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications user service_xxxxx (registry)
  + disable clipboard user service_xxxxx (registry)
