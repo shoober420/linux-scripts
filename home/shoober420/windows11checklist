@@ -35,7 +35,7 @@ Run windows update
  + system then about, Rename this PC ( remember to include a minus symbol - )
  + Bluetooth & devices then mouse, additional mouse settings then pointer options tab, 6/11 and uncheck enhance pointer precision 
  + network & internet then click wifi then device, random hardware addresses - changes daily, edit DNS server assignment, IPv4 on using 1.1.1.1 and DNS over HTTS on (automatic), go back and turn on random hardware addresses
- + personalization then colors, turn off transparency effects, then start and turn off show recently added apps and check more pins, then taskbar and turn off search,widgets, chat, task view
+ + personalization then colors, turn off transparency effects and uncheck automatic accent color picking, then start and turn off show recently added apps and check more pins, then taskbar and turn off search,widgets, chat, task view
  + privacy & security, find my device then turn off, general then disable all options, speech then disable all, inking & typing personalization then disable all, diagnostics & feedback then disable all except send optional diagnostic data (needed for insider builds), activity history then turn off and clear history, search permissions then safesearch off, cloud search content: Microsoft account off and work or school account off, history: search history on this device off, more settings: show search highlights off, go back and scroll down then location, turn off, go to camera and turn off, turn off microphone 
  + apps then advanced app settings, choose where to get apps: Microsoft store only, share across devices off, archive apps off, go back and optional features, delete unused features, go back then startup, turn off any bloat startup apps, go back then apps for websites, turn off any programs, go back then video playback, battery options select optimize for video quality, go back then optional features then uninstall bloat
  + accounts then turn off automatically save my restartable apps and restart them when I sign back in
@@ -211,9 +211,10 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable AppX Deployment Service (AppXSVC) (registry)
  + disable Gaming Services (registry)
  + disable application identity (registry)
- + disable security center (registry) TBCONT... 
- + disable Windows security service (registry) TBCONT... 
+ + disable security center (registry) (***)
+ + disable Windows security service (registry) (***)
  ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
+ +++ NEVER disable GraphicsPerfSvc, improves performance
  +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE and go to the command prompt, regedit, load the registry hive, and revert the change
 
  --- Enable for Windows update only, then disable after updating (every Wednesday)
@@ -223,6 +224,8 @@ Run services.msc and disable unneeded services - blackviper.com
  - background intelligent transfer service
  - windows module installer
  - waasmedicsvc (windows update medic servic)
+
+C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (needs done again after updates)
 
 Download shutup10++, open in downloads and disable most settings
 
