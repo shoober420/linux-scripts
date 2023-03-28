@@ -58,6 +58,7 @@ Run windows update
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp\DisableWpad 0 (dword 32)
  + HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search, AllowCortana 0 (dword 32)
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters, SMB1 0, SMB2 0
+ + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR\AppCaptureEnabled 0, AudioCaptureEnable 0, CursorCaptureEnabled 0, EchoCancellationEnabled 0, HistoricalCaptureEnabled 0, HistoricalCaptureOnBatteryAllowed 0, HistoricalCaptureOnWirelessDisplayAllowed 0, MicrophoneCaptureEnabled 0
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced, TaskbarDa 0
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive, DisableFileSyncNGSC 1
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\input, IsInputAppPreloadEnabled 0
