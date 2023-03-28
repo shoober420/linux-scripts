@@ -213,6 +213,8 @@ Run services.msc and disable unneeded services - blackviper.com
  - Windows Insider Service
  - Windows update
  - background intelligent transfer service
+ - windows module installer
+ - waasmedicsvc (windows update medic servic)
 
 Download shutup10++, open in downloads and disable most settings
 
