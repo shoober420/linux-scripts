@@ -193,7 +193,6 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows pushtoinstall service
  + disable portable device enumerator service
  + disable network connections broker
- + disable windows management instrumentation
  + disable windows license manager service
  + disable windows connect now - config registrar
  + disable WWAN Auto config
@@ -218,6 +217,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows security service (registry) (***)
  + disable Microsoft defender antivirus network inspection service (registry) TBCONT
  + disable Microsoft defender antivirus service (registry) TBCONT
+ + disable windows management instrumentation (needed for AMD driver upgrades)
  ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
  +++ NEVER disable GraphicsPerfSvc, improves performance
  +++ NEVER disable state repository service, will cause black screen after login. you will need to CTRL+SHIFT+ESC after login to open task manager, then file and run new task (CTRL+N doesn't work), regedit then revert back value to 2
