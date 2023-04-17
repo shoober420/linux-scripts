@@ -85,6 +85,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable ip helper
  + disable geolocation
  + disable internet connection sharing (ics)
+ + disable IKE and AuthIP IPsec Keying Modules
  + disable ip translation configuration service
  + disable ktmrm for distributed transaction coordinator 
  + disable link layer topology discovery mapper
