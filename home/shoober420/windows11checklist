@@ -220,10 +220,10 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Microsoft defender antivirus service (registry) TBCONT
  + disable windows management instrumentation (needed for AMD adrenaline software and AMD driver upgrades)
  ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
- +++ ONLY disable Microsoft passport for login on non-local accounts, needed for login on Microsoft hello / Microsoft profile accounts. you will need to WinRE (login screen shift key method) and go to the command prompt, regedit, load the registry hive, and revert the change
+ +++ ONLY disable Microsoft passport for login on non-local accounts, needed for login on Microsoft hello / Microsoft profile accounts (PIN login). you will need to WinRE*** (login screen shift key method)
  +++ NEVER disable GraphicsPerfSvc, improves performance
  +++ NEVER disable state repository service, will cause black screen after login. you will need to CTRL+SHIFT+ESC after login to open task manager, then file and run new task, regedit then revert back value to 2
- +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE (power button method) and go to the command prompt, regedit, load the registry hive, and revert the change
+ +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE*** (power button method)
 
  --- Enable for Windows update only, then disable after updating (every Wednesday)
  - Update Orchestrator Service
@@ -291,5 +291,11 @@ Download SG TCP Optimizer
  - apply
  - go back and click on username
  - checkmark full control and apply
+
+WinRE***
+ - command prompt
+ - regedit
+ - load the registry hive by clicking on HKEY_LOCAL_MACHINE, file and load hive in c:\windows\system32\config\system
+ - name it test, revert the change, file and unload hive
 
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
