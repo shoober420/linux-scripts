@@ -120,6 +120,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable network setup service
  + disable webclient
  + disable Device management wireless application protocol (wap) push message routing service
+ + disable wi-fi direct services connection manager service
  + disable spatial data service 
  + disable recommended troubleshooting service
  + disable print spooler
