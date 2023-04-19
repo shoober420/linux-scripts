@@ -183,6 +183,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Windows encryption provider Host service
  + disable Microsoft iscsi initiator service
  + disable parental controls
+ + disable office 64 source engine
  + disable payments and nfc/se manager 
  + disable auto time zone updater
  + disable virtual disk
