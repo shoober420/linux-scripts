@@ -114,6 +114,10 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable PNRP machine name publication service
  + disable snmp trap
  + disable upnp device host
+ + disable network location awareness
+ + disable network connected devices auto-setup
+ + disable network connectivity assistant
+ + disable network setup service
  + disable webclient
  + disable spatial data service 
  + disable recommended troubleshooting service
