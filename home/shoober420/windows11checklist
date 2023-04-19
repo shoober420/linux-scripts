@@ -189,6 +189,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable language experience service
  + disable payments and nfc/se manager 
  + disable auto time zone updater
+ + disable warp jit service
  + disable virtual disk
  + disable hv Host service
  + disable hyper-v* services
