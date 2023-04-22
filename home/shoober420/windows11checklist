@@ -215,6 +215,7 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable wmi performance adapter
  + disable credential manager
  + disable Web Threat Defense Service
+ + disable Web account manager
  + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications user service_xxxxx (registry)
  + disable clipboard user service_xxxxx (registry)
