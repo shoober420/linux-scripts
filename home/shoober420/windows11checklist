@@ -52,7 +52,7 @@ Run windows update
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard, right click create dword 32, EnableVirtualizationBasedSecurity, value 0
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power, HibernateEnabled 0
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management, LargeSystemCache 0
- + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services, WinHttpAutoProxySrc 4, WpnUserService/WpnUserService_xxxxx 4 (Windows push notifications user service_xxxxx), cbdhsvc/cbdhsvc_xxxxx 4 (clipboard user service_xxxxx), NPSMSvc/NPSMSvc_xxxxx 4 (NPSMSvc_xxxxx/now playing session manager), OneSyncSvc/OneSyncSvc_xxxxx 4 (Sync Host_xxxxx), CDPUserSvc/CDPUserSvc_xxxxx 4 (connected devices Platform user service_xxxxx), DevicesFlowUserSvc/DevicesFlowUserSvc_xxxxx 4 (DevicesFlow_xxxxx), DevicePickerUserSvc/DevicePickerUserSvc_xxxxx 4 (DevicePicker_xxxxx), BcastDVRUserService/BcastDVRUserService_xxxxx 4 (GameDVR and Broadcast User Service_xxxxx), ClipSVC 4 (client license service (ClipSVC), PimIndexMaintenanceSvc/PimIndexMaintenanceSvc_xxxxx 4 (Contact Data_xxxxx), UserDataSvc/UserDataSvc_xxxxx 4 (User Data Access_xxxxx), UnistoreSvc/UnistoreSvc_xxxxx 4 (User Data Storage_xxxxx), AppXSvc 4 (AppX Deployment Service), GamingServices/GamingServicesNet 4 (Gaming Services), StateRepository 4 (state repository service), MessagingService/MessagingService_xxxxx 4, P9Rdr/P9RdrService/P9RdrService_xxxxc 4, PrintWorkflowUserSvc/PrintWorkflowUserSvc_xxxxx 4 (PrintWorkflow_xxxxx), PenService/PenService_xxxxx 4, EntAppSvc 4 (Enterprise App Management Service), webthreatdefusersvc/webthreatdefusersvc_xxxxx 4 (Web Threat Defense User Service_xxxxx), SecurityHealthService 4 (Windows Security service) (***), wscsvc 4 (security center) (***), WdNisSvc 4 (Microsoft defender antivirus network inspection service), WinDefend 4 (Microsoft defender antivirus service)          : 0 boot, 1 system, 2 automatic, 3 manual, 4 disabled 
+ + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services, WinHttpAutoProxySrc 4, WpnUserService/WpnUserService_xxxxx 4 (Windows push notifications user service_xxxxx), cbdhsvc/cbdhsvc_xxxxx 4 (clipboard user service_xxxxx), NPSMSvc/NPSMSvc_xxxxx 4 (NPSMSvc_xxxxx/now playing session manager), OneSyncSvc/OneSyncSvc_xxxxx 4 (Sync Host_xxxxx), CDPUserSvc/CDPUserSvc_xxxxx 4 (connected devices Platform user service_xxxxx), DevicesFlowUserSvc/DevicesFlowUserSvc_xxxxx 4 (DevicesFlow_xxxxx), DevicePickerUserSvc/DevicePickerUserSvc_xxxxx 4 (DevicePicker_xxxxx), BcastDVRUserService/BcastDVRUserService_xxxxx 4 (GameDVR and Broadcast User Service_xxxxx), ClipSVC 4 (client license service (ClipSVC), PimIndexMaintenanceSvc/PimIndexMaintenanceSvc_xxxxx 4 (Contact Data_xxxxx), UserDataSvc/UserDataSvc_xxxxx 4 (User Data Access_xxxxx), UnistoreSvc/UnistoreSvc_xxxxx 4 (User Data Storage_xxxxx), AppXSvc 4 (AppX Deployment Service), GamingServices/GamingServicesNet 4 (Gaming Services), StateRepository 4 (state repository service), MessagingService/MessagingService_xxxxx 4, P9Rdr/P9RdrService/P9RdrService_xxxxc 4, PrintWorkflowUserSvc/PrintWorkflowUserSvc_xxxxx 4 (PrintWorkflow_xxxxx), PenService/PenService_xxxxx 4, EntAppSvc 4 (Enterprise App Management Service), webthreatdefusersvc/webthreatdefusersvc_xxxxx 4 (Web Threat Defense User Service_xxxxx), SecurityHealthService 4 (Windows Security service) (***), wscsvc 4 (security center) (***), WdNisSvc/WdNisDrv 4 (Microsoft defender antivirus network inspection service), WinDefend 4 (Microsoft defender antivirus service)          : 0 boot, 1 system, 2 automatic, 3 manual, 4 disabled 
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile, NetworkThrottlingIndex FFFFFFF hexadecimal, SystemResponsiveness 0 hexidecimal
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games, Affinity 0, Background Only "False", Clock Rate 2710, GPU Priority 8, Priority 6, Scheduling Category "High", SFIO Priority "High"
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp\DisableWpad 0 (dword 32)
@@ -239,8 +239,8 @@ Run services.msc and disable unneeded services - blackviper.com
  + disable Web Threat Defense User Service_xxxxx (registry)
  + disable security center (registry) (***)
  + disable Windows security service (registry) (***)
- + disable Microsoft defender antivirus network inspection service (registry) TBCONT
- + disable Microsoft defender antivirus service (registry) TBCONT
+ + disable Microsoft defender antivirus network inspection service (registry) (SS)
+ + disable Microsoft defender antivirus service (registry) (SS)
  + disable windows management instrumentation (needed for AMD adrenaline software and AMD driver upgrades)
  ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
  +++ ONLY disable Microsoft passport for login on non-local accounts, needed for login on Microsoft hello / Microsoft profile accounts (PIN login). you will need to WinRE*** (login screen shift key method)
@@ -304,6 +304,8 @@ Download SG TCP Optimizer
    + look at all store apps
    + open add and remove programs
    + remove all possible apps from Microsoft store list
+
+(SS) Requires safe mode
 
 (***) Requires ownership modification
  - right click and permissions
