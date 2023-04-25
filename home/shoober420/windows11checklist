@@ -307,13 +307,14 @@ Download System Informer (nightly builds)
   + services tab
   + disable all unneeded services
    - beep
-   - lltdio
-   - MsLldp
-   - Ndu
-   - Psched
-   - rdpbus
-   - rspndr
-   - tdx (needed for DHCP)
+   - lltdio (link-layer topology discovery mapper I/o driver)
+   - MsLldp (Microsoft link-layer discovery protocol)
+   - Ndu (Windows network data usage monitoring driver)
+   - Psched (QoS packet scheduler)
+   - rdpbus (remote desktop device redirector bus driver)
+   - rspndr (link-layer topology discovery responder)
+   - tdx (NetIO legacy TDI support driver)
+   - afd (ancillary function driver for windsock)
 
  - Open Microsoft Store
    + go to library
