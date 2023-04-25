@@ -317,8 +317,8 @@ Download System Informer (nightly builds)
    - CldFlt (Windows cloud files filter driver)
    - Dfsc (DFS namespace client driver)
    - npsvctrig (named pipe service trigger provider)
-   - Mup (causes loss of internet and stutters)
-   - afd (ancillary function driver for windsock) (requires for DHCP)
+   - !Mup (causes loss of internet and stutters)
+   - !afd (ancillary function driver for windsock) (required for DHCP)
 
  - Open Microsoft Store
    + go to library
