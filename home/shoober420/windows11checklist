@@ -316,6 +316,7 @@ Download System Informer (nightly builds)
    - tdx (NetIO legacy TDI support driver)
    - CldFlt (Windows cloud files filter driver)
    - Dfsc (DFS namespace client driver)
+   - npsvctrig (named pipe service trigger provider)
    - Mup (causes loss of internet and stutters)
    - afd (ancillary function driver for windsock) (requires for DHCP)
 
