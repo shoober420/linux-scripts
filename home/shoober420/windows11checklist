@@ -315,6 +315,7 @@ Download System Informer (nightly builds)
    - rspndr (link-layer topology discovery responder)
    - tdx (NetIO legacy TDI support driver)
    - CldFlt (Windows cloud files filter driver)
+   - Dfsc (DFS namespace client driver)
    - afd (ancillary function driver for windsock) (requires for DHCP)
 
  - Open Microsoft Store
