@@ -313,7 +313,7 @@ Download System Informer (nightly builds)
    - Psched
    - rdpbus
    - rspndr
-   - tdx
+   - tdx (needed for DHCP)
 
  - Open Microsoft Store
    + go to library
