@@ -317,8 +317,9 @@ Download System Informer (nightly builds)
    - CldFlt (Windows cloud files filter driver)
    - Dfsc (DFS namespace client driver)
    - npsvctrig (named pipe service trigger provider)
+   - volsnap (volume shadow copy driver)
    - !Mup (causes loss of internet and stutters)
-   - !afd (ancillary function driver for windsock) (required for DHCP)
+   - !afd (ancillary function driver for winsock) (required for DHCP)
 
  - Open Microsoft Store
    + go to library
