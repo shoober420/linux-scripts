@@ -302,6 +302,19 @@ Download SG TCP Optimizer
  + TcpDelAckTicks - disable: 0
  + LargeSystemCache - disabled: 0
 
+Download System Informer (nightly builds)
+ - Open System Informer
+  + services tab
+  + disable all unneeded services
+   - beep
+   - lltdio
+   - MsLldp
+   - Ndu
+   - Psched
+   - rdpbus
+   - rspndr
+   - tdx
+
  - Open Microsoft Store
    + go to library
    + look at all store apps
