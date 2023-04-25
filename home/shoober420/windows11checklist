@@ -314,7 +314,8 @@ Download System Informer (nightly builds)
    - rdpbus (remote desktop device redirector bus driver)
    - rspndr (link-layer topology discovery responder)
    - tdx (NetIO legacy TDI support driver)
-   - afd (ancillary function driver for windsock)
+   - CldFlt (Windows cloud files filter driver)
+   - afd (ancillary function driver for windsock) (requires for DHCP)
 
  - Open Microsoft Store
    + go to library
