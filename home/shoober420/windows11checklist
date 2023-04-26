@@ -347,3 +347,5 @@ WinRE***
  - name it test, revert the change, file and unload hive
 
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
+
+Windows 10+ removed "Last Known Good Configuration" boot option
