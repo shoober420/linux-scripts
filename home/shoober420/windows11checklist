@@ -317,9 +317,9 @@ Download System Informer (nightly builds)
    - CldFlt (Windows cloud files filter driver)
    - Dfsc (DFS namespace client driver)
    - npsvctrig (named pipe service trigger provider)
-   - volsnap (volume shadow copy driver)
    - !Mup (causes loss of internet after a couple of minutes, stutters and lags pc if disabled)
    - !afd (ancillary function driver for winsock) (required for DHCP)
+   +++ NEVER disable volsnap (volume shadow copy driver), will cause PC to become unbootable, and requires to revert the change via WinRE*** (f8 key method) and revert value back to 0, also may require a couple restarts due to a PIN issue if using that login method
    +++ NEVER disable fvevol (bitlocker drive encryption filter driver), will cause PC to become unbootable, and requires to revert the change via WinRE*** (f8 key method) and revert value back to 0, also may require a couple restarts due to a PIN issue if using that login method
 
  - Open Microsoft Store
