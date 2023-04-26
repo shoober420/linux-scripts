@@ -249,7 +249,7 @@ Run services.msc and disable unneeded services - blackviper.com
  +++ ONLY disable Microsoft passport for login on non-local accounts, needed for login on Microsoft hello / Microsoft profile accounts (PIN login). you will need to WinRE*** (login screen shift key method)
  +++ NEVER disable GraphicsPerfSvc, improves performance
  +++ NEVER disable state repository service, will cause black screen after login. you will need to CTRL+SHIFT+ESC after login to open task manager, then file and run new task, regedit then revert back value to 2
- +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE*** (power button method)
+ +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE*** (f8 key method)
 
  --- Enable for Windows update only, then disable after updating (every Wednesday)
  - Update Orchestrator Service
@@ -318,9 +318,9 @@ Download System Informer (nightly builds)
    - Dfsc (DFS namespace client driver)
    - npsvctrig (named pipe service trigger provider)
    - volsnap (volume shadow copy driver)
-   - fvevol (bitlocker drive encryption filter driver)
    - !Mup (causes loss of internet after a couple of minutes, stutters and lags pc if disabled)
    - !afd (ancillary function driver for winsock) (required for DHCP)
+   +++ NEVER disable fvevol (bitlocker drive encryption filter driver), will cause PC to become unbootable, and requires to revert the change via WinRE*** (f8 key method) and revert value back to 0
 
  - Open Microsoft Store
    + go to library
