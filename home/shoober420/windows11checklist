@@ -318,6 +318,7 @@ Download System Informer (nightly builds)
    - Dfsc (DFS namespace client driver)
    - npsvctrig (named pipe service trigger provider)
    - volsnap (volume shadow copy driver)
+   - fvevol (bitlocker drive encryption filter driver)
    - !Mup (causes loss of internet after a couple of minutes, stutters and lags pc if disabled)
    - !afd (ancillary function driver for winsock) (required for DHCP)
 
