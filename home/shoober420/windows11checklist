@@ -351,6 +351,7 @@ Backup files from WinRE
  - notepad
  - file then open
  - copy and paste files from C: to external hard drive
+  + may not see files after copied over until you refresh the directory
 
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
 
