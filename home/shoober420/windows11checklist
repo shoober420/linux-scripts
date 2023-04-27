@@ -356,8 +356,9 @@ Backup files from WinRE
 Refresh this PC (reinstall windows with all previous apps and programs)
  - WinRE
  - command prompt
- - dism /Capture-Image /CaptureDir:C:\ /ImageFile:D:\install.wim /Name:windows11backup
- - 
+ - dism /Capture-Image /CaptureDir:C:\ /ImageFile:D:\windows11backup\install.wim /Name:windows11backup
+ - cd C:\Windows\System32
+ - reagentc /setosimage /path D:\windows10 /index 1
 
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
 
