@@ -351,7 +351,13 @@ Backup files from WinRE
  - notepad
  - file then open
  - copy and paste files from C: to external hard drive
-  + may not see files after copied over until you refresh the directory
+  + may not see files after being copied over until you refresh the directory
+
+Refresh this PC (reinstall windows with all previous apps and programs)
+ - WinRE
+ - command prompt
+ - dism /Capture-Image /CaptureDir:C:\ /ImageFile:D:\install.wim /Name:windows11backup
+ - 
 
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
 
