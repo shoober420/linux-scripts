@@ -346,6 +346,12 @@ WinRE***
  - load the registry hive by clicking on HKEY_LOCAL_MACHINE, file and load hive in c:\windows\system32\config\system
  - name it test, revert the change, file and unload hive
 
+Backup files from WinRE
+ - command prompt
+ - notepad
+ - file then open
+ - copy and paste files from C: to external hard drive
+
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
 
 Enable legacy boot menu (f8 at startup)
