@@ -1,6 +1,7 @@
 Run windows update
 Download latest Nvidia vulkan beta driver
 Download latest AMD Adrenalin Software
+Download IOBit Driver Booster
 
 - Open Command Prompt
  + powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
