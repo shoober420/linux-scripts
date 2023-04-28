@@ -353,13 +353,6 @@ Backup files from WinRE
  - copy and paste files from C: to external hard drive
   + may not see files after being copied over until you refresh the directory
 
-Refresh your PC (reinstall windows with all previous apps and programs)
- - WinRE
- - command prompt
- - dism /Capture-Image /CaptureDir:C:\ /ImageFile:D:\windows11backup\install.wim /Name:windows11backup
- - cd C:\Windows\System32
- - reagentc /setosimage /path D:\windows11backup /index 1
-
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
 
 Enable legacy boot menu (f8 at startup)
