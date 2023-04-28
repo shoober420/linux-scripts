@@ -353,6 +353,12 @@ Backup files from WinRE
  - copy and paste files from C: to external hard drive
   + may not see files after being copied over until you refresh the directory
 
+Refresh your PC (reinstall windows, keeping all files, programs, and person data)
+ - download windows Insider iso
+ - boot from windows iso usb
+ - reset this PC
+ - keep all files option
+
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
 
 Enable legacy boot menu (f8 at startup)
