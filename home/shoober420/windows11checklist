@@ -355,7 +355,7 @@ Backup files from WinRE
  - copy and paste files from C: to external hard drive
   + may not see files after being copied over until you refresh the directory
 
-Refresh your PC (reinstall windows, keeping all files, programs, and person data)
+Refresh your PC (reinstall windows, keeping all files, programs, and personal data)
  - download windows Insider iso
  - boot from windows iso usb
  - reset this PC
@@ -367,3 +367,5 @@ Enable legacy boot menu (f8 at startup)
  - bcdedit /set {default} bootmenupolicy legacy
 
 Windows 10+ removed "Last Known Good Configuration" boot option
+
+You cannot be in the Windows Insider program if you're on a local account, requires Microsoft account sign-in
