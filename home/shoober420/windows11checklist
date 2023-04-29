@@ -19,10 +19,13 @@ Download latest OpenAL software
  + change adapter settings, right click device and properties, uncheck unneeded protocols, click on IPv4 and go to properties, advanced, WINS tab, disable LMHOSTS lookup and disable NetBIOS over TCP/IP
  + go back and change advanced sharing settings, disable network discovery and file and printer sharing
 
-- Open System
- + click advanced system setting, remote tab then disable Remote Assistance, advanced tab then performance settings, use adjust for best performance, advanced tab then select programs for adjust for best performance, virtual memory then change, uncheck automatically manage paging file, then check system managed size, tweak unneeded settings
+- Tweak System Properties
+ + System then advanced system settings
+ + remote tab then advanced, uncheck allow this computer to be controlled remotely and set the maximum amount of invitations to "1 Minutes", uncheck allow Remote Assistance
+ + advanced tab then performance settings, use adjust for best performance, advanced tab then select programs for processor scheduling, then click virtual memory change button, uncheck automatically manage paging file, then check system managed size
 
-- Open Programs and Features
+- disable bloat Windows features
+ + open Programs and Features
  + turn Windows features on or off, uncheck unneeded features
 
 - Open Windows security
