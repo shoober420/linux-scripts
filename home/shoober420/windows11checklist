@@ -7,11 +7,11 @@ Download latest Audio drivers
 Download latest WiFi drivers (or disable if on wired connection)
 Download latest OpenAL software
 
-- Open Command Prompt
+- Enable Ultimate Performance Power Plan
+ + open cmdprompt
  + powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
  + powercfg.exe /hibernate off
-
-- Open Control Panel / Power Options
+ + open Control Panel / Power Options
  + select ultimate performance power plan
 
 - Open Control Panel / Network and Sharing Center
