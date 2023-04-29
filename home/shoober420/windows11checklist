@@ -16,9 +16,8 @@ Download latest OpenAL software
 
 - Harden internet settings
  + Open Control Panel / Network and Sharing Center
- + change adapter settings, right click device and properties, advanced tab, tweak properties
  + change adapter settings, right click device and properties, uncheck unneeded protocols, click on IPv4 and go to properties, advanced, WINS tab, disable LMHOSTS lookup and disable NetBIOS over TCP/IP
- + change advanced sharing settings, disable network discovery and file and printer sharing
+ + go back and change advanced sharing settings, disable network discovery and file and printer sharing
 
 - Open System
  + click advanced system setting, remote tab then disable Remote Assistance, advanced tab then performance settings, use adjust for best performance, advanced tab then select programs for adjust for best performance, virtual memory then change, uncheck automatically manage paging file, then check system managed size, tweak unneeded settings
