@@ -1,6 +1,7 @@
 Run windows update
 Download latest Nvidia vulkan beta driver
 Download latest AMD Adrenalin Software
+Download latest Intel Driver & support assistant (Intel DSA)
 Download latest Realtek Audio drivers (or disable Realtek onboard audio)
 Download latest WiFi drivers (or disable if on wired connection)
 Download latest OpenAL software
