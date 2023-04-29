@@ -14,7 +14,8 @@ Download latest OpenAL software
  + open Control Panel / Power Options
  + select ultimate performance power plan
 
-- Open Control Panel / Network and Sharing Center
+- Harden internet settings
+ + Open Control Panel / Network and Sharing Center
  + change adapter settings, right click device and properties, advanced tab, tweak properties
  + change adapter settings, right click device and properties, uncheck unneeded protocols, click on IPv4 and go to properties, advanced, WINS tab, disable LMHOSTS lookup and disable NetBIOS over TCP/IP
  + change advanced sharing settings, disable network discovery and file and printer sharing
