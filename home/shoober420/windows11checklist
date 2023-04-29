@@ -257,6 +257,8 @@ Run services.msc and disable unneeded services - blackviper.com
  +++ NEVER disable state repository service, will cause black screen after login. you will need to CTRL+SHIFT+ESC after login to open task manager, then file and run new task, regedit then revert back value to 2
  +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE*** (f8 key method)
 
++++ Disable unused components in Device Manager
+
  --- Enable for Windows update only, then disable after updating (every Wednesday)
  - Update Orchestrator Service
  - Windows Insider Service
