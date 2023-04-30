@@ -35,8 +35,7 @@ Download latest OpenAL software
  + go back then inbound rules and delete all rules
 
 - Open Windows security
- + Virus & threat protection, manage ransomware protection, turn off controlled folder access
- + Firewall & network protection then advanced settings, Windows defender firewall properties, use block all connections for inbound connections and allow outbound connections, block unicast response under settings, remove all rules
+ + Virus & threat protection, virus & threat protection settings then manage settings, turn off real-time protection, turn off cloud-delivered protection, turn off automatic sample submission, turn off tamper protection, click manage controlled folder access and make sure it's off
  + device security then core isolation, memory integrity off for gaming performance
 
 - Open Settings
