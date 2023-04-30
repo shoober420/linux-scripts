@@ -28,6 +28,12 @@ Download latest OpenAL software
  + open Programs and Features
  + turn Windows features on or off, uncheck unneeded features
 
+- Windows Firewall
+ + open Control Panel / Windows defender firewall
+ + advanced settings then action menu, properties
+ + domain profile tab and inbound connections - block all connections, private profile tab and inbound connections - block all connections, public profile tab and inbound connections - block all connections
+ + inbound rules and delete all rules
+
 - Open Windows security
  + Virus & threat protection, manage ransomware protection, turn off controlled folder access
  + Firewall & network protection then advanced settings, Windows defender firewall properties, use block all connections for inbound connections and allow outbound connections, block unicast response under settings, remove all rules
