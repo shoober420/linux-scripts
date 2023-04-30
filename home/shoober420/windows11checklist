@@ -32,7 +32,7 @@ Download latest OpenAL software
  + open Control Panel / Windows defender firewall
  + advanced settings then action menu, properties
  + domain profile tab then inbound connections - block all connections and click customize under settings, allow unicast response - no. do the same thing under the private profile tab and the public profile tab
- + inbound rules and delete all rules
+ + go back then inbound rules and delete all rules
 
 - Open Windows security
  + Virus & threat protection, manage ransomware protection, turn off controlled folder access
