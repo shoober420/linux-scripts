@@ -40,6 +40,7 @@ Download latest OpenAL software
  + device security then core isolation, memory integrity off for gaming performance
 
 - Open Settings
+ + system then display, multiple displays and uncheck remember  window locations, minimize Windows, ease cursor movement. then brightness and save power by optimizing OFF
  + system then power & battery, power mode best performance, then storage and click temporary files and remove
  + system then sound, scroll down to more sound settings, disable any unused sound devices under playback tab, tweak used devices to 44100 and uncheck enable audio enhancements, disable unused devices under recording tab, tweak used devices to 44100 and uncheck enable audio enhancements, disable sounds under sounds tab, enable do nothing under communicatios tab  
  + system then notifications, turn off notifications and scroll down, additional settings then disable all
