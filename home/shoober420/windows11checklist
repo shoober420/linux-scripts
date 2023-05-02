@@ -41,10 +41,10 @@ Download latest OpenAL software
 
 - Open Settings
  + system then display, multiple displays and uncheck remember  window locations, minimize Windows, ease cursor movement. then brightness and save power by optimizing OFF
+ + system then sound, scroll down to more sound settings, disable any unused sound devices under playback tab, tweak used devices to 44100 and uncheck enable audio enhancements, disable unused devices under recording tab, tweak used devices to 44100 and uncheck enable audio enhancements, disable sounds under sounds tab, enable do nothing under communicatios tab
+ + system then notifications, turn off notifications and scroll down, additional settings then disable all
  + system then power & battery, power mode best performance, battery saver then turn battery saver on NEVER, lower screen brightness OFF
  + system then storage and click temporary files and remove
- + system then sound, scroll down to more sound settings, disable any unused sound devices under playback tab, tweak used devices to 44100 and uncheck enable audio enhancements, disable unused devices under recording tab, tweak used devices to 44100 and uncheck enable audio enhancements, disable sounds under sounds tab, enable do nothing under communicatios tab  
- + system then notifications, turn off notifications and scroll down, additional settings then disable all
  + system then nearby sharing, turn off
  + system then multitasking, turn off snap windows, show tabs from apps: don't show tabs, title bar window shake off
  + system then troubleshoot, recommended troubleshooter: don't run any
