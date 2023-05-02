@@ -66,11 +66,28 @@ Download latest OpenAL software
  + three dots then options, view tab and uncheck show sync provider notifications
  + right click on C: and go to properties, under general tab uncheck allow files on this drive to have contents indexed
 
+- Open PowerShell
+ + Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol
+ + Set-SmbServerConfiguration -EnableSMB1Protocol $false
+ + Set-SmbServerConfiguration -EnableSMB2Protocol $false
+ + winget uninstall onedrive
+ + winget uninstall "windows web experience pack" (removes widgets, needs done after big updates)
+
+- Open Microsoft Store
+ + go to library
+ + look at all store apps
+ + open add and remove programs
+ + remove all possible apps from Microsoft store list
+
+- Open Disk Cleanup
+ + clean all old files
+ + Windowskey+R then %temp%, delete everything in folder 
+ + Windowskey+R then temp, delete everything in folder
+
 - Open Registry Editor
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard, right click create dword 32, EnableVirtualizationBasedSecurity, value 0
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power, HibernateEnabled 0
  + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management, LargeSystemCache 0
- + HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services, WinHttpAutoProxySrc 4, WpnUserService/WpnUserService_xxxxx 4 (Windows push notifications user service_xxxxx), cbdhsvc/cbdhsvc_xxxxx 4 (clipboard user service_xxxxx), NPSMSvc/NPSMSvc_xxxxx 4 (NPSMSvc_xxxxx/now playing session manager), OneSyncSvc/OneSyncSvc_xxxxx 4 (Sync Host_xxxxx), CDPUserSvc/CDPUserSvc_xxxxx 4 (connected devices Platform user service_xxxxx), DevicesFlowUserSvc/DevicesFlowUserSvc_xxxxx 4 (DevicesFlow_xxxxx), DevicePickerUserSvc/DevicePickerUserSvc_xxxxx 4 (DevicePicker_xxxxx), BcastDVRUserService/BcastDVRUserService_xxxxx 4 (GameDVR and Broadcast User Service_xxxxx), ClipSVC 4 (client license service (ClipSVC), PimIndexMaintenanceSvc/PimIndexMaintenanceSvc_xxxxx 4 (Contact Data_xxxxx), UserDataSvc/UserDataSvc_xxxxx 4 (User Data Access_xxxxx), UnistoreSvc/UnistoreSvc_xxxxx 4 (User Data Storage_xxxxx), AppXSvc 4 (AppX Deployment Service), GamingServices/GamingServicesNet 4 (Gaming Services), StateRepository 4 (state repository service), MessagingService/MessagingService_xxxxx 4, P9Rdr/P9RdrService/P9RdrService_xxxxc 4, PrintWorkflowUserSvc/PrintWorkflowUserSvc_xxxxx 4 (PrintWorkflow_xxxxx), PenService/PenService_xxxxx 4, EntAppSvc 4 (Enterprise App Management Service), UdkUserSvc/UdkUserSvc_xxxxx 4, webthreatdefusersvc/webthreatdefusersvc_xxxxx 4 (Web Threat Defense User Service_xxxxx), NetBIOS 4, NetBT 4, SecurityHealthService 4 (Windows Security service) (***), wscsvc 4 (security center) (***), WdNisSvc/WdNisDrv 4 (Microsoft defender antivirus network inspection service) (SS), WinDefend/WdFilter/WdBoot/Sense 4 (Microsoft defender antivirus service) (SS)            : 0 boot, 1 system, 2 automatic, 3 manual, 4 disabled 
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile, NetworkThrottlingIndex FFFFFFF hexadecimal, SystemResponsiveness 0 hexidecimal
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games, Affinity 0, Background Only "False", Clock Rate 2710, GPU Priority 8, Priority 6, Scheduling Category "High", SFIO Priority "High"
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp\DisableWpad 0 (dword 32)
@@ -86,19 +103,14 @@ Download latest OpenAL software
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Dsh, IsPrelaunchEnabled 0
  + HKEY_CURRENT_USER\SYSTEM\GameConfigStore\GameDVR_Enabled 0
 
-- Open Disk Cleanup
- + clean all old files
- + Windowskey+R then %temp%, delete everything in folder 
- + Windowskey+R then temp, delete everything in folder
 
-- Open PowerShell
- + Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol
- + Set-SmbServerConfiguration -EnableSMB1Protocol $false
- + Set-SmbServerConfiguration -EnableSMB2Protocol $false
- + winget uninstall onedrive
- + winget uninstall "windows web experience pack" (removes widgets, needs done after big updates)
 
-Run services.msc and disable unneeded services - blackviper.com
+- Services to disable via registry
++ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services, WinHttpAutoProxySrc 4, WpnUserService/WpnUserService_xxxxx 4 (Windows push notifications user service_xxxxx), cbdhsvc/cbdhsvc_xxxxx 4 (clipboard user service_xxxxx), NPSMSvc/NPSMSvc_xxxxx 4 (NPSMSvc_xxxxx/now playing session manager), OneSyncSvc/OneSyncSvc_xxxxx 4 (Sync Host_xxxxx), CDPUserSvc/CDPUserSvc_xxxxx 4 (connected devices Platform user service_xxxxx), DevicesFlowUserSvc/DevicesFlowUserSvc_xxxxx 4 (DevicesFlow_xxxxx), DevicePickerUserSvc/DevicePickerUserSvc_xxxxx 4 (DevicePicker_xxxxx), BcastDVRUserService/BcastDVRUserService_xxxxx 4 (GameDVR and Broadcast User Service_xxxxx), ClipSVC 4 (client license service (ClipSVC), PimIndexMaintenanceSvc/PimIndexMaintenanceSvc_xxxxx 4 (Contact Data_xxxxx), UserDataSvc/UserDataSvc_xxxxx 4 (User Data Access_xxxxx), UnistoreSvc/UnistoreSvc_xxxxx 4 (User Data Storage_xxxxx), AppXSvc 4 (AppX Deployment Service), GamingServices/GamingServicesNet 4 (Gaming Services), StateRepository 4 (state repository service), MessagingService/MessagingService_xxxxx 4, P9Rdr/P9RdrService/P9RdrService_xxxxc 4, PrintWorkflowUserSvc/PrintWorkflowUserSvc_xxxxx 4 (PrintWorkflow_xxxxx), PenService/PenService_xxxxx 4, EntAppSvc 4 (Enterprise App Management Service), UdkUserSvc/UdkUserSvc_xxxxx 4, webthreatdefusersvc/webthreatdefusersvc_xxxxx 4 (Web Threat Defense User Service_xxxxx), NetBIOS 4, NetBT 4, SecurityHealthService 4 (Windows Security service) (***), wscsvc 4 (security center) (***), WdNisSvc/WdNisDrv 4 (Microsoft defender antivirus network inspection service) (SS), WinDefend/WdFilter/WdBoot/Sense 4 (Microsoft defender antivirus service) (SS)            : 0 boot, 1 system, 2 automatic, 3 manual, 4 disabled
+
+
+
+- Run services.msc and disable unneeded services (blackviper. com)
  + disable tcp/ip netbios helper
  + disable SSDP discovery
  + disable ip helper
@@ -342,11 +354,7 @@ Download System Informer (nightly builds)
    +++ NEVER disable volsnap (volume shadow copy driver), will cause PC to become unbootable, and requires to revert the change via WinRE*** (f8 key method) and revert value back to 0, also may require a couple restarts due to a PIN issue if using that login method
    +++ NEVER disable fvevol (bitlocker drive encryption filter driver), will cause PC to become unbootable, and requires to revert the change via WinRE*** (f8 key method) and revert value back to 0, also may require a couple restarts due to a PIN issue if using that login method
 
- - Open Microsoft Store
-   + go to library
-   + look at all store apps
-   + open add and remove programs
-   + remove all possible apps from Microsoft store list
+
 
 (SS) Requires safe mode
 
