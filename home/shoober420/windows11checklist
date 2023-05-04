@@ -102,10 +102,12 @@ Download latest OpenAL software
  + HKEY_CURRENT_USER\SYSTEM\GameConfigStore\GameDVR_Enabled 0
  + HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter\ActivationType 0 (***)
 
-- Disable Widgets via registry
+- Disable Widgets/Windows Input Experience via registry
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced, TaskbarDa 0 (disable widgets on taskbar)
- + HKEY_CURRENT_USER\SOFTWARE\Microsoft\input, IsInputAppPreloadEnabled 0
  + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Dsh, IsPrelaunchEnabled 0
+ + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Input, IsInputAppPreloadEnabled 0
+ + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Input\Settings, VoiceTypingEnabled 0
+ + HKEY_CURRENT_USER\SOFTWARE\Microsoft\Input\TICP, Enabled 0
 
 
 
