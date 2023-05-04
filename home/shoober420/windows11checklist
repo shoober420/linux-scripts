@@ -7,13 +7,6 @@ Download latest Audio drivers
 Download latest WiFi drivers (or disable if on wired connection)
 Download latest OpenAL software
 
-- Enable Ultimate Performance Power Plan
- + open cmdprompt
- + powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
- + powercfg.exe /hibernate off
- + open Control Panel / Power Options
- + select ultimate performance power plan
-
 - Harden internet settings
  + Open Control Panel / Network and Sharing Center
  + change adapter settings, right click device and properties, uncheck unneeded protocols, click on IPv4 and go to properties, advanced, WINS tab, disable LMHOSTS lookup and disable NetBIOS over TCP/IP
@@ -61,6 +54,13 @@ Download latest OpenAL software
  + accessibility then turn off transparency and animation effects
  + privacy & security, find my device then turn off, back then general and disable all options, back then speech and disable all, back then inking & typing personalization and ldisable all, back then diagnostics & feedback and disable all except send optional diagnostic data (needed for insider builds), feedback frequency: never, back then activity history and turn off and clear history, back then search permissions and safesearch off, cloud search content: Microsoft account off and work or school account off, history: search history on this device off, more settings: show search highlights off, go back and scroll down then location: off, camera: off, microphone: off, voice activation: off, notification: off, account info: off, contacts: off, calendar: off, phone calls: off, call history: off, email: off, tasks: off, messaging: off, radios: off, other devices: off, app diagnostics: off, documents: off, downloads folder: off, music library: off, pictures: off, videos: off, file system: off, screenshot borders: off, screenshots and apps: off
  + Windows update then delivery optimization, turn off allow downloads from other PCs
+
+- Enable Ultimate Performance Power Plan
+ + open cmdprompt
+ + powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+ + powercfg.exe /hibernate off
+ + open Control Panel / Power Options
+ + select ultimate performance power plan
 
 - Open File Explorer
  + three dots then options, view tab and uncheck show sync provider notifications
