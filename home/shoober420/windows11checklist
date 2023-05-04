@@ -399,4 +399,4 @@ Windows 10+ removed "Last Known Good Configuration" boot option
 You cannot be in the Windows Insider program if you're on a local account, requires Microsoft account sign-in
 
 Be careful with driver updater programs. Some programs (IObit Driver Booster) download bad / questionable drivers that can break components (like keyboard and mouse).
-   +++ NEVER install drivers that driver updater programs find. use them as reference and look them up, then download yourself
+   +++ NEVER install drivers that driver updater programs find. use them as reference and look them up, then download yourself if legit
