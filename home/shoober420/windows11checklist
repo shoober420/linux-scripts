@@ -337,12 +337,16 @@ Download SG TCP Optimizer
  + HostPriority - 5
  + DnsPriority - 6
  + NetbtPriority - 7
+ + Max SYN Retransmissions - 2
+ + NonSackRttResiliency - disabled
  + NetworkThrottlingIndex - disabled: ffffffff
  + SystemResponsiveness - gaming: 0
  + TcpAckFrequency - disabled: 1
  + TCPNoDelay - enabled: 1
  + TcpDelAckTicks - disable: 0
  + LargeSystemCache - disabled: 0
+ + MaxUserPort - 65534
+ + TcpTimedWaitDelay - 30
 
 Download System Informer (nightly builds)
  - Open System Informer
