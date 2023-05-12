@@ -258,7 +258,6 @@ Download latest OpenAL software
  + disable Web Threat Defense Service
  + disable Web account manager
  + disable security accounts manager
- + disable WinHTTP web proxy auto discovery service (registry)
  + disable Windows push notifications user service_xxxxx (registry)
  + disable clipboard user service_xxxxx (registry)
  + disable NPSMSvc_xxxxx (registry)
@@ -287,6 +286,7 @@ Download latest OpenAL software
  + disable windows management instrumentation (needed for AMD adrenaline software and AMD driver upgrades)
  ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
  +++ ONLY disable Microsoft passport for login on non-local accounts, needed for login on Microsoft hello / Microsoft accounts (PIN login). you will need to WinRE*** (login screen shift key method)
+ +++  NEVER disable WinHTTP web proxy auto discovery service (registry), will bork internet
  +++ NEVER disable GraphicsPerfSvc, improves performance
  +++ NEVER disable state repository service, will cause black screen after login. you will need to CTRL+SHIFT+ESC after login to open task manager, then file and run new task, regedit then revert back value to 2
  +++ NEVER disable text input management service, needed for keyboard and mouse. you will need to WinRE*** (f8 key method)
