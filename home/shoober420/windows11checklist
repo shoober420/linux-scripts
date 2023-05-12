@@ -55,7 +55,7 @@ Download latest OpenAL software
  + gaming then game mode, turn on game mode, Xbox game bar then turn off open Xbox game bar using button, captures then turn off record what happened, max recording length 30 minutes, turn off capture audio, turn off capture mouse cursor
  + accessibility then turn off transparency and animation effects
  + privacy & security, find my device then turn off, back then general and disable all options, back then speech and disable all, back then inking & typing personalization and ldisable all, back then diagnostics & feedback and disable all except send optional diagnostic data (needed for insider builds), feedback frequency: never, back then activity history and turn off and clear history, back then search permissions and safesearch off, cloud search content: Microsoft account off and work or school account off, history: search history on this device off, more settings: show search highlights off, go back and scroll down then location: off, camera: off, microphone: off, voice activation: off, notification: off, account info: off, contacts: off, calendar: off, phone calls: off, call history: off, email: off, tasks: off, messaging: off, radios: off, other devices: off, app diagnostics: off, documents: off, downloads folder: off, music library: off, pictures: off, videos: off, file system: off, screenshot borders: off, screenshots and apps: off
- + Windows update then delivery optimization, turn off allow downloads from other PCs
+ + Windows update then  advanced options, turn on recieve updates for other Microsoft products, turn on get me up to date, turn on download updates over metered connections, turn on notify me when a restart is required, go to delivery optimization and turn off allow downloads from other PCs. go back then Windows Insider program, choose your insider settings: canary
 
 - Enable Ultimate Performance Power Plan
  + open cmdprompt
@@ -396,6 +396,12 @@ Refresh your PC (reinstall windows, keeping all files, programs, and personal da
  - boot from windows iso usb
  - reset this PC
  - keep all files option
+
+Fix Windows Insider program stuck showing "A newer build is available in Windows update"
+ - open cmdprompt
+ - bcdedit /set flightsigning on
+ - bcdedit /set {bootmgr} flightsigning on
+ - reboot
 
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
 
