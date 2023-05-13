@@ -31,8 +31,8 @@ Download latest OpenAL software
 
 - Open Windows security
  + Virus & threat protection, virus & threat protection settings then manage settings, turn off real-time protection, turn off cloud-delivered protection, turn off automatic sample submission, turn off tamper protection, click manage controlled folder access and make sure it's off
- + app & browser control then click smart app control settings and turn off, go back then reputation-based protection turn off then reputation-based settings, turn off check apps and files, turn off smart screen for Microsoft edge, turn off phishing protection, turn off potentially unwanted app blocking, turn off smart screen for Microsoft store apps, go back then exploit protection settings, 
- + device security then core isolation, memory integrity off for gaming performance
+ + app & browser control then click smart app control settings and turn off, go back then reputation-based protection turn off then reputation-based settings, turn off check apps and files, turn off smart screen for Microsoft edge, turn off phishing protection, turn off potentially unwanted app blocking, turn off smart screen for Microsoft store apps, go back then exploit protection settings, control flow guard (CFG): off by default
+ + device security then core isolation, memory integrity off for gaming performance and disable all other settings
 
 - Open Settings
  + system then display, (use show only on 2 if external monitor is used on laptop), multiple displays and uncheck remember  window locations, minimize Windows, ease cursor movement. then brightness and save power by optimizing OFF
