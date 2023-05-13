@@ -19,10 +19,6 @@ Download latest OpenAL software
  + remote tab then advanced, uncheck allow this computer to be controlled remotely and set the maximum amount of invitations to "1 Minutes", uncheck allow Remote Assistance
  + advanced tab then performance settings, use adjust for best performance, advanced tab then select programs for processor scheduling, then click virtual memory change button, uncheck automatically manage paging file, then check system managed size
 
-- disable bloat Windows features
- + open Programs and Features
- + turn Windows features on or off, uncheck unneeded features
-
 - Windows Firewall
  + open Control Panel / Windows defender firewall
  + advanced settings then action menu, properties
@@ -63,6 +59,10 @@ Download latest OpenAL software
  + powercfg.exe /hibernate off
  + open Control Panel / Power Options
  + select ultimate performance power plan
+
+- disable bloat Windows features
+ + open Programs and Features
+ + turn Windows features on or off, uncheck unneeded features
 
 - Open File Explorer
  + three dots then options, view tab and uncheck show sync provider notifications
