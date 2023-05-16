@@ -318,6 +318,7 @@ Download shutup10++, open in downloads and disable most settings
  + remove Microsoft.XboxSpeechToTextOverlay
  + remove Microsoft.MicrosoftEdge/Beta/Stable/DevToolsClient
  + remove Microsoft.Windows.ShellExperienceHost
+ + remove MicrosoftWindows.Client.WebExperience (removes widgets)
  + remove  callingshellapp/gaming services (tbcont.)
 
 Download QuickCPU, open and max out sliders to %100 percent
