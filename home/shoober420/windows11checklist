@@ -305,7 +305,20 @@ C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (needs done again af
 
 Download shutup10++, open in downloads and disable most settings
 
-Download ThisIsWin11, debloat windows 11 tab and remove camera, get help, people, Microsoft.549981C3F5F10 (Cortana), photos, phone link (your phone), xboxgameoverlay, Xboxgamingoverlay, Xboxidentityprovider, xboxspeechtotextoverlay, Microsoftedge.beta, Microsoftedge.stable, callingshellapp/gaming services (tbcont.)
+- Download ThisIsWin11, then debloat windows 11 tab
+ + remove Microsoft.WindowsCamera
+ + remove Microsoft.GetHelp
+ + remove Microsoft.People
+ + remove Microsoft.549981C3F5F10 (Cortana)
+ + remove Microsoft.Windows.Photos
+ + remove Microsoft.YourPhone (phone link) 
+ + remove Microsoft.XboxGameOverlay
+ + remove Microsoft.XboxGamingOverlay
+ + remove Microsoft.XboxIdentityProvider
+ + remove Microsoft.XboxSpeechToTextOverlay
+ + remove Microsoft.MicrosoftEdge/Beta/Stable/DevToolsClient
+ + remove Microsoft.Windows.ShellExperienceHost
+ + remove  callingshellapp/gaming services (tbcont.)
 
 Download QuickCPU, open and max out sliders to %100 percent
 
