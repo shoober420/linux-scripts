@@ -72,8 +72,8 @@ Download latest OpenAL software
  + Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol
  + Set-SmbServerConfiguration -EnableSMB1Protocol $false
  + Set-SmbServerConfiguration -EnableSMB2Protocol $false
- + winget uninstall onedrive
- + winget uninstall "windows web experience pack" (removes widgets, needs done after big updates)
+ + winget uninstall onedrive (Microsoft.OneDrive)
+ + winget uninstall "windows web experience pack" (removes widgets, needs done again after big updates) (MicrosoftWindows.Client.WebExperience)
 
 - Open Microsoft Store
  + go to library
@@ -305,7 +305,7 @@ C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (needs done again af
 
 Download shutup10++, open in downloads and disable most settings
 
-- Download ThisIsWin11, then debloat windows 11 tab
+- Download BloatyNosy, then bottom left menu, select BloatPilot
  + remove Microsoft.OneDrive
  + remove Microsoft.WindowsCamera
  + remove Microsoft.GetHelp
@@ -318,8 +318,9 @@ Download shutup10++, open in downloads and disable most settings
  + remove Microsoft.XboxIdentityProvider
  + remove Microsoft.XboxSpeechToTextOverlay
  + remove Microsoft.MicrosoftEdge/Beta/Stable/DevToolsClient
- + remove Microsoft.Windows.ShellExperienceHost
- + remove MicrosoftWindows.Client.WebExperience (removes widgets)
+ + remove Microsoft.Windows.StartMenuExperienceHost (possibly breaks Settings/Personalization)
+ + remove Microsoft.Windows.ShellExperienceHost (possibly breaks Settings/Personalization)
+ + remove MicrosoftWindows.Client.WebExperience (removes widgets, needs done again after updates)
  + remove  callingshellapp/gaming services (tbcont.)
 
 Download QuickCPU, open and max out sliders to %100 percent
