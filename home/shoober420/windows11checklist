@@ -306,6 +306,7 @@ C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (needs done again af
 Download shutup10++, open in downloads and disable most settings
 
 - Download ThisIsWin11, then debloat windows 11 tab
+ + remove Microsoft.OneDrive
  + remove Microsoft.WindowsCamera
  + remove Microsoft.GetHelp
  + remove Microsoft.People
