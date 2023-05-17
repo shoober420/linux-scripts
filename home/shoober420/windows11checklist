@@ -321,7 +321,7 @@ Download shutup10++, open in downloads and disable most settings
  + remove Microsoft.XboxSpeechToTextOverlay
  + remove Microsoft.MicrosoftEdge/Beta/Stable/DevToolsClient
  + remove Microsoft.GamingServices (removes "Gaming Services" process, needs done again after updates)
- + remove MicrosoftWindows.Client.WebExperience (removes widgets process, needs done again after updates)
+ + remove MicrosoftWindows.Client.WebExperience (removes Widgets process, needs done again after updates)
  + remove Microsoft.Windows.ShellExperienceHost
  +++ ONLY MINIMAL remove Microsoft.Windows.StartMenuExperienceHost (***) (borks start menu if removed)
  + remove  callingshellapp/gaming services (tbcont.)
