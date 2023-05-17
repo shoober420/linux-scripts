@@ -322,8 +322,8 @@ Download shutup10++, open in downloads and disable most settings
  + remove Microsoft.MicrosoftEdge/Beta/Stable/DevToolsClient
  + remove Microsoft.GamingServices (removes "Gaming Services" process, needs done again after updates)
  + remove MicrosoftWindows.Client.WebExperience (removes Widgets process, needs done again after updates)
- + remove Microsoft.Windows.ShellExperienceHost
- +++ ONLY MINIMAL remove Microsoft.Windows.StartMenuExperienceHost (***) (borks start menu if removed)
+ + remove Microsoft.Windows.ShellExperienceHost (removes Shell process, needs done again after updates)
+ +++ ONLY MINIMAL remove Microsoft.Windows.StartMenuExperienceHost (***) (borks start menu if removed) (removes Start process, needs done again after updates)
 
 Download QuickCPU, open and max out sliders to %100 percent
 
