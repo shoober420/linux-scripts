@@ -301,9 +301,9 @@ Download latest OpenAL software
  - windows module installer
  - waasmedicsvc (windows update medic service)
 
-C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe.bak (***) (needs done again after updates)
++++ ONLY MINIMAL! C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe.bak (***) (borks start menu, right click on start menu required) (removes Start process, needs done again after updates)
 
-C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (needs done again after updates)
+C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (removes Shell process, needs done again after updates)
 
 Download shutup10++, open in downloads and disable most settings
 
@@ -323,7 +323,7 @@ Download shutup10++, open in downloads and disable most settings
  + remove Microsoft.GamingServices (removes "Gaming Services" process, needs done again after updates)
  + remove MicrosoftWindows.Client.WebExperience (removes Widgets process, needs done again after updates)
  + remove Microsoft.Windows.ShellExperienceHost (removes Shell process, needs done again after updates)
- +++ ONLY MINIMAL remove Microsoft.Windows.StartMenuExperienceHost (***) (borks start menu if removed) (removes Start process, needs done again after updates)
+ +++ ONLY MINIMAL remove Microsoft.Windows.StartMenuExperienceHost (***) (borks start menu, right click on start menu required) (removes Start process, needs done again after updates)
 
 Download QuickCPU, open and max out sliders to %100 percent
 
