@@ -319,10 +319,10 @@ Download shutup10++, open in downloads and disable most settings
  + remove Microsoft.XboxGamingOverlay
  + remove Microsoft.XboxIdentityProvider
  + remove Microsoft.XboxSpeechToTextOverlay
- + remove MicrosoftWindows.Client.WebExperience (removes widgets, needs done again after updates)
  + remove Microsoft.MicrosoftEdge/Beta/Stable/DevToolsClient
+ + remove MicrosoftWindows.Client.WebExperience (removes widgets, needs done again after updates)
+ + remove Microsoft.Windows.ShellExperienceHost
  +++ ONLY MINIMAL remove Microsoft.Windows.StartMenuExperienceHost (***) (borks start menu if removed)
- + remove Microsoft.Windows.ShellExperienceHost (possibly breaks Settings/Personalization)
  + remove  callingshellapp/gaming services (tbcont.)
 
 Download QuickCPU, open and max out sliders to %100 percent
