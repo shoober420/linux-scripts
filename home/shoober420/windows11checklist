@@ -303,6 +303,8 @@ Download latest OpenAL software
 
 +++ ONLY MINIMAL! C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe.bak (***) (borks start menu, right click on start menu required) (removes Start process, needs done again after updates)
 
+C:\Windows\System32\GameBarPresenceWriter.exe.bak (removes "Gamebar Presence Writer" process, needs done again after updates)
+
 C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (removes Shell process, needs done again after updates)
 
 Download shutup10++, open in downloads and disable most settings
