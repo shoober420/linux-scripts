@@ -319,6 +319,7 @@ Download shutup10++, open in downloads and disable most settings
  + remove Microsoft.XboxGamingOverlay
  + remove Microsoft.XboxIdentityProvider
  + remove Microsoft.XboxSpeechToTextOverlay
+ + remove Microsoft.XboxGameCallableUI
  + remove Microsoft.MicrosoftEdge/Beta/Stable/DevToolsClient
  + remove Microsoft.GamingServices (removes "Gaming Services" process, needs done again after updates)
  + remove MicrosoftWindows.Client.WebExperience (removes Widgets process, needs done again after updates)
