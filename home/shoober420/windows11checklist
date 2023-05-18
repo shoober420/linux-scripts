@@ -307,6 +307,9 @@ C:\Windows\System32\GameBarPresenceWriter.exe.bak (***) (removes "Gamebar Presen
 
 C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (removes Shell process, needs done again after updates)
 
+C:\Program Files (x86)\ASUS\ArmouryDevice\dll\ArmourySocketServer.exe
+bak (removes ArmourySocketServer process, needs done after updates)
+
 Download shutup10++, open in downloads and disable most settings
 
 - Download BloatyNosy, then bottom left menu, select BloatPilot
