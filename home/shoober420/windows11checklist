@@ -273,7 +273,6 @@ Download latest OpenAL software
  + disable connected devices Platform user service_xxxxx (registry)
  + disable GameDVR and Broadcast User Service_xxxxx (registry)
  + disable client license service (ClipSVC) (registry)
- + disable AppX Deployment Service (AppXSVC) (registry)
  + disable Gaming Services (registry)
  + disable application identity (registry)
  + disable enterprise app management service (registry)
@@ -284,7 +283,8 @@ Download latest OpenAL software
  + disable Microsoft defender antivirus network inspection service (registry) (SS)
  + disable Microsoft defender antivirus service (registry) (SS)
  + disable windows management instrumentation (needed for AMD adrenaline software and AMD driver upgrades)
- ++ ULTRA MINIMAL ONLY!!! disabling capability access manager service removes bottom left taskbar ui (date and time/sound/internet/app icons)
+ ++ MINIMAL ONLY!!!  disable AppX Deployment Service (AppXSVC) (registry) (breaks Settings/Personalization)
+ ++ ULTRA MINIMAL ONLY!!! disable capability access manager service (removes bottom right taskbar ui (date and time/sound/internet/app icons)
  +++ ONLY disable Microsoft passport for login on non-local accounts, needed for login on Microsoft hello / Microsoft accounts (PIN login). you will need to WinRE*** (login screen shift key method)
  +++  NEVER disable WinHTTP web proxy auto discovery service (registry), will bork internet
  +++ NEVER disable GraphicsPerfSvc, improves performance
