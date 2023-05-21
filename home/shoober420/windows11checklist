@@ -259,8 +259,8 @@ Download latest OpenAL software
  + disable Web Threat Defense Service
  + disable Web account manager
  + disable security accounts manager
- + disable Windows push notifications user service_xxxxx (registry)
- + disable clipboard user service_xxxxx (registry)
+ + disable WpnUserService_xxxxx (registry) (Windows push notifications)
+ + disable cbdhsvc_xxxxx (registry) (clipboard service)
  + disable NPSMSvc_xxxxx (registry) (now playing session manager)
  + disable Sync Host_xxxxx (registry)
  + disable DevicesFlow_xxxxx (registry)
@@ -271,14 +271,14 @@ Download latest OpenAL software
  + disable P9RdrService_xxxxc (registry)
  + disable PrintWorkflow_xxxxx (registry)
  + disable PenService_xxxxx (registry)
- + disable connected devices Platform user service_xxxxx (registry)
+ + disable CDPUserSvc_xxxxx (registry) (Connected devices platform)
  + disable GameDVR and Broadcast User Service_xxxxx (registry)
  + disable client license service (ClipSVC) (registry)
  + disable Gaming Services (registry)
  + disable application identity (registry)
  + disable enterprise app management service (registry)
- + disable Web Threat Defense User Service_xxxxx (registry)
- + disable UdkUserSvc_xxxxx (registry)
+ + disable webthreatdefusersvc_xxxxx (registry) (Web Threat Defense)
+ + disable UdkUserSvc_xxxxx (registry) (used for shell components like search)
  + disable security center (registry) (***)
  + disable Windows security service (registry) (***)
  + disable Microsoft defender antivirus network inspection service (registry) (SS)
