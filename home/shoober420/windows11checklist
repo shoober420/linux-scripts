@@ -311,6 +311,9 @@ C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (removes Shell proce
 C:\Program Files (x86)\ASUS\ArmouryDevice\dll\ArmourySocketServer.exe
 bak (removes ArmourySocketServer process, needs done after updates)
 
+C:\Program Files (x86)\ASUS\ArmouryDevice\dll\ShareFromArmouryIII\Mouse\ROG STRIX CARRY\P508PowerAgent.exe
+bak (end process first in task manager) (removes P508PowerAgent process, needs done after updates)
+
 Download shutup10++, open in downloads and disable most settings
 
 - Download BloatyNosy, then bottom left menu, select BloatPilot
