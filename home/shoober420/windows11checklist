@@ -261,7 +261,7 @@ Download latest OpenAL software
  + disable security accounts manager
  + disable Windows push notifications user service_xxxxx (registry)
  + disable clipboard user service_xxxxx (registry)
- + disable NPSMSvc_xxxxx (registry)
+ + disable NPSMSvc_xxxxx (registry) (now playing session manager)
  + disable Sync Host_xxxxx (registry)
  + disable DevicesFlow_xxxxx (registry)
  + disable Contact Data_xxxxx (registry)
