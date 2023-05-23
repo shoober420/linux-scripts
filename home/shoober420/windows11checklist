@@ -180,7 +180,7 @@ Download latest OpenAL software
  + disable program compatibility assistant service
  + disable windows biometric service
  + disable Microsoft storage spaces smp
- + disable connected devices Platform service
+ + disable connected devices Platform service (used for Bluetooth, Xbox, and printers)
  + disable radio management service
  + disable Data usage
  + disable dcsvc (declared configuration)
@@ -261,7 +261,7 @@ Download latest OpenAL software
  + disable security accounts manager
  + disable WpnUserService_xxxxx (registry) (Windows push notifications)
  + disable cbdhsvc_xxxxx (registry) (clipboard service)
- + disable NPSMSvc_xxxxx (registry) (now playing session manager)
+ + disable NPSMSvc_xxxxx (registry) (now playing session manager) (shows music track information in shell)
  + disable Sync Host_xxxxx (registry)
  + disable DevicesFlow_xxxxx (registry)
  + disable Contact Data_xxxxx (registry)
@@ -271,7 +271,7 @@ Download latest OpenAL software
  + disable P9RdrService_xxxxc (registry)
  + disable PrintWorkflow_xxxxx (registry)
  + disable PenService_xxxxx (registry)
- + disable CDPUserSvc_xxxxx (registry) (Connected devices platform)
+ + disable CDPUserSvc_xxxxx (registry) (Connected devices platform) (used for Bluetooth, Xbox, and printers)
  + disable GameDVR and Broadcast User Service_xxxxx (registry)
  + disable client license service (ClipSVC) (registry)
  + disable Gaming Services (registry)
