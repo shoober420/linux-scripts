@@ -311,7 +311,6 @@ bak (***) (removes SpatialAudioLicenseSrv process, needs done again after update
 
 C:\Windows\System32\smartscreen.exe.bak (***) (removes "Windows Defender Smartscreen" process, needs done again after updates)
 
-C:\Windows\System32\ApplicationFrameHost.exe.bak (***) (removes "Application Frame Host" process, needs done again after updates) (displays UWP apps in separate frames/Windows)
 
 C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (removes Shell process, needs done again after updates)
 
@@ -322,6 +321,8 @@ bak (removes ArmourySocketServer process, needs done after updates)
 
 C:\Program Files (x86)\ASUS\ArmouryDevice\dll\ShareFromArmouryIII\Mouse\ROG STRIX CARRY\P508PowerAgent.exe
 bak (end process first in task manager) (removes P508PowerAgent process, needs done after updates)
+
++++ NEVER C:\Windows\System32\ApplicationFrameHost.exe.bak (***) (removes "Application Frame Host" process, needs done again after updates) (displays UWP apps in separate frames/Windows) (breaks Settings/Search)
 
 Download shutup10++, open in downloads and disable most settings
 
