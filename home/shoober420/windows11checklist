@@ -309,7 +309,9 @@ C:\Windows\System32\GameBarPresenceWriter.exe.bak (***) (removes "Gamebar Presen
 C:\Windows\System32\SpatialAudioLicenseSrv.exe
 bak (***) (removes SpatialAudioLicenseSrv process, needs done again after updates)
 
-C:\Windows\System32\smartscreen.exe.bak (***) (removes Windows Defender Smartscreen process, needs done again after updates)
+C:\Windows\System32\smartscreen.exe.bak (***) (removes "Windows Defender Smartscreen" process, needs done again after updates)
+
+C:\Windows\System32\ApplicationFrameHost.exe.bak (***) (removes "Application Frame Host" process, needs done again after updates) (displays UWP apps in separate frames/Windows)
 
 C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (removes Shell process, needs done again after updates)
 
