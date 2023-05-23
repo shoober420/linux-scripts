@@ -308,6 +308,8 @@ C:\Windows\System32\GameBarPresenceWriter.exe.bak (***) (removes "Gamebar Presen
 
 C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy.bak (removes Shell process, needs done again after updates)
 
+C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe.bak (removes Search process, needs done again after updates)
+
 C:\Program Files (x86)\ASUS\ArmouryDevice\dll\ArmourySocketServer.exe
 bak (removes ArmourySocketServer process, needs done after updates)
 
