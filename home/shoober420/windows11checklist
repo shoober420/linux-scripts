@@ -321,7 +321,7 @@ bak (end process first in task manager) (removes P508PowerAgent process, needs d
 
 +++ MINIMAL C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe.bak (***) (removes Search process, needs done again after updates) (breaks Search)
 
-+++ NEVER C:\Windows\System32\ApplicationFrameHost.exe.bak (***) (removes "Application Frame Host" process, needs done again after updates) (displays UWP apps in separate frames/Windows) (breaks Settings)
++++ ULTRA MINIMAL C:\Windows\System32\ApplicationFrameHost.exe.bak (***) (removes "Application Frame Host" process, needs done again after updates) (displays UWP apps in separate frames/Windows) (breaks Settings)
 
 Download shutup10++, open in downloads and disable most settings
 
