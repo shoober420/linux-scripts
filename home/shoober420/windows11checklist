@@ -268,7 +268,7 @@ Download latest OpenAL software
  + disable User Data Access_xxxxx (registry)
  + disable User Data Storage_xxxxx (registry)
  + disable MessagingService_xxxxx (registry)
- + disable P9RdrService_xxxxc (registry)
+ + disable P9RdrService_xxxxc (registry) (used for trigger starting plan9 file servers)
  + disable PrintWorkflow_xxxxx (registry)
  + disable PenService_xxxxx (registry)
  + disable CDPUserSvc_xxxxx (registry) (Connected devices platform) (used for Bluetooth, Xbox, and printers)
