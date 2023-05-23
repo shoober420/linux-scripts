@@ -317,11 +317,11 @@ bak (removes ArmourySocketServer process, needs done after updates)
 C:\Program Files (x86)\ASUS\ArmouryDevice\dll\ShareFromArmouryIII\Mouse\ROG STRIX CARRY\P508PowerAgent.exe
 bak (end process first in task manager) (removes P508PowerAgent process, needs done after updates)
 
-+++ MINIMAL C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe.bak (***) (borks start menu, right click on start menu required) (removes Start process, needs done again after updates)
++++ MINIMAL C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe.bak (***) (removes Start process, needs done again after updates) (borks start menu, right click on start menu required)
 
-+++ MINIMAL C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe.bak (***) (removes Search process, needs done again after updates) (breaks Search)
++++ MINIMAL C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe.bak (***) (removes Search process, needs done again after updates) (borks Search)
 
-+++ ULTRA MINIMAL C:\Windows\System32\ApplicationFrameHost.exe.bak (***) (removes "Application Frame Host" process, needs done again after updates) (displays UWP apps in separate frames/Windows) (breaks Settings)
++++ ULTRA MINIMAL C:\Windows\System32\ApplicationFrameHost.exe.bak (***) (removes "Application Frame Host" process, needs done again after updates) (displays UWP apps in separate frames/Windows) (borks Settings)
 
 Download shutup10++, open in downloads and disable most settings
 
