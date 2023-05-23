@@ -448,3 +448,5 @@ You cannot be in the Windows Insider program if you're on a local account, requi
 
 Be careful with driver updater programs. Some programs (IObit Driver Booster) download bad / questionable drivers that can break components (like keyboard and mouse).
    +++ NEVER install drivers that driver updater programs find. use them as reference and look them up, then download yourself if legit
+
+You need to reinstall video drivers and disable services again after new insider build updates
