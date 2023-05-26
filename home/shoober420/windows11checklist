@@ -445,13 +445,14 @@ Fix Windows Insider program stuck showing "A newer build is available in Windows
  - bcdedit /set flightsigning on
  - bcdedit /set {bootmgr} flightsigning on
  - reboot
+ 
+ Enable legacy boot menu (f8 at startup)
+ - bcdedit /set {default} bootmenupolicy legacy
+ 
+ Windows 10+ disabled "Last Known Good Configuration" boot option, enable with:
+ - bcdedit /set lastknowngood yes
 
 AMD Adrenalin Program (C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe)
-
-Enable legacy boot menu (f8 at startup)
- - bcdedit /set {default} bootmenupolicy legacy
-
-Windows 10+ removed "Last Known Good Configuration" boot option
 
 You cannot be in the Windows Insider program if you're on a local account, requires Microsoft account sign-in
 
