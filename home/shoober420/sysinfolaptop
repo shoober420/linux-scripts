@@ -1,0 +1,79 @@
+
+Computer Information:
+Manufacturer: Unknown
+Model: Unknown
+Form Factor: Laptop
+No Touch Input Detected
+Processor Information:
+CPU Vendor: AuthenticAMD
+CPU Brand: AMD Ryzen 9 4900HS with Radeon Graphics
+CPU Family: 0x17
+CPU Model: 0x60
+CPU Stepping: 0x1
+CPU Type: 0x0
+Speed: 2994 MHz
+16 logical processors
+8 physical processors
+Hyper-threading: Supported
+FCMOV: Supported
+SSE2: Supported
+SSE3: Supported
+SSSE3: Supported
+SSE4a: Supported
+SSE41: Supported
+SSE42: Supported
+AES: Supported
+AVX: Supported
+AVX2: Supported
+AVX512F: Unsupported
+AVX512PF: Unsupported
+AVX512ER: Unsupported
+AVX512CD: Unsupported
+AVX512VNNI: Unsupported
+SHA: Supported
+CMPXCHG16B: Supported
+LAHF/SAHF: Supported
+PrefetchW: Unsupported
+Operating System Version:
+Windows 11 (64 bit)
+NTFS: Supported
+Crypto Provider Codes: Supported 311 0x0 0x0 0x0
+Video Card:
+Driver Not Detected
+DirectX Driver Name: nvldumd.dll
+Driver Version Not Detected
+DirectX Driver Version: 31.0.15.3217
+Driver Date Not Detected
+OpenGL Version: 4.6
+DirectX Card: NVIDIA GeForce RTX 2060 with Max-Q Design
+VendorID: 0x10de
+DeviceID: 0x1f12
+Revision: 0xa1
+Number of Monitors: 1
+Number of Logical Video Cards: 1
+No SLI or Crossfire Detected
+Primary Display Resolution: 1920 x 1080
+Desktop Resolution: 1920 x 1080
+Primary Display Size: 21.42" x 11.93" (24.49" diag), 54.4cm x 30.3cm (62.2cm diag)
+Primary Bus: PCI Express 8x
+Primary VRAM: 6143 MB
+Supported MSAA Modes: 2x 4x 8x
+Sound card:
+Audio device: Speakers (Realtek(R) Audio)
+Memory:
+RAM: 15789 Mb
+VR Hardware:
+VR Headset: None detected
+Miscellaneous:
+UI Language: English
+Media Type: Undetermined
+Total Hard Disk Space Available: 955616 MB
+Largest Free Hard Disk Block: 612507 MB
+OS Install Date: Jun 14 2023
+Game Controller: None detected
+MAC Address hash: 3981cd8a6319b9fb496e431ea038e3291ab2b089
+Storage:
+Disk serial number hash: 0
+Number of SSDs: 0
+Number of HDDs: 0
+Number of removable drives: 0
