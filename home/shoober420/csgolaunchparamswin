@@ -1,0 +1,1 @@
+-clientport 65007 -console -forcenovsync -fullscreen -high -noff -noforcemaccel -noforcemspd -nohltv -nojoy -nosteamcontroller -novid -preload -threads 16 -tickrate 128 +exec autoexec.cfg -nodns -no-browser -noaafonts -softparticlesdefaultoff -limitvsconst
