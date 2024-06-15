@@ -1,42 +1,64 @@
-#######################################
-### shoober420 -OfastLTO env script ###
-#######################################
-
-app-crypt/gpgme nolto.conf
-# cross-i686-w64-mingw32/binutils default.conf
-cross-i686-w64-mingw32/gcc gcc.conf mingwgcc.conf
-cross-i686-w64-mingw32/mingw64-runtime nolto.conf
-# cross-x86_64-w64-mingw32/binutils default.conf
-cross-x86_64-w64-mingw32/gcc gcc.conf mingwgcc.conf
-cross-x86_64-w64-mingw32/mingw64-runtime nolto.conf
-dev-lang/python ofastmath.conf
-dev-lang/ruby nolto.conf
-dev-libs/libbsd nolto.conf
-dev-scheme/guile nolto.conf ofastmath.conf
-games-fps/tyrquake nounsafemath.conf   # -fassociative-math crashes tyrquake
-games-fps/yamagi-quake2 o2.conf # player stuck in world model
 media-libs/alsa-lib ltopartition.conf
-# media-libs/mesa nolto.conf   # fixes vulkan black screen bug=should be fixed now
-net-libs/quiche ofastquiche.conf
-sys-apps/groff ofastgroff.conf
+#dev-lang/python ofastmath.conf
+#sys-apps/groff ofastgroff.conf
 sys-apps/sandbox nolto.conf
-sys-devel/clang nolto.conf
-=sys-devel/gcc-11.2.0 gcc.conf # fipa-pita fails during build / flto not needed since its enabled via USE flags
-=sys-devel/gcc-12.0.0_pre9999 gcc.conf # fipa-pita fails during build / flto not needed since its enabled via USE flags
-sys-devel/llvm nolto.conf
+sys-devel/llvm llvm.conf
+sys-devel/clang llvm.conf
 sys-libs/efivar ltopartition.conf
-sys-libs/glibc glibc.conf    # no-semantic-interposition borks mesa / -fassociative-math borks lots of games
-x11-base/xorg-server nofipapta.conf   # fipa-pta breaks xorg often
-
-# network sandbox needs disabled for these packages
-dev-libs/libunistring networksandboxenv.conf
+dev-libs/libbsd nolto.conf
+=sys-devel/gcc-11.2.0 gcc.conf
+=sys-devel/gcc-12.0.0_pre9999 gcc.conf
+=sys-devel/gcc-13.0.9999 gcc.conf
+#cross-i686-w64-mingw32/gcc gcc.conf mingwgcc.conf
+#cross-i686-w64-mingw32/mingw64-runtime nolto.conf
+#cross-i686-w64-mingw32/binutils default.conf
+#cross-x86_64-w64-mingw32/gcc gcc.conf mingwgcc.conf
+#cross-x86_64-w64-mingw32/mingw64-runtime nolto.conf
+#cross-x86_64-w64-mingw32/binutils default.conf
+sys-libs/glibc glibcwild.conf nosandbox.conf
+#net-libs/quiche ofastquiche.conf networksandboxenv.conf nosandbox.conf
 gnome-base/librsvg networksandboxenv.conf
-media-libs/glew networksandboxenv.conf
 net-libs/gnutls networksandboxenv.conf
-net-dns/libidn2 networksandboxenv.conf
+dev-scheme/guile nolto.conf
+net-dns/libidn2 networksandboxenv.conf nosandbox.conf
 net-dns/libidn networksandboxenv.conf
-sys-apps/coreutils networksandboxenv.conf
+dev-lang/ruby nolto.conf
 sys-devel/gettext networksandboxenv.conf
-
-# sandbox needs disabled for these packages
+sys-apps/coreutils networksandboxenv.conf
+x11-base/xorg-server nopta.conf
+dev-libs/libunistring networksandboxenv.conf
 media-libs/alsa-topology-conf nosandbox.conf
+media-libs/mesa mesa.conf
+media-libs/dav1d nolto.conf
+#games-fps/tyrquake tyrquake.conf
+#games-fps/yamagi-quake2 o2.conf
+#games-fps/uhexen2 default.conf
+#games-fps/iortcw-sp default.conf
+#games-fps/iortcw-mp default.conf
+media-libs/glew networksandboxenv.conf
+app-crypt/gpgme nolto.conf 
+#media-video/ffmpeg nolto.conf
+dev-libs/libpipeline networksandboxenv.conf
+app-emulation/dxvk-async default.conf
+
+#sys-devel/gcc default.conf
+#dev-libs/wayland-protocols default.conf
+#dev-libs/wayland default.conf
+#media-plugins/alsa-plugins default.conf
+#media-libs/alsa-lib default.conf
+#sys-devel/llvm llvmcovid.conf
+#sys-libs/glibc glibccovid.conf nosandbox.conf
+#x11-base/xorg-server default.conf
+#media-libs/mesa o2.conf
+#media-libs/libsdl2 default.conf
+#media-libs/sdl2-ttf default.conf
+#media-libs/sdl2-image default.conf
+#media-libs/sdl2-mixer default.conf
+#dev-util/vulkan-tools default.conf
+#media-libs/vulkan-loader default.conf
+#media-libs/vulkan-layers default.conf
+#dev-util/vulkan-headers default.conf
+#dev-util/glslang default.conf
+#x11-libs/libdrm default.conf
+
+#doas emerge -av sys-devel/gcc wayland-protocols wayland alsa-plugins alsa-lib llvm glibc xorg-server mesa libsdl2 sdl2-ttf sdl2-image sdl2-mixer vulkan-loader vulkan-headers libdrm 
