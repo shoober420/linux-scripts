@@ -1,3 +1,4 @@
--nghttp3
 -ssl
+-nghttp3
 -custom-cflags
+-curl_ssl_winssl
