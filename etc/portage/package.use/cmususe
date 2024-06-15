@@ -1,0 +1,1 @@
+media-sound/cmus -libsamplerate -opus -pulseaudio -vorbis -mad -mikmod -modplug -ffmpeg
