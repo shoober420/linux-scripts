@@ -3,8 +3,8 @@ dev-libs/glib:2
 dev-libs/libgcrypt
 dev-libs/nspr
 dev-libs/nss
-gnome-base/gconf
-# gnome-extra/zenity   # not needed - prevents installation of gtk3
+#gnome-base/gconf
+#gnome-extra/zenity
 media-libs/alsa-lib
 media-libs/fontconfig
 media-libs/freetype:2
@@ -33,7 +33,7 @@ x11-libs/libXrender
 x11-libs/pango
 x11-libs/pixman
 
-# optional (STEAM_RUNTIME=0)
+# optional
 media-sound/pulseaudio
 net-misc/networkmanager
 x11-misc/xdg-user-dirs
