@@ -353,3 +353,7 @@ gcc --version
 
 ## emerge -1av --keep-going sys-devel/gcc sys-devel/binutils automake meson libtool glibc icu llvm    # clang
 ## emerge -eav --keep-going --exclude "sys-devel/gcc sys-devel/binutils automake meson libtool glibc icu llvm" @world   # clang
+
+CTRL+D = Logout
+CTRL+A = Beginning of line
+CTRL+E = End of line
