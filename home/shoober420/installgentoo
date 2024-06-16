@@ -354,6 +354,11 @@ gcc --version
 ## emerge -1av --keep-going sys-devel/gcc sys-devel/binutils automake meson libtool glibc icu llvm    # clang
 ## emerge -eav --keep-going --exclude "sys-devel/gcc sys-devel/binutils automake meson libtool glibc icu llvm" @world   # clang
 
+List all files in file system by modification date and save to txt file
+ - find . -printf "%T@ %Tc %p\n" | sort -n > filesystemlist.txt
+
 CTRL+D = Logout
 CTRL+A = Beginning of line
 CTRL+E = End of line
+
+sh /etc/rc.local after login
