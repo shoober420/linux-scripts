@@ -361,4 +361,6 @@ CTRL+D = Logout
 CTRL+A = Beginning of line
 CTRL+E = End of line
 
+SHIFT+G = Last line in vim
+
 sh /etc/rc.local after login
