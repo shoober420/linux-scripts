@@ -12,9 +12,9 @@
 # mono required for: axiom verge
 # glfw-x11 required for: crypt of the necrodancer
 
-# gigantic army may need libjpeg.so.8 symlinks in /usr/lib and /usr/lib32
-# cave story+ requires LD_PRELOAD=/usr/lib32/libcurl.so.3 and sdl2 openal preloads removed# OPENSSL RC4
-# aquatic advanture of the last human requires LD_PRELOAD=/usr/lib32/libcurl.so.3 %command% # OPENSSL RC4
-# momodora-rum requires LD_PRELOAD=/usr/lib/libcurl.so.3 %command% # OPENSSL RC4
-# timespinner requires TERM="" %command#
-# hotline miami / mother russia bleeds blackscreens if mesa_glthread=true
+# gigantic army - may need libjpeg.so.8 symlinks in /usr/lib and /usr/lib32
+# cave story+ - requires LD_PRELOAD=/usr/lib32/libcurl.so.3 and sdl2 openal preloads removed# OPENSSL RC4
+# aquatic advanture of the last human - requires LD_PRELOAD=/usr/lib32/libcurl.so.3 %command% # OPENSSL RC4
+# momodora-rum - requires LD_PRELOAD=/usr/lib/libcurl.so.3 %command% # OPENSSL RC4
+# timespinner - requires TERM="" %command#
+# hotline miami / mother russia bleeds - blackscreens if mesa_glthread=true
