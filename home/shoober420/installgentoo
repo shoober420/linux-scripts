@@ -362,6 +362,7 @@ wgetpaste = upload txt files to pastebin
 ls -l = list files in directory along with file properties
 
 CTRL+C = Close program
+CTRL+/ = Kill program
 CTRL+D = Logout
 CTRL+A = Beginning of line
 CTRL+E = End of line
