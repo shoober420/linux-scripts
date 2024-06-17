@@ -367,4 +367,7 @@ CTRL+E = End of line
 SHIFT+G = Last line in vim
 gg = First line in vim
 
+runit-init 0 = poweroff
+runit-init 6 = reboot
+
 sh /etc/rc.local after login
