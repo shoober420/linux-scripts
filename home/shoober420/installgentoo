@@ -357,6 +357,7 @@ gcc --version
 List all files in file system by modification date and save to txt file
  - find . -printf "%T@ %Tc %p\n" | sort -n > filesystemlist.txt
 
+CTRL+C = Close program
 CTRL+D = Logout
 CTRL+A = Beginning of line
 CTRL+E = End of line
