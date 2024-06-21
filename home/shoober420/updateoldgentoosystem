@@ -16,6 +16,17 @@
 - mount --rbind /proc /mnt/build/proc
 - mount --rbind /sys /mnt/build/sys
 
-- create mount point for old environment
+- create mount point environment for old system
  + mkdir -p /mnt/build/mnt/host
  + mount --rbind / /mnt/build/mnt/host
+
+- cp -L /etc/resolv.conf /mnt/build/etc/
+- chroot /mnt/build
+- source /etc/profile
+- export PS1="(chroot) ${PS1}"
+
+- emerge --sync
+
+- emerge --root=/mnt/host --config-root=/mnt/host --verbose --oneshot sys-apps/portage
+
+- emerge --root=/mnt/host --config-root=/mnt/host --update --newuse --deep --ask @world
