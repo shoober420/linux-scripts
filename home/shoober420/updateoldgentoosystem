@@ -9,8 +9,13 @@
 - make directory in gentoo live usb path 
  + mkdir -p /mnt/build
 
+- mount stage3 tarball usb
+ + mkdir -p /mnt2
+ + fdisk -l
+ + mount /dev/sdb1 /mnt2
+
 - extract stage3 tarball into gentoo live usb directory
- + tar -xf /path/to/stage3-somearch-somedate.tar.bz2 -C /mnt/build
+ + tar -xf /mnt2/stage3-somearch-somedate.tar.bz2 -C /mnt/build
 
 - mount --rbind /dev /mnt/build/dev
 - mount --rbind /proc /mnt/build/proc
