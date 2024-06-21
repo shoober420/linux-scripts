@@ -1,13 +1,21 @@
-- burn latest gentoo minimal install iso to usb (https://distfiles.gentoo.org/releases/amd64/autobuilds/20240616T153408Z/install-amd64-minimal-202X0XXXT153408Z.iso)
+- burn latest gentoo minimal install iso to usb
+ + https://distfiles.gentoo.org/releases/amd64/autobuilds/20240616T153408Z/install-amd64-minimal-202X0XXXT153408Z.iso)
 
-- burn latest stage3 tarball to usb (https://distfiles.gentoo.org/releases/amd64/autobuilds/20240616T153408Z/stage3-amd64-openrc-202X0XXXT153408Z.tar.xz)
+- burn latest stage3 tarball to usb
+ + https://distfiles.gentoo.org/releases/amd64/autobuilds/20240616T153408Z/stage3-amd64-openrc-202X0XXXT153408Z.tar.xz
 
 - boot into gentoo live usb with other stage3 tarball usb stick connected
 
-- make directory in gentoo live usb path (mkdir -p /mnt/build)
+- make directory in gentoo live usb path 
+ + mkdir -p /mnt/build
 
-- extract stage3 tarball into gentoo live usb directory (tar -xf /path/to/stage3-somearch-somedate.tar.bz2 -C /mnt/build)
+- extract stage3 tarball into gentoo live usb directory
+ + tar -xf /path/to/stage3-somearch-somedate.tar.bz2 -C /mnt/build
 
 - mount --rbind /dev /mnt/build/dev
 - mount --rbind /proc /mnt/build/proc
 - mount --rbind /sys /mnt/build/sys
+
+- create mount point for old environment
+ + mkdir -p /mnt/build/mnt/host
+ + mount --rbind / /mnt/build/mnt/host
