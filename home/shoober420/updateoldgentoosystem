@@ -35,3 +35,5 @@
 - emerge --root=/mnt/host --config-root=/mnt/host --verbose --oneshot sys-apps/portage
 
 - emerge --root=/mnt/host --config-root=/mnt/host --update --newuse --deep --ask @world
+
+!!! dont forget to add "--root=/mnt/host --config-root=/mnt/host" to every emerge command so commands are directed to the old system
