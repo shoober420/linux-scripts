@@ -20,6 +20,7 @@
  - auracle clone wayland-protocols-git
  - auracle clone wlroots-git
  - auracle clone sway-git
+ - auracle clone swaybg-git
 
 # Update AUR packages
  - pacman -Qm - displays AUR packages
