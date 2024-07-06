@@ -29,7 +29,7 @@
 # Update yash
  - auracle clone yash-git
  - chsh -l
- - chsh -s /bin/yash shoober420
+ - chsh -s /usr/bin/yash shoober420
 
 # Update wayst terminal
  - auracle clone wayst-git
