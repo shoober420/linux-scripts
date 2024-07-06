@@ -26,7 +26,11 @@
  - auracle clone dash-git
  - ln -sfT dash /usr/bin/sh
 
-# Update yash
+# Dash as main shell
+ - chsh -l
+ - chsh -s /bin/dash shoober420
+
+# Update yash (optional)
  - auracle clone yash-git
  - chsh -l
  - chsh -s /usr/bin/yash shoober420
