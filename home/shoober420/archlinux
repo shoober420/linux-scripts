@@ -15,3 +15,5 @@
  - pacman -Qm - displays AUR packages
  - auracle outdated - displays out of date AUR PKGBUILDs
  - auracle clone *package* - downloads aur package
+
+CTRL+SHIFT+V = paste in vim
