@@ -15,6 +15,10 @@
  - makepkg
  - doas pacman -U auracle-git
 
+# Update Wayland / Sway
+ - auracle clone wayland-git
+ - auracle clone wayland-protocols-git
+
 # Update AUR packages
  - pacman -Qm - displays AUR packages
  - auracle outdated - displays out of date AUR PKGBUILDs
