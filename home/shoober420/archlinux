@@ -22,6 +22,10 @@
  - auracle clone sway-git
  - auracle clone swaybg-git
 
+# Update dash
+ - auracle clone dash-git
+ - ln -sfT dash /usr/bin/sh
+
 # Update AUR packages
  - pacman -Qm - displays AUR packages
  - auracle outdated - displays out of date AUR PKGBUILDs
