@@ -26,9 +26,23 @@
  - auracle clone dash-git
  - ln -sfT dash /usr/bin/sh
 
+# Update yash
+ - auracle clone yash-git
+ - chsh -l
+ - chsh -s /bin/yash shoober420
+
+# Update wayst terminal
+ - auracle clone wayst-git
+
 # Update AUR packages
  - pacman -Qm - displays AUR packages
  - auracle outdated - displays out of date AUR PKGBUILDs
  - auracle clone *package* - downloads aur package
 
-CTRL+SHIFT+V = paste in vim
+
+
+# Copy & Paste in vim
+ - SHIFT+V then use up and down arrow keys to aelect text to copy
+ - y = yank / copy text
+ - :e path/to/file
+ - p = put / paste text
