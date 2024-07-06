@@ -1,0 +1,10 @@
+Description='A simple WPA encrypted wireless connection'
+Interface=wlan0
+Connection=wireless
+
+Security=wpa
+IP=dhcp
+
+ESSID='name'
+Key='password'
+Hidden=no
