@@ -41,7 +41,7 @@
 # Update libdrm-git
  - auracle clone libdrm-git
 
-# Update graphics stack
+# Update graphics stack (use mesa-git user repo)
  - doas pacman -S mesa-git llvm-git llvm-libs-git
 
 # Update Chromium
@@ -57,7 +57,7 @@
 
 
 # Copy & Paste in vim
- - SHIFT+V then use up and down arrow keys to aelect text to copy
+ - SHIFT+V then use up and down arrow keys to select text to copy
  - y = yank / copy text
  - :e path/to/file
  - p = put / paste text
