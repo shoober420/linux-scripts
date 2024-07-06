@@ -46,6 +46,7 @@
 
 # Update Chromium
  - auracle clone chromium-snapshot-bin
+ - chromium-snapshot-bin
 
 # Update AUR packages
  - pacman -Qsq '\-git$' = displays all git packages
