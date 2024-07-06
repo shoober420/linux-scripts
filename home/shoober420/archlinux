@@ -25,8 +25,6 @@
 # Update dash
  - auracle clone dash-git
  - ln -sfT dash /usr/bin/sh
- - chsh -l
- - chsh -s /bin/dash shoober420
 
 # Update AUR packages
  - pacman -Qm - displays AUR packages
