@@ -6,6 +6,10 @@
  - make sure /etc/pacman.d/mirrorlist has an up too date mirror link
 - doas pacman -Syyu
 
+# New makepkg.conf
+ - doas rm /etc/makepkg.conf
+ - doas pacman -S pacman
+
 # Update auracle (if needed)
  - auracle clone auracle-git
  - makepkg
