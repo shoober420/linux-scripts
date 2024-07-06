@@ -44,6 +44,9 @@
 # Update graphics stack
  - doas pacman -S mesa-git llvm-git llvm-libs-git
 
+# Update Chromium
+ - auracle clone chromium-snapshot-bin
+
 # Update AUR packages
  - pacman -Qsq '\-git$' = displays all git packages
  - pacman -Qm = displays AUR packages installed with AUR helper
