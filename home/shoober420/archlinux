@@ -35,9 +35,10 @@
  - auracle clone wayst-git
 
 # Update AUR packages
- - pacman -Qm - displays AUR packages
- - auracle outdated - displays out of date AUR PKGBUILDs
- - auracle clone *package* - downloads aur package
+ - pacman -Qsq '\-git$' = displays all git packages
+ - pacman -Qm = displays AUR packages installed with AUR helper
+ - auracle outdated = displays out of date AUR PKGBUILDs
+ - auracle clone *package* = downloads aur package
 
 
 
