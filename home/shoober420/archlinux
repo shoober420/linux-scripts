@@ -18,6 +18,8 @@
 # Update Wayland / Sway
  - auracle clone wayland-git
  - auracle clone wayland-protocols-git
+ - auracle clone wlroots-git
+ - auracle clone sway-git
 
 # Update AUR packages
  - pacman -Qm - displays AUR packages
