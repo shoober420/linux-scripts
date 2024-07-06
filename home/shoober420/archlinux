@@ -1,0 +1,7 @@
+# Enable Internet
+ - doas netctl start eth0 (wired)
+ - doas netctl start wlan0 (wireless)
+
+# Update system
+ - make sure /etc/pacman.d/mirrorlist has an up too date mirror link
+- doas pacman -Syyu
