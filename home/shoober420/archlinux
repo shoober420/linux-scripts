@@ -5,3 +5,8 @@
 # Update system
  - make sure /etc/pacman.d/mirrorlist has an up too date mirror link
 - doas pacman -Syyu
+
+# Update auracle (if needed)
+ - auracle clone auracle-git
+ - makepkg
+ - doas pacman -U auracle-git
