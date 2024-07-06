@@ -34,8 +34,11 @@
 # Update wayst terminal
  - auracle clone wayst-git
 
+# Update libdrm-git
+ - auracle clone libdrm-git
+
 # Update graphics stack
- - doas pacman -S libdrm-git mesa-git llvm-git llvm-libs-git
+ - doas pacman -S mesa-git llvm-git llvm-libs-git
 
 # Update AUR packages
  - pacman -Qsq '\-git$' = displays all git packages
