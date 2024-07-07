@@ -62,6 +62,8 @@
  - open aur.pub
  - copy and paste key into "My Account" on Arch AUR profile page
 
+ - git -c init.defaultbranch=master clone ssh://aur@aur.archlinux.org/pkgbase.git
+
  - makepkg --printsrcinfo > .SRCINFO
  - git add PKGBUILD .SRCINFO
  - git commit -m "useful commit message"
