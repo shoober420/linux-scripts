@@ -44,6 +44,12 @@
 # Update graphics stack (use mesa-git user repo)
  - doas pacman -S mesa-git llvm-git llvm-libs-git
 
+# Update chicago95 GTK theme
+ - auracle clone chicago95-gtk-theme-git
+
+# Update pcmanfm
+ - doas pacman -F pcmanfm
+
 # Update Chromium
  - auracle clone chromium-snapshot-bin
  - chromium-snapshot-bin
