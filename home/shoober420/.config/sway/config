@@ -33,13 +33,13 @@ pointer_accel 0
 
 input * xkb_numlock enable
 
-#output * bg ~/wallpaper.png fill
+#output * bg ~/wallpaper.jpg fill
 #output * bg #000000 solid_color
 
 #output * res 640x480@75Hz
-output * res 1920x1080@240Hz
+#output * res 1920x1080@240Hz
 
-output LVDS-1 disable
+#output LVDS-1 disable
 
 output * scale_filter nearest
 
