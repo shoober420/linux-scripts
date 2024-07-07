@@ -57,6 +57,8 @@
  - auracle clone sdl3-git
  - auracle clone openal-git
 
+ - doas pacman -S sdl2_mixer sdl2_image sdl2_net
+
 # Update Chromium
  - auracle clone chromium-snapshot-bin
  - chromium-snapshot-bin
