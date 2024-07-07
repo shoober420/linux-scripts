@@ -51,6 +51,10 @@
  - doas pacman -F pcmanfm
  - put "gtkrc" and "gtk3settings.ini" in "/etc/gtk-2.0" and "/etc/gtk-3.0'
 
+# Update sdl3-git and openal-git
+ - auracle clone sdl3-git
+ - auracle clone openal-git
+
 # Update Chromium
  - auracle clone chromium-snapshot-bin
  - chromium-snapshot-bin
