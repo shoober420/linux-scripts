@@ -56,6 +56,19 @@
 
 
 
+# Upload AUR packages
+ - put ssh "config" file in ~/.ssh/
+ - ssh-keygen -f ~/.ssh/aur
+ - open aur.pub
+ - copy and paste key into "My Account" on Arch AUR profile page
+
+ - makepkg --printsrcinfo > .SRCINFO
+ - git add PKGBUILD .SRCINFO
+ - git commit -m "useful commit message"
+ - git push
+
+
+
 # Copy & Paste in vim
  - SHIFT+V then use up and down arrow keys to select text to copy
  - y = yank / copy text
