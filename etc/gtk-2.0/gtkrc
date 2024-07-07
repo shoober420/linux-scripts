@@ -1,3 +1,5 @@
+# Directories this file can go in
+# "/etc" preferred for system wide changes
 # /etc/gtk-2.0
 # /usr/share/gtk-2.0
 # ~/.config/gtk-2.0
