@@ -1,6 +1,6 @@
 #xwayland disable
 
-font pango:IBMPlexMono-Regular 0
+font pango:IBMPlexMono-Regular 12
 
 #default_border none
 #default_floating_border none
