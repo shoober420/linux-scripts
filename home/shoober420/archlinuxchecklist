@@ -51,7 +51,9 @@
  - doas pacman -F pcmanfm
  - put "gtkrc" and "gtk3settings.ini" in "/etc/gtk-2.0" and "/etc/gtk-3.0'
 
-# Update sdl3-git and openal-git
+# Update sdl2-git, sdl3-git and openal-git
+  + most games dont support sdl3
+ - auracle clone sdl2-git
  - auracle clone sdl3-git
  - auracle clone openal-git
 
