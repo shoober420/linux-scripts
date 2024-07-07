@@ -14,8 +14,10 @@ blink="true:500:500:-1"
 decorations=none
 
 colorscheme="xterm"
-#bg-color="#00000099"
 bg-color="#000000"
 fg-color="#00ff7f"
 h-bg-color="#000000"
 h-fg-color="#00ff7f"
+
+# enable transparency for terminal
+#bg-color="#00000099"
