@@ -53,7 +53,7 @@
 
 # Update sdl2-git, sdl3-git and openal-git
   + most games dont support sdl3
- - auracle clone sdl2-git
+ - auracle clone sdl2-git (SDL_X11=OFF build option might be required for pure wayland systems)
  - auracle clone sdl3-git
  - auracle clone openal-git
 
