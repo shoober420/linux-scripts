@@ -1,4 +1,4 @@
-#xwayland disable
+xwayland disable
 
 font pango:IBMPlexMono-Regular 12
 
