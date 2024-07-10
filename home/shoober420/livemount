@@ -3,10 +3,12 @@
 mount /dev/nvme0n1p2 /mnt/gentoo
 mount /dev/nvme0n1p1 /mnt/gentoo/boot
 mount /dev/nvme0n1p3 /mnt/gentoo/home
-cp --dereference /etc/resolv.conf /mnt/gentoo/etc
-mount --types proc /proc /mnt/gentoo/proc
-mount --rbind /sys /mnt/gentoo/sys
 mount --rbind /dev /mnt/gentoo/dev
+mount -t proc /proc /mnt/gentoo/proc
+mount --rbind /sys /mnt/gentoo/sys
+mount --rbind /tmp /mnt/gentoo/tmp
+mount --bind /run /mnt/gentoo/run
+cp /etc/resolv.conf /mnt/gentoo/etc
 chroot /mnt/gentoo /bin/bash
-source /etc/profile
+. /etc/profile
 export PS1="(chroot) ${PS1}"
