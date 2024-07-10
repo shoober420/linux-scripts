@@ -1,3 +1,5 @@
+# --make-rslave is only needed for systemd machines
+
 mount /dev/nvme0n1p2 /mnt/gentoo
 mount /dev/nvme0n1p1 /mnt/gentoo/boot
 mount /dev/nvme0n1p3 /mnt/gentoo/home
