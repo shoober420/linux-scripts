@@ -358,6 +358,7 @@ List all files in file system by modification date and save to txt file
  - find . -printf "%T@ %Tc %p\n" | sort -n > filesystemlist.txt
 
 wgetpaste = upload txt files to pastebin
+wgetpaste -ic "emerge -p -uvDU @world" = emerge update log
 
 ls -l = list files in directory along with file properties
 
