@@ -10,7 +10,17 @@
 # mount /dev/nvme0n1p2 /mnt/gentoo
 # cd /mnt/gentoo
 
-# wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64/stage3-amd64-20210331T214503Z.tar.xz     (tar.xz date format is YEAR/MONTH/DAY T)
+# traditional method for stage3 tarball
+# links https://www.gentoo.org/downloads/mirrors/
+# use arrow keys to navigate
+# Gentoo source mirrors: North America > US > Enter key
+# choose download mirror
+
+## cell phone method for stage3 tarball
+## get filename and date for latest stage3 tarball
+## https://www.gentoo.org/downloads/
+## click on stage3 openrc
+## wget https://distfiles.gentoo.org/releases/amd64/autobuilds/20241013T160327Z/stage3-amd64-openrc-20241013T160327Z.tar.xz (tar.xz date format is YEAR/MONTH/DAY T)
 
 # tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner
 
