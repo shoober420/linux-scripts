@@ -5,6 +5,21 @@
 # gentoo minimal installation boot media only
 
 # partition disk (parted)
+# parted -a optimal /dev/nvme0n1
+## rm 1
+## rm 2
+## rm 3
+# mklabel gpt
+# unit mib
+# mkpart primary 3 1003
+# name 1 boot
+# mkpart primary 1003 51003
+# name 2 root
+# mkpart primary 51003 -1
+# name 3 home
+# set 1 boot on
+# quit
+
 # format disk (mkfs)
 
 # mount /dev/nvme0n1p2 /mnt/gentoo
