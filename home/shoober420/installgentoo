@@ -4,7 +4,7 @@
 
 # gentoo minimal installation boot media only
 
-# partition disk (parted or gdisk)
+# partition disk (parted)
 # format disk (mkfs)
 
 # mount /dev/nvme0n1p2 /mnt/gentoo
