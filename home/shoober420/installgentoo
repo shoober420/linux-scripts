@@ -26,9 +26,9 @@
 ## boot
 # mkfs.fat -F 32 /dev/nvme0n1p1
 ## root
-# mke2fs -t ext4 -O ^64bit,^encrypt,^has_journal,^journal_dev,^verity /dev/nvme0n1p2
+# mke2fs -t ext4 -O ^64bit,^encrypt,^has_journal,^journal_dev /dev/nvme0n1p2
 ## home
-# mke2fs -t ext4 -O ^64bit,^encrypt,^has_journal,^journal_dev,^verity /dev/nvme0n1p3
+# mke2fs -t ext4 -O ^64bit,^encrypt,^has_journal,^journal_dev /dev/nvme0n1p3
 
 # mount /dev/nvme0n1p2 /mnt/gentoo
 # cd /mnt/gentoo
