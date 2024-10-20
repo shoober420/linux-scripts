@@ -2,9 +2,9 @@
   ######     install gentoo like its 1999     ######
 #====================================================#
 
-# gentoo minimal installation boot media only
+### gentoo minimal installation boot media only
 
-# partition disk (parted)
+### partition disk (parted)
 # parted -a optimal /dev/nvme0n1
 ## rm 1
 ## rm 2
@@ -20,7 +20,9 @@
 # set 1 boot on
 # quit
 
-# format disk (mkfs)
+### format disk (mkfs)
+### journaling on xfs CANNOT be disabled
+### ext4 without journaling is faster than ext2
 # mkfs.fat -F 32 /dev/nvme0n1p1   (boot)
 # mkfs.xfs -f /dev/nvme0n1p2   (root)
 # mkfs.xfs -f /dev/nvme0n1p3   (home)
