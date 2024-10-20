@@ -20,12 +20,15 @@
 # set 1 boot on
 # quit
 
-### format disk (mkfs)
+### format disk (mke2fs for ext4) (mkfs for all other file systems)
 ### journaling on xfs CANNOT be disabled
 ### ext4 without journaling is faster than ext2
-# mkfs.fat -F 32 /dev/nvme0n1p1   (boot)
-# mkfs.xfs -f /dev/nvme0n1p2   (root)
-# mkfs.xfs -f /dev/nvme0n1p3   (home)
+## boot
+# mkfs.fat -F 32 /dev/nvme0n1p1
+## root
+# mke2fs -t ext4 -O ^has_journal,^uninit_bg,^ext_attr,^huge_file,^64bit /dev/nvme0n1p2
+## home
+# mke2fs -t ext4 -O ^has_journal,^uninit_bg,^ext_attr,^huge_file,^64bit /dev/nvme0n1p3
 
 # mount /dev/nvme0n1p2 /mnt/gentoo
 # cd /mnt/gentoo
