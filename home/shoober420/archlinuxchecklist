@@ -21,11 +21,11 @@
  1. auracle clone wayland-git
  2. auracle clone wayland-protocols-git
  3. auracle clone xorgproto-git
-  + 4. auracle clone xorg-server-git (press q to start build) (optional)
-  + 5. auracle clone xorg-xwayland-git (optional)
- 6. auracle clone wlroots-git (-Dxwayland=disabled)
- 7. auracle clone sway-git
- 8. auracle clone swaybg-git
+  +A. auracle clone xorg-server-git (press q to start build) (optional)
+  +B. auracle clone xorg-xwayland-git (optional)
+ 4. auracle clone wlroots-git (-Dxwayland=disabled)
+ 5. auracle clone sway-git
+ 6. auracle clone swaybg-git
 
 # Update dash
  - auracle clone dash-git
