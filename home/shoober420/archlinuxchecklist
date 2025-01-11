@@ -21,7 +21,7 @@
  1. auracle clone wayland-git
  2. auracle clone wayland-protocols-git
  3. auracle clone xorgproto-git
- 4. auracle clone xorg-server-git
+ 4. auracle clone xorg-server-git (press q to start build)
  5. auracle clone wlroots-git
  6. auracle clone sway-git
  7. auracle clone swaybg-git
