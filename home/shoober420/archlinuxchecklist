@@ -20,9 +20,9 @@
 # Update Wayland / Sway
  1. auracle clone wayland-git
  2. auracle clone wayland-protocols-git
- 3. auracle clone xorgproto-git
- 4. auracle clone xorg-server-git (press q to start build)
- 5. auracle clone xorg-xwayland-git
+  + 3. auracle clone xorgproto-git (optional)
+  + 4. auracle clone xorg-server-git (press q to start build) (optional)
+  + 5. auracle clone xorg-xwayland-git (optional)
  6. auracle clone wlroots-git
  7. auracle clone sway-git
  8. auracle clone swaybg-git
