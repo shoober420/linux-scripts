@@ -1,3 +1,5 @@
+# If no updates are found after a hiatus from using an Arch machine, update the mirrorlist with the best mirror to get updates to work again
+
 # Enable Internet
  - doas netctl start eth0 (wired)
  - doas netctl start wlan0 (wireless)
