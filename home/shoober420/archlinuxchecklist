@@ -18,11 +18,11 @@
  - doas pacman -U auracle-git
 
 # Update Wayland / Sway
- - auracle clone wayland-git
- - auracle clone wayland-protocols-git
- - auracle clone wlroots-git
- - auracle clone sway-git
- - auracle clone swaybg-git
+ 1. auracle clone wayland-git
+ 2. auracle clone wayland-protocols-git
+ 3. auracle clone wlroots-git
+ 4. auracle clone sway-git
+ 5. auracle clone swaybg-git
 
 # Update dash
  - auracle clone dash-git
