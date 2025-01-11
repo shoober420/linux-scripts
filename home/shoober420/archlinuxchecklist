@@ -20,9 +20,11 @@
 # Update Wayland / Sway
  1. auracle clone wayland-git
  2. auracle clone wayland-protocols-git
- 3. auracle clone wlroots-git
- 4. auracle clone sway-git
- 5. auracle clone swaybg-git
+ 3. auracle clone xorgproto-git
+ 4. auracle clone xorg-server-git
+ 5. auracle clone wlroots-git
+ 6. auracle clone sway-git
+ 7. auracle clone swaybg-git
 
 # Update dash
  - auracle clone dash-git
