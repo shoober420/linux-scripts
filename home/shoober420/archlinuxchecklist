@@ -91,6 +91,7 @@
 
 # Setup AUR
  - put ssh "config" file in ~/.ssh/
+  + https://wiki.archlinux.org/title/AUR_submission_guidelines#Authentication
  - ssh-keygen -f ~/.ssh/aur
  - open aur.pub
  - copy and paste key into "My Account" on Arch AUR profile page
