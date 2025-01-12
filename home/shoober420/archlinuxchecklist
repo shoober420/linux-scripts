@@ -24,7 +24,7 @@
  - auracle clone libdrm-git
 
 # Update graphics stack (use mesa-git user repo)
- - doas pacman -S mesa-git llvm-git llvm-libs-git
+ - doas pacman -S mesa-git llvm-git llvm-libs-git clang-git
 
 # Update Wayland / Sway
  1. auracle clone wayland-git
