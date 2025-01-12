@@ -17,6 +17,20 @@
  - makepkg
  - doas pacman -U auracle-git
 
+# Update dash
+ - auracle clone dash-git
+ - ln -sfT dash /usr/bin/sh
+
+# Dash as main shell
+ - chsh -l
+ - chsh -s /bin/dash shoober420
+
+# Update yash (optional)
+ - auracle clone yash-git
+  + disable check section in pkgbuild
+ - chsh -l
+ - chsh -s /usr/bin/yash shoober420
+
 # Update libpciaccess-git
  - auracle clone libpciaccess-git
 
@@ -42,20 +56,6 @@
  4. auracle clone wlroots-git (-Dxwayland=disabled)
  5. auracle clone sway-git
  6. auracle clone swaybg-git
-
-# Update dash
- - auracle clone dash-git
- - ln -sfT dash /usr/bin/sh
-
-# Dash as main shell
- - chsh -l
- - chsh -s /bin/dash shoober420
-
-# Update yash (optional)
- - auracle clone yash-git
-  + disable docs and tests/check in pkgbuild
- - chsh -l
- - chsh -s /usr/bin/yash shoober420
 
 # Update wayst terminal
  - auracle clone wayst-git
@@ -87,14 +87,16 @@
 
 
 
-# Upload AUR packages
+# Setup AUR
  - put ssh "config" file in ~/.ssh/
  - ssh-keygen -f ~/.ssh/aur
  - open aur.pub
  - copy and paste key into "My Account" on Arch AUR profile page
 
+# Upload New AUR Package
  - git -c init.defaultbranch=master clone ssh://aur@aur.archlinux.org/pkgbase.git
 
+# Update AUR Package
  - makepkg --printsrcinfo > .SRCINFO
  - git add PKGBUILD .SRCINFO
  - git commit -m "useful commit message"
