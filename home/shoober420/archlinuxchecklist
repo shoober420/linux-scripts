@@ -78,6 +78,8 @@
 # Update Chromium
  - auracle clone chromium-snapshot-bin
  - chromium-snapshot-bin
+  + use "PKGEXT='.pkg.tar' makepkg" to skip package compression (takes very long)
+
 
 # Update AUR packages
  - pacman -Qsq '\-git$' = displays all git packages
