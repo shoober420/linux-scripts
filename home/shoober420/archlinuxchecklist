@@ -42,6 +42,7 @@
 
 # Update libinput-git
  - auracle clone libinput-git
+ - press q to start build
 
 # Update libdrm-git
  - auracle clone libdrm-git
