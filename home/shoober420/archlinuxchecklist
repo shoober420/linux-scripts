@@ -17,6 +17,9 @@
  - makepkg
  - doas pacman -U auracle-git
 
+# Update npth-git
+ - auracle clone npth-git
+
 # Update dash
  - auracle clone dash-git
  - ln -sfT dash /usr/bin/sh
