@@ -23,9 +23,6 @@
 # Update libevdev-git
  - auracle clone libevdev-git
 
-# Update libinput-gut
- - auracle clone libinput-git
-
 # Update libdrm-git
  - auracle clone libdrm-git
 
