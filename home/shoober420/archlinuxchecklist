@@ -25,6 +25,7 @@
 
 # Update graphics stack (use mesa-git user repo)
  - doas pacman -S mesa-git llvm-git llvm-libs-git clang-git
+ + symlinks to libclang.so.X.X and libclang-cpp.so.XX may be required
 
 # Update Wayland / Sway
  1. auracle clone wayland-git
