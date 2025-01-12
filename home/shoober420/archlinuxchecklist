@@ -100,7 +100,9 @@
  - copy and paste key into "My Account" on Arch AUR profile page
 
 # Upload New AUR Package
- - git -c init.defaultbranch=master clone ssh://aur@aur.archlinux.org/pkgbase.git
+ - cd ~/
+ - enter package name where indicated on string
+ - git -c init.defaultbranch=master clone ssh://aur@aur.archlinux.org/$PKGNAME.git
 
 # Update AUR Package
  - makepkg --printsrcinfo > .SRCINFO
