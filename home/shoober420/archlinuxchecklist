@@ -17,6 +17,9 @@
  - makepkg
  - doas pacman -U auracle-git
 
+# Update libpciaccess-git
+ - auracle clone libpciaccess-git
+
 # Update libdrm-git
  - auracle clone libdrm-git
 
@@ -27,8 +30,8 @@
  1. auracle clone wayland-git
  2. auracle clone wayland-protocols-git
  3. auracle clone xorgproto-git
-  +A. auracle clone xorg-server-git (press q to start build) (optional)
-  +B. auracle clone xorg-xwayland-git (optional)
+  +A. auracle clone xorg-server-git (press q to start build) (optional x11 support)
+  +B. auracle clone xorg-xwayland-git (optional x11 support)
  4. auracle clone wlroots-git (-Dxwayland=disabled)
  5. auracle clone sway-git
  6. auracle clone swaybg-git
