@@ -53,6 +53,7 @@
 
 # Update yash (optional)
  - auracle clone yash-git
+  + disable docs and tests/check in pkgbuild
  - chsh -l
  - chsh -s /usr/bin/yash shoober420
 
