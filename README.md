@@ -1,2 +1,2 @@
 # linux-scripts
-Backup of scripts and config files on my Gentoo and Arch Linux machines. 
+Scripts and config files for my Gentoo and Arch Linux machines. 
