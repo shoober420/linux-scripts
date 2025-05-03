@@ -1,0 +1,18 @@
+Android WebView Canary Settings
+-----------------------------------
+
+ignore-gpu-blocklist: Enabled
+https2-grease-settings: Enabled
+UseHardwareBufferUsageFlagsFromVulkan: Enabled
+AllowUndamagedNonrootRenderPassToSkip Enabled
+DrawImmediatelyWhenInteractive: Enabled
+AckOnSurfaceActivationWhenInteractive: Enabled
+UseNewAlpsCodepointQUIC: Enabled
+UseNewAlpsCodepointHttp2: Enabled
+FurthurOptimizeParsingDataUrls: Enabled
+WebviewAccelerateSmallCanvases: Enabled
+webview-selective-image-inversion-darkening: Enabled
+AsyncQuicSession: Enabled
+EnableTLS13EarlyData: Enabled
+AndroidHDR: Enabled
+DIPS: Enabled
