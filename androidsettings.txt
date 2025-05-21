@@ -37,7 +37,6 @@ Notifications > Enhanced notifications: Off
 
 https://www.winhistory.de/more/winstart/winstart_en.htm
  - WAVs are supported
- - 
 
 Sound & vibration:
  - Phone ringtone: o95 (Internal storage > Ringtones)
