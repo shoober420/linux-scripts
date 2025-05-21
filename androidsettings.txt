@@ -48,7 +48,7 @@ Sound & vibration:
  - Vibration & haptics > Keyboard vibration: Off
  - Default notification sound: Startup iMac G3 Retina and Aluminum and other Modern iMacs (Internal storage > Notifications)
  - Default alarm sound: o98 (Internal storage > Alarms)
-
+ - Clear Calling: Off
 
 Network & internet > Hotspot & tethering:
  - Wi-Fi hotspot: Off
