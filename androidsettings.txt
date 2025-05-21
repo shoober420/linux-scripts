@@ -35,6 +35,15 @@ Notifications > Notification cooldown: Off
 Notifications > Flash notifications: Off
 Notifications > Enhanced notifications: Off
 
+Sound & vibration:
+ - Phone ringtone: Windows 95
+ - Live Caption: ALL OFF
+ - Spatial audio: Off
+ - Now Playing: Off
+ - Media: Hide Player (ALL OFF)
+ - Vibration & haptics > Use vibration & haptics: On
+ - Vibration & haptics > Keyboard vibration: Off
+
 
 Network & internet > Hotspot & tethering:
  - Wi-Fi hotspot: Off
