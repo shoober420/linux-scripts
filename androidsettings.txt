@@ -61,7 +61,7 @@ Display & touch:
  - Dark Theme: On
  - Screen saver: Off
  - Display size and text > Font size: 1/7 (lowest)
- - Display size and text > Display size: 3/5 (middle)
+ - Display size and text > Display size: 5/5 (highest)
  - Display size and text > Bold text: Off
  - Display size and text > High contrast text: Off
  - Night Light: Off
