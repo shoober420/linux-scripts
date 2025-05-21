@@ -19,6 +19,12 @@ Connected devices > Connection preferences:
  - Quick Share > Device name: poopoopeepee
  - Quick Share > Who can share with you > Visible to nearby devices: Off (No one)
  - Quick Share > Use mobile data: Off
+ - Android Auto > Start Android Auto automatically: If used on the last drive
+ - Android Auto > Start Android Auto while locked: Off
+ - Android Auto > Start music automatically: Off
+ - Android Auto > Taskbar widgets: Off
+ - Android Auto > Messaging: ALL OFF
+ - Android Auto > Driver seat locations: Left
 
 
 Network & internet > Hotspot & tethering:
