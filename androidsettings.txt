@@ -8,6 +8,19 @@ Network & internet > Internet > :Carrier XXXX:
  - Choose network: :Carrier:
  - Allow 2G: Off
 
+Network & internet > Internet > :SSID: (Service Set Identifier)
+ - Privacy: Use randomized MAC
+
+Connected devices > Connection preferences:
+ - Bluetooth > Use Bluetooth: Off
+ - NFC > Use NFC: Off
+ - Connected Cameras > Use Connected Cameras: Off
+ - Printing > Default Print Service > Use print service: Off
+ - Quick Share > Device name: poopoopeepee
+ - Quick Share > Who can share with you > Visible to nearby devices: Off (No one)
+ - Quick Share > Use mobile data: Off
+
+
 Network & internet > Hotspot & tethering:
  - Wi-Fi hotspot: Off
  - USB tethering: Off
