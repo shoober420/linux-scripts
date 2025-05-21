@@ -9,7 +9,7 @@ DrawImmediatelyWhenInteractive: Enabled
 AckOnSurfaceActivationWhenInteractive: Enabled
 UseNewAlpsCodepointQUIC: Enabled
 UseNewAlpsCodepointHttp2: Enabled
-FurthurOptimizeParsingDataUrls: Enabled
+FurtherOptimizeParsingDataUrls: Enabled
 WebviewAccelerateSmallCanvases: Enabled
 webview-selective-image-inversion-darkening: Enabled
 AsyncQuicSession: Enabled
