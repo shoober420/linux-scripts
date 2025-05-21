@@ -27,6 +27,14 @@ Connected devices > Connection preferences:
  - Android Auto > Driver seat locations: Left
  - Ultra-Wideband (UWB): On
 
+Notifications > Notification history > Use notification history: Off
+Notifications > Bubbles > Allow appa to show bubbles: Off
+Notifications > Notifications on lock screen: Don't show any notifications on lock screen
+Notifications > Sensitive notifications: Off
+Notifications > Notification cooldown: Off
+Notifications > Flash notifications: Off
+Notifications > Enhanced notifications: Off
+
 
 Network & internet > Hotspot & tethering:
  - Wi-Fi hotspot: Off
