@@ -1,6 +1,13 @@
 Android 15 Settings
 -----------------------
 
+Network & internet > Internet > :Carrier XXXX:
+ - Wi-Fi calling: Off
+ - Carrier video calling: On
+ - Automatically select network: Off
+ - Choose network: :Carrier:
+ - Allow 2G: Off
+
 Network & internet > Hotspot & tethering:
  - Wi-Fi hotspot: Off
  - USB tethering: Off
