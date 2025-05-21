@@ -72,10 +72,18 @@ Display & touch:
 
 System:
  - Keyboard > On-screen keyboard > Gboard: On
+  - Preferences:
+   - Number row: Off
+   - Show emoji switch key: On
+   - Font: System default
+   - Sound on keypess: Off
+   - Haptic feedback on keypress: Off
+  - Theme: Black
+  - Text correction: ALL OFF
+  - Glide typing: ALL OFF
+  - Voice typing: ALL OFF
+  - Privacy: ALL OFF
+  - Translate: Off
  - Keyboard > On-screen keyboard > Google Voice Typing: Off
  - Keyboard > Spellchecker: Off
  - Live Translate: Off
-
-
-
-
