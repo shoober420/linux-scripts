@@ -1,0 +1,11 @@
+Android 15 Settings
+-----------------------
+
+Network & internet > Hotspot & tethering:
+ - Wi-Fi hotspot: Off
+ - USB tethering: Off
+ - Bluetooth tethering: Off
+ - Ethernet tethering: Off
+
+
+
