@@ -70,7 +70,11 @@ Display & touch:
  - Screen resolution: Max resolution
  - Smooth display: On
 
-System > Live Translate: Off
+System:
+ - Keyboard > On-screen keyboard > Gboard: On
+ - Keyboard > On-screen keyboard > Google Voice Typing: Off
+ - Keyboard > Spellchecker: Off
+ - Live Translate: Off
 
 
 
