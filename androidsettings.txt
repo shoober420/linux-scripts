@@ -56,5 +56,14 @@ Sound & vibration:
  - Default alarm sound: o98 (Internal storage > Alarms)
  - Clear Calling: Off
 
+Display & touch:
+ - Screen timeout: 15 seconds
+ - Dark Theme: On
+ - Screen saver: Off
+ - Display size and text > Font size: Lowest
+ - Display size and text > Display size: Lowest
+ - Display size and text > Bold text: Off
+ - Display size and text > High contrast text: Off
+
 
 
