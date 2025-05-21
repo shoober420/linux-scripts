@@ -43,6 +43,7 @@ Sound & vibration:
  - Media: Hide Player (ALL OFF)
  - Vibration & haptics > Use vibration & haptics: On
  - Vibration & haptics > Keyboard vibration: Off
+ - Default notification sound: Startup iMac G3 Retina and Aluminum and other Modern iMacs
 
 
 Network & internet > Hotspot & tethering:
