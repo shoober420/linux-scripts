@@ -25,6 +25,7 @@ Connected devices > Connection preferences:
  - Android Auto > Taskbar widgets: Off
  - Android Auto > Messaging: ALL OFF
  - Android Auto > Driver seat locations: Left
+ - Ultra-Wideband (UWB): On
 
 
 Network & internet > Hotspot & tethering:
