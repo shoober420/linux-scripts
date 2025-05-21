@@ -36,16 +36,19 @@ Notifications > Flash notifications: Off
 Notifications > Enhanced notifications: Off
 
 https://www.winhistory.de/more/winstart/winstart_en.htm
+ - WAVs are supported
+ - 
 
 Sound & vibration:
- - Phone ringtone: Windows 95
+ - Phone ringtone: o95 (Internal storage > Ringtones)
  - Live Caption: ALL OFF
  - Spatial audio: Off
  - Now Playing: Off
  - Media: Hide Player (ALL OFF)
  - Vibration & haptics > Use vibration & haptics: On
  - Vibration & haptics > Keyboard vibration: Off
- - Default notification sound: Startup iMac G3 Retina and Aluminum and other Modern iMacs
+ - Default notification sound: Startup iMac G3 Retina and Aluminum and other Modern iMacs (Internal storage > Notifications)
+ - Default alarm sound: o98 (Internal storage > Alarms)
 
 
 Network & internet > Hotspot & tethering:
