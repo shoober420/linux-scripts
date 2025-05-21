@@ -35,6 +35,8 @@ Notifications > Notification cooldown: Off
 Notifications > Flash notifications: Off
 Notifications > Enhanced notifications: Off
 
+https://www.winhistory.de/more/winstart/winstart_en.htm
+
 Sound & vibration:
  - Phone ringtone: Windows 95
  - Live Caption: ALL OFF
