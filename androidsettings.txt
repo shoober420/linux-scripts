@@ -127,6 +127,9 @@ System:
   - Override force-dark: On
   - Allow window-level blurs: Off
   - Force 4x MSAA: Off
+  - Disable HW overlays: On
+   + Better graphics, more battery usage
+   + Force GPU rendering on everything
   - Stylus handwriting: Off
 
 About phone:
