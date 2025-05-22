@@ -133,6 +133,7 @@ System:
   - Transparent navigation bar: Off
   - Override force-dark: On
    + Needs enabled after phone restart
+   + Use dark theme on all apps
   - Allow window-level blurs: Off
   - Force 4x MSAA: Off
    + Needs enabled after phone restart
