@@ -113,6 +113,8 @@ System:
  - Live Translate: Off
  - Developer options: On
   - USB Debugging: Off
+  - Linux development environment: On
+   + enables Terminal app
   - Logger buffer sizes: Off
   - Disable default frame rate for games: On
   - Graphics Driver Preferences: System Graphics Driver
