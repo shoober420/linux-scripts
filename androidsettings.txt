@@ -132,9 +132,12 @@ System:
   - Animator duration scale: Animation off
   - Transparent navigation bar: Off
   - Override force-dark: On
+   + Needs enabled after phone restart
   - Allow window-level blurs: Off
   - Force 4x MSAA: Off
+   + Needs enabled after phone restart
   - Disable HW overlays: On
+   + Needs enabled after phone restart
    + Better graphics, more battery usage
    + Force GPU rendering on everything
   - Stylus handwriting: Off
