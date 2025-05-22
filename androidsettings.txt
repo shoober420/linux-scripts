@@ -125,6 +125,7 @@ System:
   - Transparent navigation bar: Off
   - Override force-dark: On
   - Allow window-level blurs: Off
+  - Force 4x MSAA: Off
   - Stylus handwriting: Off
 
 About phone:
