@@ -111,6 +111,21 @@ System:
  - Keyboard > On-screen keyboard > Google Voice Typing: Off
  - Keyboard > Spellchecker: Off
  - Live Translate: Off
+ - Developer options: On
+  - USB Debugging: Off
+  - Disable default frame rate for games: On
+  - Force peak refresh rate: On
+  - Wi-Fi non-persistent MAC randomization: On
+  - Disable absolute volume: On
+  - Bluetooth AVRCP Version: AVRCP 1.6 (use latest)
+  - Bluetooth MAP Version: MAP 1.4 (use latest)
+  - Window animation scale: Animation off
+  - Transition animation scale: Animation off
+  - Animator duration scale: Animation off
+  - Transparent navigation bar: Off
+  - Override force-dark: On
+  - Allow window-level blurs: Off
+  - Stylus handwriting: Off
 
 About phone:
  - Device name: poopoopeepee
