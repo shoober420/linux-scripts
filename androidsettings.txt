@@ -21,6 +21,11 @@ Network & internet > Internet > :Carrier XXXX:
 Network & internet > Internet > :SSID: (Service Set Identifier)
  - Privacy: Use randomized MAC
 
+Network & internet > Internet > Network preferences:
+ - Turn on Wi-Fi automatically: Off
+ - Notify for public networks: Off
+ - Allow WEP networks: Off
+
 Network & internet > Hotspot & tethering:
  - Wi-Fi hotspot: Off
  - USB tethering: Off
