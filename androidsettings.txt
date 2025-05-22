@@ -4,6 +4,10 @@ Android Settings
 Enroll in Android beta program
  - Settings > System > Software updates > System updates > Check for updates
 
+Enroll in app beta programs
+ - google ":APPNAME: beta program"
+  + DONT enroll in the same app beta program on two different google accounts or the app will have issues updating 
+
 Network & internet > Internet > :Carrier XXXX:
  - Wi-Fi calling: Off
  - Carrier video calling: On
