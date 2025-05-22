@@ -118,6 +118,7 @@ System:
   - Logger buffer sizes: Off
   - Disable default frame rate for games: On
   - Graphics Driver Preferences: System Graphics Driver
+   +++ requires Android Debug Bridge (ADB)
    + adb shell settings put global game_driver_all_apps 2
   - Force peak refresh rate: On
   - Wi-Fi non-persistent MAC randomization: On
