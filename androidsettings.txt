@@ -2,6 +2,7 @@ Android Settings
 -----------------------
 
 Enroll in Android beta program
+ - google "android beta program" and opt-in for supported device
  - Settings > System > Software updates > System update > Check for update
 
 Enroll in app beta programs
