@@ -115,6 +115,8 @@ System:
   - USB Debugging: Off
   - Logger buffer sizes: Off
   - Disable default frame rate for games: On
+  - Graphics Driver Preferences: System Graphics Driver
+   + adb shell settings put global game_driver_all_apps 2
   - Force peak refresh rate: On
   - Wi-Fi non-persistent MAC randomization: On
   - Disable absolute volume: On
