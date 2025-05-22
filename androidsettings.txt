@@ -75,8 +75,8 @@ Display & touch:
 
 Wallpaper & style > Lock screen:
  - Clock:
-  - Style: Default 8/8 (highest)
-  - Color: Green (highest)
+  - Style: 7/8
+  - Color: Green
   - Size > Large: Off
  - Shortcuts: None
  - Notifications on lock screen: Off
