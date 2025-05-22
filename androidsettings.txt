@@ -7,6 +7,7 @@ Settings > About phone:
  - Device name: poopoopeepee
  - Model: Phone model
  - Android version: XX
+ - Wi-Fi MAC Address > Saved networks: Delete old networks
  - Build number: XX00.000000.000
 
 Enroll in Android beta program
