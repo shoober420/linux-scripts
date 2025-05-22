@@ -9,6 +9,7 @@ Settings > About phone:
  - Android version: XX
  - Wi-Fi MAC Address > Saved networks: Delete old networks
  - Build number: XX00.000000.000
+  + Tap "Build number" 7 times to enable Developer Options
 
 Enroll in Android beta program
  - google "android beta program" and opt-in for supported device
