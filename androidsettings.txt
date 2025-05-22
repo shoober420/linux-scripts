@@ -1,5 +1,8 @@
-Android 15 Settings
+Android Settings
 -----------------------
+
+Enroll in Android beta program
+ - Settings > System > Software updates > System updates > Check for updates
 
 Network & internet > Internet > :Carrier XXXX:
  - Wi-Fi calling: Off
