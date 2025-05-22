@@ -1,6 +1,8 @@
 Android Settings
 -----------------------
 
+Google Pixel phones receive the fastest Android updates
+
 Enroll in Android beta program
  - google "android beta program" and opt-in for supported device
  - Settings > System > Software updates > System update > Check for update
