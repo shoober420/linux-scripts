@@ -73,11 +73,19 @@ Display & touch:
  - Screen resolution: Max resolution
  - Smooth display: On
 
-Wallpaper & style:
+Wallpaper & style > Lock screen:
  - Clock:
   - Style: Default 8/8 (highest)
   - Color: Green (highest)
   - Size > Large: Off
+ - Shortcuts: None
+ - Notifications on lock screen: Off
+
+Wallpaper & style > Home screen:
+ - Colors > Other colors: Green
+ - Color contrast: Default
+ - Icons > Themed Icons: Off
+ - Layout: Medium
 
 System:
  - Keyboard > On-screen keyboard > Gboard: On
