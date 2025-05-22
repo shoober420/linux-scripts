@@ -73,6 +73,12 @@ Display & touch:
  - Screen resolution: Max resolution
  - Smooth display: On
 
+Wallpaper & style:
+ - Clock:
+  - Style: Default 8/8 (highest)
+  - Color: Green (highest)
+  - Size > Large: Off
+
 System:
  - Keyboard > On-screen keyboard > Gboard: On
   - Preferences:
