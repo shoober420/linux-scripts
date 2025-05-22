@@ -3,6 +3,12 @@ Android Settings
 
 Google Pixel phones receive the fastest Android updates
 
+Settings > About phone:
+ - Device name: poopoopeepee
+ - Model: Phone model
+ - Android version: XX
+ - Build number: XX00.000000.000
+
 Enroll in Android beta program
  - google "android beta program" and opt-in for supported device
  - Settings > System > Software updates > System update > Check for update
