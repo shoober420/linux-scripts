@@ -111,12 +111,14 @@ System:
  - Keyboard > On-screen keyboard > Google Voice Typing: Off
  - Keyboard > Spellchecker: Off
  - Live Translate: Off
+
  - Developer options: On
   - USB Debugging: Off
   - Linux development environment: On
    + enables Terminal app
   - Logger buffer sizes: Off
   - Disable default frame rate for games: On
+   + Needs enabled after phone restart
   - Graphics Driver Preferences: System Graphics Driver
    +++ requires Android Debug Bridge (ADB)
    + adb shell settings put global game_driver_all_apps 2
