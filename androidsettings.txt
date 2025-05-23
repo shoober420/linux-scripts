@@ -160,7 +160,7 @@ System:
    + Needs enabled after phone restart
    + Use dark theme on all apps
   - Allow window-level blurs: Off
-  - Force 4x MSAA: Off
+  - Force 4x MSAA: On
    + Needs enabled after phone restart
   - Disable HW overlays: On
    + Needs enabled after phone restart
