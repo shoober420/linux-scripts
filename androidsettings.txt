@@ -92,6 +92,10 @@ Sound & vibration:
  - Clear Calling: Off
 
 Display & touch:
+ - Adaptive brightness: Off
+ - Lock screen > Tap to check phone: Off
+ - Lock screen > Lift to check phone: Off
+ - Lock screen > Wake screen for notifications: Off
  - Screen timeout: 15 seconds
  - Dark Theme: On
  - Screen saver: Off
