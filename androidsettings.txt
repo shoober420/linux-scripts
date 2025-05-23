@@ -180,3 +180,9 @@ About phone:
  - Wi-Fi MAC Address > Saved networks: Delete old networks
  - Build number: XX00.000000.000
   + Tap "Build number" 7 times to enable Developer Options
+
+
+SetEdit
+--------------
+Global Table:
+ - "ambient_enabled" "0"
