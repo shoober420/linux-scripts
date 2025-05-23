@@ -151,6 +151,7 @@ System:
   - Disable absolute volume: On
   - Bluetooth AVRCP Version: AVRCP 1.6 (use latest)
   - Bluetooth MAP Version: MAP 1.4 (use latest)
+  - Maximum connected Bluetooth audio devices: 1
   - Window animation scale: Animation off
   - Transition animation scale: Animation off
   - Animator duration scale: Animation off
