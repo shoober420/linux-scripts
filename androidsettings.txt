@@ -48,6 +48,25 @@ Connected devices > Connection preferences:
  - Android Auto > Driver seat locations: Left
  - Ultra-Wideband (UWB): On
 
+Apps:
+ - AICore: Disabled
+ - Android Auto: Disabled
+ - Dreams: Disabled
+ - Emoji Workshop Wallpaper: Disabled
+ - Google: Disabled
+ - Google TV: Disabled
+ - Live Transcribe & Sound Notifications: Disabled
+ - Meet: Disabled
+ - Pixel Buds: Disabled
+ - Pixel Live Wallpaper: Disabled
+ - Pixel Screenshots: Disabled
+ - Pixel Tips: Disabled
+ - Pixel Weather: Disabled
+ - Sound Amplifier: Disabled
+ - Speech Recognition and Synthesis from Google: Disabled
+ - Thermometer: Disabled
+ - YouTube Music: Disabled
+
 Notifications > Notification history > Use notification history: Off
 Notifications > Bubbles > Allow appa to show bubbles: Off
 Notifications > Notifications on lock screen: Don't show any notifications on lock screen
