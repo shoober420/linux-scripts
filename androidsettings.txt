@@ -182,3 +182,20 @@ About phone:
  - Wi-Fi MAC Address > Saved networks: Delete old networks
  - Build number: XX00.000000.000
   + Tap "Build number" 7 times to enable Developer Options
+
+
+
+Android Debug Bridge (ADB)
+---------------------------------
+
+Null service must be enabled for ADB daemon to start
+ - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Null\Start "2"
+
+System > Developer options:
+ - USB debugging: On
+ - Default USB Configuration: File transfer / Android Auto
+ - download SDK Platform Tools (https://developer.android.com/tools/releases/platform-tools)
+ - unzip file in Downloads
+ - open terminal
+ - cd "%USERPROFILE%\Downloads\platform-tools"
+ - ./adb devices
