@@ -199,3 +199,5 @@ System > Developer options:
  - open terminal
  - cd "%USERPROFILE%\Downloads\platform-tools"
  - ./adb devices
+ - ./adb shell
+ - 
