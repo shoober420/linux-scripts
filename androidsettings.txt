@@ -233,3 +233,15 @@ settings put global game_driver_all_apps 2
 
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
+
+
+
+!!! WARNING !!!
+
+When done using ADB
+
+DISABLE USB DEBUGGING
+DEFAULT USB CONFIGURATION: NO DATA TRANSFER
+
+!!! WARNING !!!
+
