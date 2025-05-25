@@ -156,7 +156,7 @@ System:
   - Force peak refresh rate: On
   - ANGLE Preferences > Select OpenGL Driver: native
    + Needs enabled after phone restart
-   + Forces native OpenGL ES
+   + Forces native OpenGL ES (OpenGL Embedded Systems)
   - Wi-Fi non-persistent MAC randomization: On
   - Disable absolute volume: On
   - Bluetooth AVRCP Version: AVRCP 1.6 (use latest)
