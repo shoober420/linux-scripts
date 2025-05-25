@@ -200,4 +200,23 @@ System > Developer options:
  - cd "%USERPROFILE%\Downloads\platform-tools"
  - ./adb devices
  - ./adb shell
- - 
+
+
+
+Query Android settings:
+ - settings list system
+ - settings list secure
+ - settings list global
+ - getprop
+ 
+Tweak Android setting:
+ - settings put system setting_you_want 1
+ - settings put secure setting_you_want 1
+ - settings put global setting_you_want 1
+ - setprop setting_you_want 1 (REQUIRES ROOT)
+ 
+settings put global ambient_enabled 0
+settings put global audio_safe_volume_state 0
+settings put global enable_16k_pages 1
+
+setprop ro.surface_flinger.supports_background_blur 0
