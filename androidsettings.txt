@@ -208,6 +208,7 @@ System > Developer options:
 SetEdit requires root to edit tables
 
 /system/build.prop contains Android Properties
+ + requires unlocked bootloader to edit
 
 Unlocking bootloader requires factory resetting phone
  + makes phone insecure, especially physical access (evil maid attack)
@@ -232,5 +233,3 @@ settings put global game_driver_all_apps 2
 
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
-
-echo "ro.surface_flinger.supports_background_blur=0" >> /system/build.prop
