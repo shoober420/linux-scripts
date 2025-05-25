@@ -155,6 +155,7 @@ System:
    + adb shell settings put global game_driver_all_apps 2
   - Force peak refresh rate: On
   - ANGLE Preferences > Select OpenGL Driver: native
+   + Needs enabled after phone restart
   - Wi-Fi non-persistent MAC randomization: On
   - Disable absolute volume: On
   - Bluetooth AVRCP Version: AVRCP 1.6 (use latest)
@@ -224,11 +225,16 @@ Tweak Android setting:
  - setprop setting_you_want 1 (REQUIRES ROOT)
  
 settings put global ambient_enabled 0
-settings put global angle_gl_driver_all_angle 0
 settings put global audio_safe_volume_state 0
 settings put global enable_16k_pages 1
  + requires unlocked bootloader
 settings put global game_driver_all_apps 2
+
+Disable ANGLE (Force native OpenGL ES)
+ - settings put global angle_gl_driver_all_angle 0
+  + requires root
+ - settings delete global angle_gl_driver_selection_pkgs
+ - settings delete global angle_gl_driver_selection_values
 
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
