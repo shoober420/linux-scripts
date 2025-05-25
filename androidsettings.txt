@@ -206,6 +206,8 @@ System > Developer options:
 
 /system/build.prop contains Android Properties
 
+Unlocking bootloader requires factory resetting phone
+
 Query Android settings:
  - settings list system
  - settings list secure
