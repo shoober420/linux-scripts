@@ -231,8 +231,7 @@ settings put global enable_16k_pages 1
 settings put global game_driver_all_apps 2
 
 Disable ANGLE (Force native OpenGL ES)
- - settings put global angle_gl_driver_all_angle 0
-  + requires root
+ - settings delete global angle_gl_driver_all_angle
  - settings delete global angle_gl_driver_selection_pkgs
  - settings delete global angle_gl_driver_selection_values
 
