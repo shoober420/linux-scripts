@@ -144,6 +144,8 @@ System:
  - Live Translate: Off
 
  - Developer options: On
+  - Boot with 16 KB page size: On
+   + requires unlocked bootloader
   - USB Debugging: Off
   - Linux development environment: On
    + enables Terminal app
