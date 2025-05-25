@@ -3,8 +3,6 @@ Android Settings
 
 Google Pixel phones receive the fastest Android updates
 
-SetEdit requires root to edit tables
-
 Enroll in Android beta program
  - google "android beta program" and opt-in for supported device
  - Settings > System > Software updates > System update > Check for update
@@ -204,6 +202,9 @@ System > Developer options:
  - ./adb shell
 
 
+
+SetEdit requires root to edit tables
+
 /system/build.prop contains Android Properties
 
 Unlocking bootloader requires factory resetting phone
@@ -229,4 +230,4 @@ settings put global enable_16k_pages 1
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
 
-echo "ro.surface_flinger.supports_background_blur=0" >> /system/system/build.prop
+echo "ro.surface_flinger.supports_background_blur=0" >> /system/build.prop
