@@ -208,7 +208,7 @@ SetEdit requires root to edit tables
 /system/build.prop contains Android Properties
 
 Unlocking bootloader requires factory resetting phone
- + makes phone insecure
+ + makes phone insecure, especially physical attacks via usb (evil maid attack)
 
 Query Android settings:
  - settings list system
