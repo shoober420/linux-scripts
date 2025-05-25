@@ -237,6 +237,10 @@ settings put global game_driver_all_apps 2
 Force Vulkan renderer for apps
  - setprop debug.hwui.renderer skiavk
 
+setprop debug.graphics.game_default_frame_rate.disabled true
+setprop debug.hwui.force_dark true
+setprop debug.egl.force_msaa true
+
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
 
