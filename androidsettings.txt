@@ -145,7 +145,7 @@ System:
   - Boot with 16 KB page size: On
    + requires unlocked bootloader
   - USB Debugging: Off
-  - Linux development environment: On
+  - Linux development environment: Off
    + enables Terminal app
   - Logger buffer sizes: Off
   - Disable default frame rate for games: On
