@@ -207,6 +207,7 @@ System > Developer options:
 /system/build.prop contains Android Properties
 
 Unlocking bootloader requires factory resetting phone
+ + makes phone insecure
 
 Query Android settings:
  - settings list system
@@ -223,6 +224,7 @@ Tweak Android setting:
 settings put global ambient_enabled 0
 settings put global audio_safe_volume_state 0
 settings put global enable_16k_pages 1
+ + requires unlocked bootloader
 
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
