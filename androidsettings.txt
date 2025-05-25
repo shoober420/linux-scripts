@@ -204,6 +204,7 @@ System > Developer options:
  - ./adb shell
 
 
+/system/build.prop contains Android Properties
 
 Query Android settings:
  - settings list system
@@ -221,4 +222,7 @@ settings put global ambient_enabled 0
 settings put global audio_safe_volume_state 0
 settings put global enable_16k_pages 1
 
+setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
+
+echo "ro.surface_flinger.supports_background_blur=0" >> /system/system/build.prop
