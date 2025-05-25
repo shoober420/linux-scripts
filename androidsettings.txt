@@ -232,6 +232,9 @@ settings put global enable_16k_pages 1
  + requires unlocked bootloader
 settings put global game_driver_all_apps 2
 
+Force Vulkan renderer for apps
+ - setprop debug.hwui.renderer skiavk
+
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
 
