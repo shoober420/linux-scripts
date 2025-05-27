@@ -238,6 +238,7 @@ Force Vulkan renderer for apps
  - setprop debug.hwui.renderer skiavk
 
 setprop debug.graphics.game_default_frame_rate.disabled true
+setprop debug.hwui.force_gpu_for_2d true
 setprop debug.hwui.force_dark true
 setprop debug.egl.force_msaa true
 
