@@ -247,11 +247,20 @@ setprop ro.surface_flinger.supports_background_blur 0
 
 
 
+Tweak settings without Desktop ADB
+-------------------------------------
+- Using Termux do "pkg install android-tools"
+- Enable "Wireless debugging" via Settings > System > Developer options
+- Pair with "adb pair"
+- Connect with "adb connect"
+
+
 !!! WARNING !!!
 
-When done using ADB
+When done using ADB / Termux
 
 DISABLE USB DEBUGGING
+DISABLE WIRELESS DEBUGGING
 DEFAULT USB CONFIGURATION: NO DATA TRANSFER
 
 !!! WARNING !!!
