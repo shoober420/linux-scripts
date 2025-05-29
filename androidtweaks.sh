@@ -20,13 +20,15 @@
 # Run "adb devices" in PC terminal then tap "Allow" for "Allow USB debugging" dialog on phone
 
 # download this script on your phone
+# /storage/self/primary/Download
 
-# run "adb shell" before executing script (sh androidtweaks.sh)
+# run "adb shell" before executing script
+# sh androidtweaks.sh
 
 # REQUIRED
 # USB DEBUGGING, DEFAULT USB CONFIGURATION: NO DATA TRANSFER, and WIRELESS DEBUGGING (Termux)
 
-# You must unplug USB-C from phone when changing "Default USB configuration"
+# You must unplug USB-C from phone when changing "Default USB configuration" developer option
 
 setprop debug.performance.tuning 1
 
