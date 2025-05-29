@@ -95,7 +95,6 @@ settings put global persist.vendor.audio.hifi true
 settings put global audio.UHD_enabled false
 settings put global audio.3d.support false
 
-
 setprop debug.disable.hwacc 0 
 setprop debug.graphics.game_default_frame_rate.disabled true
 setprop debug.hwui.renderer skiavk
@@ -171,7 +170,7 @@ setprop debug.display.render_frame_rate_is_physical_refresh_rate 1
 setprop audio.deep_buffer.media true
 setprop audio.offload.disable true
 setprop ro.vendor.audio.sdk.ssr false
-setprop vendor.audio.flac.sw.decoder.24bit true
+setprop vendor.audio.flac.sw.decoder.24bit false
 setprop vendor.audio.offload.multiple.enabled false
 setprop vendor.audio.playback.mch.downsample false
 setprop vendor.audio.pp.asphere.enabled false
