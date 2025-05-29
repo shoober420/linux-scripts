@@ -77,3 +77,7 @@ setprop debug.sf.msaa 16
 
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
+
+# Turn On "Disable HW overlays"
+# REQUIRES ROOT
+service call SurfaceFlinger 1008 i32 1
