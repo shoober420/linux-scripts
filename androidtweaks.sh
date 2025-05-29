@@ -29,9 +29,11 @@ cmd power set-fixed-performance-mode-enabled true
 settings put global ambient_enabled 0
 settings put global audio_safe_volume_state 0
 settings put global game_driver_all_apps 2
-settings put system performance_mode_enable 1
-settings put secure speed_mode_enable 1
 settings put global heat_suppression 0
+settings put system performance_mode_enable 1
+settings put system video.accelerate.hw 1
+settings put system persist.sys.force_highendgfx true
+settings put secure speed_mode_enable 1
 
 setprop debug.disable.hwacc 0 
 setprop debug.graphics.game_default_frame_rate.disabled true
