@@ -3,6 +3,10 @@
 # Requires Desktop ADB or Termux
 # Needs executed every phone restart
 
+# Using PowerShell terminal requires "./" in front of adb commands (./adb shell)
+
+# Run "adb devices" in PC terminal then tap "Allow" for "Allow USB debugging" dialog on phone
+
 # REQUIRED
 # USB DEBUGGING, DEFAULT USB CONFIGURATION: NO DATA TRANSFER, and WIRELESS DEBUGGING (Termux)
 
