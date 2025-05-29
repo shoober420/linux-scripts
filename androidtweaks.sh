@@ -85,7 +85,7 @@ setprop debug.rs.max-threads true
 setprop debug.rs.precision true
 setprop debug.sf.enable_hwc_vds true
 setprop debug.mdpcomp.logs 0
-setprop persist.hwc.mdpcomp.enable true
+# setprop persist.hwc.mdpcomp.enable true
 setprop persist.hwc.ptor.enable true
 setprop vendor.gralloc.enable_fb_ubwc 1
 setprop debug.sf.disable_hwc 0
