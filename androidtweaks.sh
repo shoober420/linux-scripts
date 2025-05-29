@@ -24,6 +24,8 @@
 # REQUIRED
 # USB DEBUGGING, DEFAULT USB CONFIGURATION: NO DATA TRANSFER, and WIRELESS DEBUGGING (Termux)
 
+setprop debug.performance.tuning 1
+
 cmd power set-fixed-performance-mode-enabled true
 
 settings put global ambient_enabled 0
@@ -34,6 +36,8 @@ settings put system performance_mode_enable 1
 settings put system video.accelerate.hw 1
 settings put system persist.sys.force_highendgfx true
 settings put secure speed_mode_enable 1
+settings put secure persist.sys.glc.16x_msaa_enabled true
+settings put secure persist.sys.glc.msaa_samples 16
 
 setprop debug.disable.hwacc 0 
 setprop debug.graphics.game_default_frame_rate.disabled true
@@ -66,6 +70,8 @@ setprop debug.gpurend.vsync false
 setprop debug.hwui.forcegpu true
 setprop debug.hwui.force.gpu true
 setprop debug.hwui.force_gpu true
+setprop debug.egl.msaa-sample 16
+setprop debug.sf.msaa 16
 
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
