@@ -69,6 +69,16 @@ settings put system force_hwc_ui 1
 settings put system force_high_performance 1
 settings put system sysui_config_enable_hw_keyguard 1
 settings put system sysui_config_enable_hw_keyguard 1
+settings put system ro.sf.blurs_are_expensive 0
+settings put global ro.sf.blurs_are_expensive 0
+settings put secure ro.sf.blurs_are_expensive 0
+settings put system ro.surface_flinger.supports_background_blur 0
+settings put global ro.surface_flinger.supports_background_blur 0
+settings put secure ro.surface_flinger.supports_background_blur 0
+
+settings put system persist.qfp false
+settings put global persist.qfp false
+settings put secure persist.qfp false
 
 settings put system vendor.audio.tunnel.encode true
 settings put system tunnel.audio.encode true
@@ -94,6 +104,25 @@ settings put global persist.audio.hifi true
 settings put global persist.vendor.audio.hifi true
 settings put global audio.UHD_enabled false
 settings put global audio.3d.support false
+settings put system audio.deep_buffer.media true
+settings put global audio.deep_buffer.media true
+settings put system audio.offload.disable true
+settings put global audio.offload.disable true
+settings put global ro.vendor.audio.sdk.ssr false
+settings put system vendor.audio.flac.sw.decoder.24bit false
+settings put global vendor.audio.flac.sw.decoder.24bit false
+settings put system vendor.audio.offload.multiple.enabled false
+settings put global vendor.audio.offload.multiple.enabled false
+settings put system vendor.audio.playback.mch.downsample false
+settings put global vendor.audio.playback.mch.downsample false
+settings put system vendor.audio.safx.pbe.enabled false
+settings put global vendor.audio.safx.pbe.enabled false
+settings put system vendor.audio.use.sw.alac.decoder true
+settings put global vendor.audio.use.sw.alac.decoder true
+settings put system vendor.audio.use.sw.ape.decoder true
+settings put global vendor.audio.use.sw.ape.decoder true
+settings put system vendor.audio.hw.aac.encoder true
+settings put global vendor.audio.hw.aac.encoder true
 
 setprop debug.disable.hwacc 0 
 setprop debug.graphics.game_default_frame_rate.disabled true
