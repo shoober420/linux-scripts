@@ -19,7 +19,9 @@
 
 # Run "adb devices" in PC terminal then tap "Allow" for "Allow USB debugging" dialog on phone
 
-# run "adb shell" before executing script
+# download this script on your phone
+
+# run "adb shell" before executing script (sh androidtweaks.sh)
 
 # REQUIRED
 # USB DEBUGGING, DEFAULT USB CONFIGURATION: NO DATA TRANSFER, and WIRELESS DEBUGGING (Termux)
