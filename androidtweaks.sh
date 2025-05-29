@@ -64,6 +64,8 @@ settings put system sysui_config_enable_hw_accelerated_launcher 1
 settings put system sysui_config_enable_hw_keyguard 1
 settings put system sem_enhanced_cpu_responsiveness 1
 settings put system high_priority 1
+settings put global high_priority 1
+settings put secure high_priority 1
 settings put system low_power 0
 settings put system force_hwc_ui 1
 settings put system force_high_performance 1
@@ -195,6 +197,7 @@ setprop debug.sys.vsync_optimization_enable false
 setprop debug.sys.hwui.dyn_vsync 0
 setprop debug.sys.vsync false
 setprop debug.display.render_frame_rate_is_physical_refresh_rate 1
+setprop high_priority 1
 
 setprop audio.deep_buffer.media true
 setprop audio.offload.disable true
