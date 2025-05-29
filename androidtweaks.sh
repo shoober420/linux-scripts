@@ -125,7 +125,7 @@ setprop vendor.audio.offload.multiple.enabled false
 setprop vendor.audio.playback.mch.downsample false
 setprop vendor.audio.pp.asphere.enabled false
 setprop vendor.audio.safx.pbe.enabled false
-setprop vendor.audio.tunnel.encode false
+setprop vendor.audio.tunnel.encode true
 setprop vendor.audio.use.sw.alac.decoder true
 setprop vendor.audio.use.sw.ape.decoder true
 setprop vendor.audio.hw.aac.encoder true
