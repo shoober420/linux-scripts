@@ -26,6 +26,8 @@
 # REQUIRED
 # USB DEBUGGING, DEFAULT USB CONFIGURATION: NO DATA TRANSFER, and WIRELESS DEBUGGING (Termux)
 
+# You must unplug USB-C from phone when changing "Default USB configuration"
+
 setprop debug.performance.tuning 1
 
 cmd power set-fixed-performance-mode-enabled true
