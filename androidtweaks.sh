@@ -52,7 +52,7 @@ setprop debug.hwui.refresh_rate_forced 120
 setprop debug.heui.refresh_rate 120
 setprop debug.hwui.render_dirty_regions false
 setprop debug.sf.hw true
-# setprop debug.egl.force_msaa true
+setprop debug.egl.force_msaa true
 setprop debug.egl.force_ssaa true
 setprop video.accelerate.hw true
 setprop persist.sys.force_highendgfx true
