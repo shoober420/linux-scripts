@@ -44,6 +44,57 @@ settings put system persist.sys.force_highendgfx true
 settings put secure speed_mode_enable 1
 settings put secure persist.sys.glc.16x_msaa_enabled true
 settings put secure persist.sys.glc.msaa_samples 16
+settings put global hardware_accelerated_rendering_enabled true
+settings put system persist.hwc.ptor.enable true
+settings put system system_ui_hw_accelerated 1
+settings put system ui_hardware_enabled 1
+settings put system video_encoder.hw 1
+settings put system webview_accelerated_rendering_enabled 1
+settings put system force_hw_ui 1
+settings put system status_bar_hw_rendering_enabled 1
+settings put system gridview_hw_accelerated 1
+settings put system hscrollview_hw_accelerated 1
+settings put system sysui_config_enable_hw 1
+settings put system sysui_config_enable_hw_accelerated_game 1
+settings put system sysui_config_enable_hw_accelerated_gpu 1
+settings put system sysui_config_enable_hw_accelerated_cpu 1
+settings put system sysui_config_enable_hw_accelerated_keyguard 1
+settings put system sysui_config_enable_hw_accelerated_transitions 1
+settings put system sysui_config_enable_hw_accelerated_launcher 1
+settings put system sysui_config_enable_hw_keyguard 1
+settings put system sem_enhanced_cpu_responsiveness 1
+settings put system high_priority 1
+settings put system low_power 0
+settings put system force_hwc_ui 1
+settings put system force_high_performance 1
+settings put system sysui_config_enable_hw_keyguard 1
+settings put system sysui_config_enable_hw_keyguard 1
+
+settings put system vendor.audio.tunnel.encode true
+settings put system tunnel.audio.encode true
+settings put system qc.tunnel.audio.encode true
+settings put system use.non-omx.mp3.decoder 0
+settings put system use.non-omx.aac.decoder 0
+settings put system use.non-omx.flac.decoder 0
+settings put system media.aac_51_output_enabled false
+settings put system audio_hal_bass_boost_level 0
+settings put system audio_hal_treble_level 0
+settings put system audio_hal_eq_level 0
+settings put system audio_hal_sampling_rate 44100
+settings put system audio_hal_bit_depth 16
+settings put system audio.dolby.ds2.enabled false
+settings put global audio.dolby.ds2.enabled false
+settings put global vendor.audio.pp.asphere.enabled false
+settings put global audio.pp.asphere.enabled false
+settings put global ro.vender.audio.3d.audio.support false
+settings put global ro.hardware.hifi.support true
+settings put global ro.audio.hifi true
+settings put global ro.vendor.audio.hifi true
+settings put global persist.audio.hifi true
+settings put global persist.vendor.audio.hifi true
+settings put global audio.UHD_enabled false
+settings put global audio.3d.support false
+
 
 setprop debug.disable.hwacc 0 
 setprop debug.graphics.game_default_frame_rate.disabled true
