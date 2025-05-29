@@ -91,6 +91,9 @@ setprop vendor.gralloc.enable_fb_ubwc 1
 setprop debug.sf.disable_hwc 0
 setprop debug.sf.disable_backpressure 1
 setprop debug.sf.gpu_comp_tiling 1
+setprop debug.hdr.disable false
+setprop debug.hdr.disabled false
+setprop debug.graphic.quality high
 
 setprop audio.deep_buffer.media true
 setprop audio.offload.disable true
@@ -104,8 +107,14 @@ setprop vendor.audio.tunnel.encode false
 setprop vendor.audio.use.sw.alac.decoder true
 setprop vendor.audio.use.sw.ape.decoder true
 setprop vendor.audio.hw.aac.encoder true
+setprop debug.3d_audio_driver_surround 0
+setprop debug.stagefright.omx_default_rank.sw-audio 0
 
 setprop persist.qfp false
+setprop debug.cpuprio 7
+setprop debug.gpuprio 7
+setprop debug.ioprio 7
+setprop debug.scaling_governor performance
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
 
