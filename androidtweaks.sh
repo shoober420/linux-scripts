@@ -94,6 +94,24 @@ setprop debug.sf.gpu_comp_tiling 1
 setprop debug.hdr.disable false
 setprop debug.hdr.disabled false
 setprop debug.graphic.quality high
+setprop debug.sys.min_refresh_rate 120
+setprop debug.sys.max_refresh_rate 120
+setprop debug.sys.peak_refresh_rate 120
+setprop debug.sys.display.fps 120
+setprop debug.sys.game.minfps 120
+setprop debug.sys.game.maxfps 120
+setprop debug.sys.game.maxframerate 120
+setprop debug.sys.sf.fps 120
+setprop debug.sys.fps_unlock_allowed 120
+setprop debug.sys.display.max_fps 120
+setprop debug.sys.video.max.fps 120
+setprop debug.sys.surfaceflinger.idle_reduce_framerate_enable no
+setprop debug.sys.surfaceflinger.enable_gpu 1
+setprop debug.sys.display.min_refresh_rate 120
+setprop debug.sys.vsync_optimization_enable false
+setprop debug.sys.hwui.dyn_vsync 0
+setprop debug.sys.vsync false
+setprop debug.display.render_frame_rate_is_physical_refresh_rate 1
 
 setprop audio.deep_buffer.media true
 setprop audio.offload.disable true
@@ -115,6 +133,7 @@ setprop debug.cpuprio 7
 setprop debug.gpuprio 7
 setprop debug.ioprio 7
 setprop debug.scaling_governor performance
+setprop debug.sys.thermal.protection 0
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
 
