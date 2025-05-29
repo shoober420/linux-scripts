@@ -41,9 +41,16 @@ settings put global heat_suppression 0
 settings put system performance_mode_enable 1
 settings put system video.accelerate.hw 1
 settings put system persist.sys.force_highendgfx true
+settings put global persist.sys.force_highendgfx true
 settings put secure speed_mode_enable 1
 settings put secure persist.sys.glc.16x_msaa_enabled true
 settings put secure persist.sys.glc.msaa_samples 16
+settings put system speed_mode_enable 1
+settings put system persist.sys.glc.16x_msaa_enabled true
+settings put system persist.sys.glc.msaa_samples 16
+settings put global speed_mode_enable 1
+settings put global persist.sys.glc.16x_msaa_enabled true
+settings put global persist.sys.glc.msaa_samples 16
 settings put global hardware_accelerated_rendering_enabled true
 settings put system persist.hwc.ptor.enable true
 settings put system system_ui_hw_accelerated 1
