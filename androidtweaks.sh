@@ -132,6 +132,24 @@ settings put system vendor.audio.use.sw.ape.decoder true
 settings put global vendor.audio.use.sw.ape.decoder true
 settings put system vendor.audio.hw.aac.encoder true
 settings put global vendor.audio.hw.aac.encoder true
+settings put system audio.offload.video false
+settings put global audio.offload.video false
+settings put system media.stagefright.enable-http true
+settings put global media.stagefright.enable-http true
+settings put system media.stagefright.enable-aac true
+settings put global media.stagefright.enable-aac true
+settings put system media.stagefright.enable-qcp true
+settings put global media.stagefright.enable-qcp true
+settings put system media.stagefright.enable-fma2dp true
+settings put global media.stagefright.enable-fma2dp true
+settings put system media.stagefright.enable-scan false
+settings put global media.stagefright.enable-scan false
+settings put system media.stagefright.audio.deep false
+settings put global media.stagefright.audio.deep false
+settings put system media.stagefright.thumbnail.prefer_hw_codecs true
+settings put global media.stagefright.thumbnail.prefer_hw_codecs true
+settings put system persist.mm.enable.prefetch true
+settings put global persist.mm.enable.prefetch true
 
 setprop debug.disable.hwacc 0 
 setprop debug.graphics.game_default_frame_rate.disabled true
