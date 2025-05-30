@@ -115,8 +115,8 @@ settings put global audio.UHD_enabled false
 settings put global audio.3d.support false
 settings put system audio.deep_buffer.media false
 settings put global audio.deep_buffer.media false
-settings put system audio.offload.disable false
-settings put global audio.offload.disable false
+settings put system audio.offload.disable true
+settings put global audio.offload.disable true
 settings put global ro.vendor.audio.sdk.ssr false
 settings put system vendor.audio.flac.sw.decoder.24bit false
 settings put global vendor.audio.flac.sw.decoder.24bit false
@@ -207,7 +207,7 @@ setprop debug.display.render_frame_rate_is_physical_refresh_rate 1
 setprop high_priority 1
 
 setprop audio.deep_buffer.media false
-setprop audio.offload.disable false
+setprop audio.offload.disable true
 setprop ro.vendor.audio.sdk.ssr false
 setprop vendor.audio.flac.sw.decoder.24bit false
 setprop vendor.audio.offload.multiple.enabled false
