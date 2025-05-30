@@ -78,6 +78,10 @@ settings put system force_hwc_ui 1
 settings put system force_high_performance 1
 settings put system sysui_config_enable_hw_keyguard 1
 settings put system sysui_config_enable_hw_keyguard 1
+settings put system ro.hwui.use_vulkan true
+settings put global ro.hwui.use_vulkan true
+
+
 settings put system ro.sf.blurs_are_expensive 0
 settings put global ro.sf.blurs_are_expensive 0
 settings put secure ro.sf.blurs_are_expensive 0
