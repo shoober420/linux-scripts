@@ -229,6 +229,7 @@ setprop debug.sys.hwui.dyn_vsync 0
 setprop debug.sys.vsync false
 setprop debug.display.render_frame_rate_is_physical_refresh_rate 1
 setprop high_priority 1
+setprop debug.app.performance_restricted false
 
 setprop audio.deep_buffer.media false
 setprop audio.offload.disable true
