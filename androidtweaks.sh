@@ -142,8 +142,8 @@ settings put system media.stagefright.enable-qcp true
 settings put global media.stagefright.enable-qcp true
 settings put system media.stagefright.enable-fma2dp true
 settings put global media.stagefright.enable-fma2dp true
-settings put system media.stagefright.enable-scan false
-settings put global media.stagefright.enable-scan false
+settings put system media.stagefright.enable-scan true
+settings put global media.stagefright.enable-scan true
 settings put system media.stagefright.audio.deep false
 settings put global media.stagefright.audio.deep false
 settings put system media.stagefright.thumbnail.prefer_hw_codecs true
@@ -246,7 +246,7 @@ setprop media.stagefright.enable-http true
 setprop media.stagefright.enable-aac true
 setprop media.stagefright.enable-qcp true
 setprop media.stagefright.enable-fma2dp true
-setprop media.stagefright.enable-scan false
+setprop media.stagefright.enable-scan true
 setprop media.stagefright.audio.deep false
 setprop media.stagefright.thumbnail.prefer_hw_codecs true
 setprop persist.mm.enable.prefetch true
