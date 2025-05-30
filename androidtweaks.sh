@@ -268,3 +268,6 @@ setprop ro.surface_flinger.supports_background_blur 0
 # Turn On "Disable HW overlays"
 # REQUIRES ROOT
 service call SurfaceFlinger 1008 i32 1
+
+# Restart SystemUI so Vulkan is used
+am crash com.android.systemui
