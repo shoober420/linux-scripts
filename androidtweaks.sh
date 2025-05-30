@@ -196,7 +196,8 @@ setprop debug.gl.hw 1
 setprop debug.gl.swapinterval 0
 setprop debug.gr.swapinterval 0
 setprop debug.dev.ssrm.turbo true
-setprop debug.rs.max-threads true
+setprop debug.rs.max-threads 8
+setprop debug.rs.min-threads 8
 setprop debug.rs.precision true
 setprop debug.sf.enable_hwc_vds true
 setprop debug.mdpcomp.logs 0
