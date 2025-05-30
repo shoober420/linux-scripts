@@ -80,6 +80,10 @@ settings put system sysui_config_enable_hw_keyguard 1
 settings put system sysui_config_enable_hw_keyguard 1
 settings put system ro.hwui.use_vulkan true
 settings put global ro.hwui.use_vulkan true
+settings put system enable_hw_2d 1
+settings put global enable_hw_2d 1
+settings put system enable_hw_3d 1
+settings put global enable_hw_3d 1
 
 
 settings put system ro.sf.blurs_are_expensive 0
@@ -231,6 +235,8 @@ setprop debug.display.render_frame_rate_is_physical_refresh_rate 1
 setprop high_priority 1
 setprop debug.app.performance_restricted false
 setprop debug.disable.sched.cooling true
+setprop enable_hw_2d 1
+setprop enable_hw_3d 1
 
 setprop audio.deep_buffer.media false
 setprop audio.offload.disable true
