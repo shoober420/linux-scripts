@@ -219,7 +219,7 @@ setprop vendor.audio.use.sw.alac.decoder true
 setprop vendor.audio.use.sw.ape.decoder true
 setprop vendor.audio.hw.aac.encoder true
 setprop debug.3d_audio_driver_surround 0
-setprop debug.stagefright.omx_default_rank.sw-audio 0
+setprop debug.stagefright.omx_default_rank.sw-audio 1
 
 setprop persist.qfp false
 setprop debug.cpuprio 7
