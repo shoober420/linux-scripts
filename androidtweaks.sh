@@ -223,6 +223,15 @@ setprop debug.stagefright.omx_default_rank.sw-audio 0
 setprop debug.stagefright.omx_default_rank 0
 setprop debug.stagefright.ccodec 1
 setprop media.stagefright.enable-player true
+setprop audio.offload.video false
+setprop media.stagefright.enable-http true
+setprop media.stagefright.enable-aac true
+setprop media.stagefright.enable-qcp true
+setprop media.stagefright.enable-fma2dp true
+setprop media.stagefright.enable-scan false
+setprop media.stagefright.audio.deep false
+setprop media.stagefright.thumbnail.prefer_hw_codecs true
+setprop persist.mm.enable.prefetch true
 
 setprop persist.qfp false
 setprop debug.cpuprio 7
