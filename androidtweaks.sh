@@ -92,6 +92,8 @@ settings put system debug.hwui.skia_atrace_enabled false
 settings put global debug.hwui.skia_atrace_enabled false
 settings put system vendor.video.disable.ubwc 0
 settings put global vendor.video.disable.ubwc 0
+settings put system debug.power.monitor_tools false
+settings put global debug.power.monitor_tools false
 
 settings put system ro.sf.blurs_are_expensive 0
 settings put global ro.sf.blurs_are_expensive 0
@@ -261,6 +263,7 @@ setprop persist.camera.iface.logs 0
 setprop persist.camera.imglib.logs 0
 setprop debug.hwui.skia_atrace_enabled false
 setprop vendor.video.disable.ubwc 0
+setprop debug.power.monitor_tools false
 
 setprop audio.deep_buffer.media false
 setprop audio.offload.disable true
