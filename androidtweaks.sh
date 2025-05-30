@@ -157,6 +157,7 @@ setprop debug.hwui.renderer skiavk
 setprop debug.hwui.rendering skiavk
 setprop debug.hwui.render_engine_backend skiavk
 setprop debug.hwui.rendering_type skiavk
+setprop ro.hwui.use_vulkan true
 setprop debug.hwui.render_type gpu
 setprop debug.hwui.composition_type gpu
 setprop debug.hwui.disabledither false
