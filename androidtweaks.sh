@@ -269,5 +269,7 @@ setprop ro.surface_flinger.supports_background_blur 0
 # REQUIRES ROOT
 service call SurfaceFlinger 1008 i32 1
 
-# Restart SystemUI so Vulkan is used
+# Restart SystemUI, Settings, and App Launcher so Vulkan is used
 am crash com.android.systemui
+am force-stop com.android.settings
+am force-stop com.sec.android.app.launcher 
