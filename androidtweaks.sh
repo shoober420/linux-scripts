@@ -238,6 +238,7 @@ setprop debug.disable.sched.cooling true
 setprop enable_hw_2d 1
 setprop enable_hw_3d 1
 setprop debug.perfhudes 0
+setprop debug.gralloc.gfx_ubwc_disable 0
 
 setprop audio.deep_buffer.media false
 setprop audio.offload.disable true
