@@ -84,7 +84,14 @@ settings put system enable_hw_2d 1
 settings put global enable_hw_2d 1
 settings put system enable_hw_3d 1
 settings put global enable_hw_3d 1
-
+settings put system persist.camera.iface.logs 0
+settings put global persist.camera.iface.logs 0
+settings put system persist.camera.imglib.logs 0
+settings put global persist.camera.imglib.logs 0
+settings put system debug.hwui.skia_atrace_enabled false
+settings put global debug.hwui.skia_atrace_enabled false
+settings put system vendor.video.disable.ubwc 0
+settings put global vendor.video.disable.ubwc 0
 
 settings put system ro.sf.blurs_are_expensive 0
 settings put global ro.sf.blurs_are_expensive 0
@@ -158,6 +165,10 @@ settings put system media.stagefright.thumbnail.prefer_hw_codecs true
 settings put global media.stagefright.thumbnail.prefer_hw_codecs true
 settings put system persist.mm.enable.prefetch true
 settings put global persist.mm.enable.prefetch true
+settings put system vendor.audio.spkr_prot.tx.sampling_rate 44100
+settings put global vendor.audio.spkr_prot.tx.sampling_rate 44100
+settings put system vendor.audio.feature.spkr_prot.enable false
+settings put global vendor.audio.feature.spkr_prot.enable false
 
 setprop debug.disable.hwacc 0 
 setprop debug.graphics.game_default_frame_rate.disabled true
@@ -246,6 +257,10 @@ setprop debug.javafx.animation.fullspeed true
 setprop debug.javafx.animation.framerate 120
 setprop debug.performance.cap uncapped
 setprop debug.gralloc.enable_fb_ubwc 1
+setprop persist.camera.iface.logs 0
+setprop persist.camera.imglib.logs 0
+setprop debug.hwui.skia_atrace_enabled false
+setprop vendor.video.disable.ubwc 0
 
 setprop audio.deep_buffer.media false
 setprop audio.offload.disable true
@@ -273,6 +288,8 @@ setprop media.stagefright.enable-scan true
 setprop media.stagefright.audio.deep false
 setprop media.stagefright.thumbnail.prefer_hw_codecs true
 setprop persist.mm.enable.prefetch true
+setprop vendor.audio.spkr_prot.tx.sampling_rate 44100
+setprop vendor.audio.feature.spkr_prot.enable false
 
 setprop persist.qfp false
 setprop debug.cpuprio 7
