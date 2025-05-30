@@ -206,8 +206,8 @@ setprop debug.sys.vsync false
 setprop debug.display.render_frame_rate_is_physical_refresh_rate 1
 setprop high_priority 1
 
-setprop audio.deep_buffer.media true
-setprop audio.offload.disable true
+setprop audio.deep_buffer.media false
+setprop audio.offload.disable false
 setprop ro.vendor.audio.sdk.ssr false
 setprop vendor.audio.flac.sw.decoder.24bit false
 setprop vendor.audio.offload.multiple.enabled false
