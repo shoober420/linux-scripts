@@ -239,6 +239,13 @@ setprop enable_hw_2d 1
 setprop enable_hw_3d 1
 setprop debug.perfhudes 0
 setprop debug.gralloc.gfx_ubwc_disable 0
+setprop debug.gpu.scheduler_pre.emption 1
+setprop debug.sensor.hal 0
+setprop debug.power_management_mode pref_max
+setprop debug.javafx.animation.fullspeed true
+setprop debug.javafx.animation.framerate 120
+setprop debug.performance.cap uncapped
+setprop debug.gralloc.enable_fb_ubwc 1
 
 setprop audio.deep_buffer.media false
 setprop audio.offload.disable true
