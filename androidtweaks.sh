@@ -106,6 +106,8 @@ settings put system persist.qfp false
 settings put global persist.qfp false
 settings put secure persist.qfp false
 
+
+
 settings put system vendor.audio.tunnel.encode true
 settings put system tunnel.audio.encode true
 settings put system qc.tunnel.audio.encode true
@@ -171,6 +173,26 @@ settings put system vendor.audio.spkr_prot.tx.sampling_rate 44100
 settings put global vendor.audio.spkr_prot.tx.sampling_rate 44100
 settings put system vendor.audio.feature.spkr_prot.enable false
 settings put global vendor.audio.feature.spkr_prot.enable false
+settings put system persist.vendor.audio.speaker.prot.enable false
+settings put global persist.vendor.audio.speaker.prot.enable false
+settings put system vendor.audio.feature.audiozoom.enable false
+settings put global vendor.audio.feature.audiozoom.enable false
+settings put system vendor.audio.feature.custom_stereo.enable true
+settings put global vendor.audio.feature.custom_stereo.enable true
+settings put system vendor.audio.feature.deepbuffer_as_primary.enable false
+settings put global vendor.audio.feature.deepbuffer_as_primary.enable false
+settings put system vendor.audio.feature.dynamic_ecns.enable false
+settings put global vendor.audio.feature.dynamic_ecns.enable false
+settings put system vendor.audio.feature.external_dsp.enable false
+settings put global vendor.audio.feature.external_dsp.enable false
+settings put system vendor.audio.feature.hifi_audio.enable true
+settings put global vendor.audio.feature.hifi_audio.enable true
+settings put system vendor.audio.feature.maxx_audio.enable false
+settings put global vendor.audio.feature.maxx_audio.enable false
+settings put system vendor.audio.feature.vbat.enable false
+settings put global vendor.audio.feature.vbat.enable false
+
+
 
 setprop debug.disable.hwacc 0 
 setprop debug.graphics.game_default_frame_rate.disabled true
@@ -265,6 +287,8 @@ setprop debug.hwui.skia_atrace_enabled false
 setprop vendor.video.disable.ubwc 0
 setprop debug.power.monitor_tools false
 
+
+
 setprop audio.deep_buffer.media false
 setprop audio.offload.disable true
 setprop ro.vendor.audio.sdk.ssr false
@@ -293,6 +317,17 @@ setprop media.stagefright.thumbnail.prefer_hw_codecs true
 setprop persist.mm.enable.prefetch true
 setprop vendor.audio.spkr_prot.tx.sampling_rate 44100
 setprop vendor.audio.feature.spkr_prot.enable false
+setprop persist.vendor.audio.speaker.prot.enable false
+setprop vendor.audio.feature.audiozoom.enable false
+setprop vendor.audio.feature.custom_stereo.enable true
+setprop vendor.audio.feature.deepbuffer_as_primary.enable false
+setprop vendor.audio.feature.dynamic_ecns.enable false
+setprop vendor.audio.feature.external_dsp.enable false
+setprop vendor.audio.feature.hifi_audio.enable true
+setprop vendor.audio.feature.maxx_audio.enable false
+setprop vendor.audio.feature.vbat.enable false
+
+
 
 setprop persist.qfp false
 setprop debug.cpuprio 7
@@ -302,6 +337,8 @@ setprop debug.scaling_governor performance
 setprop debug.sys.thermal.protection 0
 setprop ro.sf.blurs_are_expensive 0
 setprop ro.surface_flinger.supports_background_blur 0
+
+
 
 # Turn On "Disable HW overlays"
 # REQUIRES ROOT
