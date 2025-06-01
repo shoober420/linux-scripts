@@ -340,6 +340,9 @@ setprop ro.surface_flinger.supports_background_blur 0
 
 
 
+# Disable IPv6
+netsh interface ipv6 set interface cellular disabled
+
 # Turn On "Disable HW overlays"
 # REQUIRES ROOT
 service call SurfaceFlinger 1008 i32 1
