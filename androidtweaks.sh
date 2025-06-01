@@ -287,6 +287,42 @@ setprop persist.camera.imglib.logs 0
 setprop debug.hwui.skia_atrace_enabled false
 setprop vendor.video.disable.ubwc 0
 setprop debug.power.monitor_tools false
+setprop debug.renderengine.backend skiavk
+setprop debug.stagefright.renderengine.backend skiavk
+setprop debug.mediatek.composition.type gpu
+setprop debug.egl.composition_type gpu
+setprop debug.composition.type gpu
+setprop debug.renderengine.graphite skiavk
+setprop debug.renderengine.skia_use_perfetto_track_events false
+setprop debug.renderengine.skia_tracing_enabled false
+setprop debug.hwui.skia_tracing_enabled false
+setprop debug.hwui.skia_use_perfectto_track_events false
+setprop debug.atrace.tags.enabletags false
+setprop debug.sf.disable_hwc_vds false
+setprop debug.sf.max_frame_latency 1
+setprop debug.sf.dump.primary false
+setprop debug.sf.dump.external false
+setprop debug.sf.dump.enable false
+setprop debug.sf.no_hw_vsync true
+setprop debug.sf.vsync_reactor false
+setprop debug.sf.enable_adpf_cpu_hint true
+setprop debug.sf.enable_transaction_tracing false
+setprop debug.sf.dump 0
+setprop debug.sf.enable_layer_caching true
+setprop debug.sf.enable_sdr_dimming true
+setprop debug.sf.support_hdr_by_wide_color_gamut true
+setprop debug.sf.numframebuffers 1
+setprop debug.mdlogger.Running 0
+setprop debug.enable-vr-mode 0
+setprop debug.gr.numframebuffers 1
+setprop debug.hwc.dynamic_refresh_rate false
+setprop debug.hwc.lock_refresh_rate true
+setprop debug.hwc.refresh_rate 120
+setprop debug.hwc.logvsync 0
+setprop debug.sf.swapinterval 0
+setprop debug.vulkan.swapinterval 0
+setprop debug.renderengine.swap_interval 0
+setprop debug.composition.enable_egl_swap_interval 0
 
 
 
