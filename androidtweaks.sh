@@ -95,6 +95,124 @@ settings put system vendor.video.disable.ubwc 0
 settings put global vendor.video.disable.ubwc 0
 settings put system debug.power.monitor_tools false
 settings put global debug.power.monitor_tools false
+settings put secure thread_priority highest HIGHEST
+settings put system remove_animations 1
+settings put system reduce_animations 1
+settings put global remove_animations 1
+settings put global fancy_ime_animations 0
+settings put global visual_bars false
+settings put global reduce_transitions 1
+settings put global shadow_animation_scale 0
+settings put global render_shadows_in_compositor true
+settings put global sys.disable_ext_animation 1
+settings put global sys.refresh.dirty 0
+settings put global enable_hardware_acceleration 1
+settings put global hardware_accelerated_graphics_decoding 1
+settings put global hardware_accelerated_video_decode 1
+settings put global hardware_accelerated_video_encode 1
+settings put global media.sf.hwaccel 1
+settings put global video.accelerate.hw 1
+settings put global ro.config.enable.hw_accel true
+settings put global ro.hwui.renderer.disable_opaque false
+settings put global disable_hw_overlays 1
+settings put global overlay_disable_force_hwc 1
+settings put global omap.enhancement true
+settings put global enhanced_processing 1
+settings put global game_low_latency_mode 1
+settings put global debug.multicore.processing 1
+settings put global media.metrics.enabled 0
+settings put global media.metrics 0
+settings put global debug.brcm.mm.logs 0
+settings put global persist.sys.miui_optimization true
+settings put global sys.miui.ndcd off
+settings put global sys.debug.watchdog 0
+settings put global logd.logpersistd.enable false
+settings put global logd.statistics 0
+settings put global persist.sys.watchdog_enhanced false
+settings put global persist.sys.oom_crash_on_watchdog false
+settings put global persist.sys.logging 0
+settings put global persist.sys.loglevel 0
+settings put global sys.log.app 0
+settings put global ro.logd.size 0
+settings put global ro.logd.size.stats 0
+settings put global ro.logdumpd.enabled 0
+settings put global persist.anr.dumpthr 0
+settings put global persist.vendor.dpm.loglevel 0
+settings put global persist.vendor.dpmhalservice.loglevel 0
+settings put global persist.vendor.sys.modem.logging.enable false
+settings put global debug.enable.wl_log 0
+settings put global debug.als.logs 0
+settings put global debug.svi.logs 0
+settings put global log.tag.stats_log 0
+settings put global ro.lmk.debug false
+settings put global ro.lmk.log_stats false
+settings put global sys.lmk.reportkills false
+settings put global persist.sys.lmk.reportkills false
+settings put global ro.config.hw.logsystem.send 0
+settings put global persist.sys.mdlog_dumpback 0
+settings put global persist.vendor.mdlog.need_dump 0
+settings put global vendor.swvdec.log.level 0
+settings put global debug.sf.enable_transaction_tracing false
+settings put global ro.statsd.enable false
+settings put global persist.debug.sf.statistics 0
+settings put global persist.sys.crash_dumps 0
+settings put global persist.sys.pstore_dumps 0
+settings put global persist.debug.host.ramdump 0
+settings put global persist.radio.ramdump 0
+settings put global persist.ims.disableDebugLogs 1
+settings put global persist.ims.disableDebugDataPathLogs 1
+settings put global persist.ims.disableADBLogs 1
+settings put global persist.ims.disableQXDMLogs 1
+settings put global persist.ims.disableIMSLogs 1
+settings put global persist.ims.disableSigHandler 1
+settings put global persist.sys.qxdm no
+settings put global persist.sys.qxdm_logs 0
+settings put global app_usage_enabled 0
+settings put global package_usage_stats_enabled 0
+settings put global recent_usage_data_enabled 0
+settings put global persist.bt.iot.enablelogging false
+settings put global vendor.bluetooth.startbtlogger false
+settings put global ro.vendor.connsys.dedicated.log 0
+settings put global sys.wifitracing.started 0
+settings put global persist.zygote.core_dump 0
+settings put global persist.ai.timedebug.enable false
+settings put global persist.sys.qlogd 0
+settings put global persist.sys.hw_statistics 0
+settings put global persist.sys.apps_statistics 0
+settings put global persist.sys.apr.enabled 0
+settings put global persist.vendor.aprservice.enabled 0
+settings put global persist.vendor.verbose_logging_enabled false
+settings put global persist.vendor.sys.fp.dump_data 0
+settings put global persist.debug.xlog.enable 0
+settings put global persist.meta.dumpdata 0
+settings put global persist.oem.dump 0
+settings put global persist.service.crash.enable 0
+settings put global persist.sys.perfettologging.enable 0
+settings put global persist.sys.offlinelog.kernel false
+settings put global persist.sys.offlinelog.logcat false
+settings put global persist.sys.offlinelog.logcatkernel false
+settings put global persist.sys.log.user 0
+settings put global persist.sys.log-main.enable 0
+settings put global persist.sys.log-system.enable 0
+settings put global persist.sys.log-events.enable 0
+settings put global persist.sys.log-radio.enable 0
+settings put global persist.sys.tcpdump.lognum 0
+settings put global persist.sys.tcpdump.logsize 0
+settings put global persist.sys.wifipacketlog.state false
+settings put global persist.net.monitor false
+
+device_config put systemui window_cornerRadius 0
+device_config put systemui window_blur 0
+device_config put systemui window_shadow 0
+
+cmd looper_stats disable
+cmd display ab-logging-disable
+cmd display dwb-logging-disable
+
+# Disable Data Saver Mode
+cmd netpolicy set restrict-background false
+
+
 
 settings put system ro.sf.blurs_are_expensive 0
 settings put global ro.sf.blurs_are_expensive 0
@@ -102,6 +220,12 @@ settings put secure ro.sf.blurs_are_expensive 0
 settings put system ro.surface_flinger.supports_background_blur 0
 settings put global ro.surface_flinger.supports_background_blur 0
 settings put secure ro.surface_flinger.supports_background_blur 0
+
+
+
+# Disable Adaptive Refresh Rate / Motion Smoothing
+settings put global vendor.display.use_smooth_motion 0
+settings put system vendor.display.use_smooth_motion 0
 
 settings put system persist.qfp false
 settings put global persist.qfp false
