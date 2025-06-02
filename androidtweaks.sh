@@ -200,6 +200,35 @@ settings put global persist.sys.tcpdump.lognum 0
 settings put global persist.sys.tcpdump.logsize 0
 settings put global persist.sys.wifipacketlog.state false
 settings put global persist.net.monitor false
+settings put global debug.hwc.force_gpu_vsync 0
+settings put global debug.hwc.fakevsync 0
+settings put global debug.hwc.disabletonemapping true
+settings put global ro.surface_flinger.enable_layer_caching true
+settings put global ro.surface_flinger.refresh_rate_switching false
+settings put global ro.surface_flinger.has_wide_color_display true
+settings put global persist.sys.color.adaptive false
+settings put global persist.sys.sf.disable_blurs 1
+settings put global persist.sys.disable_blur_view true
+settings put global sys.output.10bit true
+settings put global sys.fb.bits 32
+settings put global persist.media.hls.enhancements true
+settings put global ro.sf.use_latest_hwc_vsync_period 0
+settings put global ro.config.avoid_gfx_accel false
+settings put global force_gpu_render 1
+settings put global force_gpu_rendering 1
+settings put global gpu_rendering_mode 1
+settings put global opengl_trace false
+settings put global hw2d.force 1
+settings put global hw3d.force 1
+settings put global persist.sys.force_hw_ui true
+settings put global persist.sys.ui.hw 1
+settings put global com.qc.hardware true
+settings put global debug.qc.hardware true
+settings put global debug.cpurend.vsync true
+settings put global debug.gpurend.vsync true
+settings put global debug.egl.trace 0
+
+
 
 device_config put systemui window_cornerRadius 0
 device_config put systemui window_blur 0
@@ -316,6 +345,26 @@ settings put system vendor.audio.feature.maxx_audio.enable false
 settings put global vendor.audio.feature.maxx_audio.enable false
 settings put system vendor.audio.feature.vbat.enable false
 settings put global vendor.audio.feature.vbat.enable false
+settings put global audio.offload.track.enable false
+settings put global media.stagefright.enable-record true
+settings put global media.stagefright.enable-meta true
+settings put global audio.offload.gapless.enabled false
+settings put global audio.offload.pcm.16bit.enable false
+settings put global audio.offload.pcm.24bit.enable false
+settings put global audio.track.enablemonoorstereo 1
+settings put global vendor.audio.lowpower false
+settings put global lpa.use-stagefright true
+settings put global lpa.decode false
+settings put global lpa.encode false
+settings put global tunnel.decode true
+settings put global tunnel.encode true
+settings put global persist.audio.hp false
+settings put global ro.config.hifi_always_on true
+settings put global ro.config.hifi_enhance_support 1
+settings put global ro.vendor.audio.game.effect false
+settings put global ro.audio.soundfx.dirac false
+settings put global media.stagefright.use-awesome true
+settings put global persist.media.lowlatency.enable true
 
 
 
