@@ -351,7 +351,7 @@ settings put global media.stagefright.enable-meta true
 settings put global audio.offload.gapless.enabled false
 settings put global audio.offload.pcm.16bit.enable false
 settings put global audio.offload.pcm.24bit.enable false
-settings put global audio.track.enablemonoorstereo 1
+# settings put global audio.track.enablemonoorstereo 1
 settings put global vendor.audio.lowpower false
 settings put global lpa.use-stagefright true
 settings put global lpa.decode false
