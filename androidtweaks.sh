@@ -452,6 +452,9 @@ setprop debug.egl.msaa-sample 16
 setprop debug.vk.msaa-sample 16
 setprop debug.vulkan.msaa-sample 16
 setprop debug.sf.msaa 16
+setprop debug.vk.msaa 16
+setprop debug.vulkan.msaa 16
+setprop debug.egl.msaa 16
 setprop debug.hwui.use_hint_manager true
 setprop debug.egl.hw 1
 setprop debug.egl.swapinterval 0
@@ -544,6 +547,9 @@ setprop debug.sf.numframebuffers 1
 setprop debug.mdlogger.Running 0
 setprop debug.enable-vr-mode 0
 setprop debug.gr.numframebuffers 1
+setprop debug.egl.numframebuffers 1
+setprop debug.vk.numframebuffers 1
+setprop debug.vulkan.numframebuffers 1
 setprop debug.hwc.dynamic_refresh_rate false
 setprop debug.hwc.lock_refresh_rate true
 setprop debug.hwc.refresh_rate 120
