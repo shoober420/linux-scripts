@@ -231,6 +231,16 @@ settings put system ro.surface_flinger.has_HDR_display true
 settings put global ro.surface_flinger.has_HDR_display true
 settings put system vendor.hbm.enable false
 settings put global vendor.hbm.enable false
+settings put system vendor.display.disable_sdr_dimming 1
+settings put global vendor.display.disable_sdr_dimming 1
+settings put system vendor.display.disable_sdr_histogram 1
+settings put global vendor.display.disable_sdr_histogram 1
+settings put system vendor.display.disable_hdr_histogram 0
+settings put global vendor.display.disable_hdr_histogram 0
+settings put system vendor.display.enable_hdr_histogram 1
+settings put global vendor.display.enable_hdr_histogram 1
+settings put system vendor.display.enable_hdr10_gpu_target 1
+settings put global vendor.display.enable_hdr10_gpu_target 1
 
 
 
@@ -369,6 +379,32 @@ settings put global ro.vendor.audio.game.effect false
 settings put global ro.audio.soundfx.dirac false
 settings put global media.stagefright.use-awesome true
 settings put global persist.media.lowlatency.enable true
+settings put system vendor.audio.c2.preferred true
+settings put global vendor.audio.c2.preferred true
+settings put system vendor.audio.feature.a2dp_offload.enable false
+settings put global vendor.audio.feature.a2dp_offload.enable false
+settings put system vendor.audio.feature.afe_proxy.enable false
+settings put global vendor.audio.feature.afe_proxy.enable false
+settings put system vendor.audio.feature.battery_listener.enable false
+settings put global vendor.audio.feature.battery_listener.enable false
+settings put system vendor.audio.feature.compress_in.enable false
+settings put global vendor.audio.feature.compress_in.enable false
+settings put system vendor.audio.feature.compress_meta_data.enable false
+settings put global vendor.audio.feature.compress_meta_data.enable false
+settings put system vendor.audio.feature.concurrent_capture.enable false
+settings put global vendor.audio.feature.concurrent_capture.enable false
+settings put system vendor.audio.feature.fluence.enable false
+settings put global vendor.audio.feature.fluence.enable false
+settings put system vendor.audio.offload.gapless.enabled false
+settings put global vendor.audio.offload.gapless.enabled false
+settings put system vendor.audio.offload.multiaac.enable false
+settings put global vendor.audio.offload.multiaac.enable false
+settings put system vendor.audio.offload.track.enable false
+settings put global vendor.audio.offload.track.enable false
+settings put system vendor.audio.use.sw.mpegh.decoder true
+settings put global vendor.audio.use.sw.mpegh.decoder true
+settings put system debug.c2.use_dmabufheaps 1
+settings put global debug.c2.use_dmabufheaps 1
 
 
 
@@ -511,7 +547,15 @@ setprop debug.sf.swapinterval 0
 setprop debug.vulkan.swapinterval 0
 setprop debug.renderengine.swap_interval 0
 setprop debug.composition.enable_egl_swap_interval 0
-
+setprop ro.surface_flinger.has_HDR_display true
+setprop vendor.hbm.enable false
+setprop debug.vk.layers_enabled true
+setprop vendor.display.disable_sdr_dimming 1
+setprop vendor.display.disable_sdr_histogram 1
+setprop vendor.display.disable_hdr_histogram 0
+setprop vendor.display.enable_hdr_histogram 1
+setprop vendor.display.enable_hdr10_gpu_target 1
+s
 
 
 setprop audio.deep_buffer.media false
@@ -551,6 +595,19 @@ setprop vendor.audio.feature.external_dsp.enable false
 setprop vendor.audio.feature.hifi_audio.enable true
 setprop vendor.audio.feature.maxx_audio.enable false
 setprop vendor.audio.feature.vbat.enable false
+setprop vendor.audio.c2.preferred true
+setprop vendor.audio.feature.a2dp_offload.enable false
+setprop vendor.audio.feature.afe_proxy.enable false
+setprop vendor.audio.feature.battery_listener.enable false
+setprop vendor.audio.feature.compress_in.enable false
+setprop vendor.audio.feature.compress_meta_data.enable false
+setprop vendor.audio.feature.concurrent_capture.enable false
+setprop vendor.audio.feature.fluence.enable false
+setprop vendor.audio.offload.gapless.enabled false
+setprop vendor.audio.offload.multiaac.enable false
+setprop vendor.audio.offload.track.enable false
+setprop vendor.audio.use.sw.mpegh.decoder true
+setprop debug.c2.use_dmabufheaps 1
 
 
 
