@@ -479,6 +479,47 @@ settings put system vendor.audio.use.sw.mpegh.decoder true
 settings put global vendor.audio.use.sw.mpegh.decoder true
 settings put system debug.c2.use_dmabufheaps 1
 settings put global debug.c2.use_dmabufheaps 1
+settings put global vendor.audio.tunnel.encode true
+settings put global tunnel.audio.encode true
+settings put global qc.tunnel.audio.encode true
+settings put global use.non-omx.mp3.decoder 0
+settings put global use.non-omx.aac.decoder 0
+settings put global use.non-omx.flac.decoder 0
+settings put global media.aac_51_output_enabled false
+settings put global audio_hal_bass_boost_level 0
+settings put global audio_hal_treble_level 0
+settings put global audio_hal_eq_level 0
+settings put global audio_hal_sampling_rate 44100
+settings put global audio_hal_bit_depth 16
+settings put system vendor.audio.pp.asphere.enabled false
+settings put system audio.pp.asphere.enabled false
+settings put system ro.vender.audio.3d.audio.support false
+settings put system ro.hardware.hifi.support true
+settings put system ro.audio.hifi true
+settings put system ro.vendor.audio.hifi true
+settings put system persist.audio.hifi true
+settings put system persist.vendor.audio.hifi true
+settings put system audio.UHD_enabled false
+settings put system audio.3d.support false
+settings put system audio.offload.track.enable false
+settings put system media.stagefright.enable-record true
+settings put system media.stagefright.enable-meta true
+settings put system audio.offload.gapless.enabled false
+settings put system audio.offload.pcm.16bit.enable false
+settings put system audio.offload.pcm.24bit.enable false
+settings put system vendor.audio.lowpower false
+settings put system lpa.use-stagefright true
+settings put system lpa.decode false
+settings put system lpa.encode false
+settings put system tunnel.decode true
+settings put system tunnel.encode true
+settings put system persist.audio.hp false
+settings put system ro.config.hifi_always_on true
+settings put system ro.config.hifi_enhance_support 1
+settings put system ro.vendor.audio.game.effect false
+settings put system ro.audio.soundfx.dirac false
+settings put system media.stagefright.use-awesome true
+settings put system persist.media.lowlatency.enable true
 
 
 
