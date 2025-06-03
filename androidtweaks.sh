@@ -555,7 +555,9 @@ setprop ro.surface_flinger.has_HDR_display true
 setprop vendor.hbm.enable false
 setprop debug.vk.layers_enabled true
 setprop vendor.display.disable_sdr_dimming 1
+setprop vendor.display.enable_sdr_dimming 0
 setprop vendor.display.disable_sdr_histogram 1
+setprop vendor.display.enable_sdr_histogram 0
 setprop vendor.display.disable_hdr_histogram 0
 setprop vendor.display.enable_hdr_histogram 1
 setprop vendor.display.enable_hdr10_gpu_target 1
