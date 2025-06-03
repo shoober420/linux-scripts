@@ -233,8 +233,12 @@ settings put system vendor.hbm.enable false
 settings put global vendor.hbm.enable false
 settings put system vendor.display.disable_sdr_dimming 1
 settings put global vendor.display.disable_sdr_dimming 1
+settings put system vendor.display.enable_sdr_dimming 0
+settings put global vendor.display.enable_sdr_dimming 0
 settings put system vendor.display.disable_sdr_histogram 1
 settings put global vendor.display.disable_sdr_histogram 1
+settings put system vendor.display.enable_sdr_histogram 0
+settings put global vendor.display.enable_sdr_histogram 0
 settings put system vendor.display.disable_hdr_histogram 0
 settings put global vendor.display.disable_hdr_histogram 0
 settings put system vendor.display.enable_hdr_histogram 1
