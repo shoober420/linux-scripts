@@ -227,6 +227,10 @@ settings put global debug.qc.hardware true
 settings put global debug.cpurend.vsync false
 settings put global debug.gpurend.vsync false
 settings put global debug.egl.trace 0
+settings put system ro.surface_flinger.has_HDR_display true
+settings put global ro.surface_flinger.has_HDR_display true
+settings put system vendor.hbm.enable false
+settings put global vendor.hbm.enable false
 
 
 
@@ -493,7 +497,7 @@ setprop debug.sf.enable_adpf_cpu_hint true
 setprop debug.sf.enable_transaction_tracing false
 setprop debug.sf.dump 0
 setprop debug.sf.enable_layer_caching true
-setprop debug.sf.enable_sdr_dimming true
+setprop debug.sf.enable_sdr_dimming false
 setprop debug.sf.support_hdr_by_wide_color_gamut true
 setprop debug.sf.numframebuffers 1
 setprop debug.mdlogger.Running 0
