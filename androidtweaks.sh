@@ -554,7 +554,8 @@ setprop debug.renderengine.swap_interval 0
 setprop debug.composition.enable_egl_swap_interval 0
 setprop ro.surface_flinger.has_HDR_display true
 setprop vendor.hbm.enable false
-setprop debug.vk.layers_enabled true
+setprop debug.vk.layers_enabled false
+setprop debug.vulkan.layers_enabled false
 setprop vendor.display.disable_sdr_dimming 1
 setprop vendor.display.enable_sdr_dimming 0
 setprop vendor.display.disable_sdr_histogram 1
