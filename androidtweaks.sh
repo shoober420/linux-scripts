@@ -36,7 +36,6 @@ setprop debug.perf.tuning 1
 cmd power set-fixed-performance-mode-enabled true
 
 settings put global ambient_enabled 0
-settings put global audio_safe_volume_state 0
 settings put global game_driver_all_apps 2
 settings put global heat_suppression 0
 settings put system performance_mode_enable 1
@@ -246,7 +245,6 @@ settings put global vendor.display.enable_hdr_histogram 1
 settings put system vendor.display.enable_hdr10_gpu_target 1
 settings put global vendor.display.enable_hdr10_gpu_target 1
 settings put system ambient_enabled 0
-settings put system audio_safe_volume_state 0
 settings put system game_driver_all_apps 2
 settings put system heat_suppression 0
 settings put system hardware_accelerated_rendering_enabled true
@@ -364,6 +362,8 @@ settings put secure persist.qfp false
 
 
 
+settings put system audio_safe_volume_state 0
+settings put global audio_safe_volume_state 0
 settings put system vendor.audio.tunnel.encode true
 settings put system tunnel.audio.encode true
 settings put system qc.tunnel.audio.encode true
