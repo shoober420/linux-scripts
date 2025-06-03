@@ -315,6 +315,20 @@ settings put system debug.qc.hardware true
 settings put system debug.cpurend.vsync false
 settings put system debug.gpurend.vsync false
 settings put system debug.egl.trace 0
+settings put global performance_mode_enable 1
+settings put global persist.hwc.ptor.enable true
+settings put system fancy_ime_animations 0
+settings put global thread_priority highest HIGHEST
+settings put system thread_priority highest HIGHEST
+settings put global remove_transitions 1
+settings put system remove_transitions 1
+settings put system overlay_disable_force_hwc 1
+settings put system omap.enhancement true
+settings put system enhanced_processing 1
+settings put system debug.multicore.processing 1
+settings put system ro.surface_flinger.enable_layer_caching true
+settings put system ro.surface_flinger.refresh_rate_switching false
+settings put system ro.surface_flinger.has_wide_color_display true
 
 
 
@@ -681,7 +695,81 @@ setprop vendor.display.enable_sdr_histogram 0
 setprop vendor.display.disable_hdr_histogram 0
 setprop vendor.display.enable_hdr_histogram 1
 setprop vendor.display.enable_hdr10_gpu_target 1
-s
+setprop ambient_enabled 0
+setprop audio_safe_volume_state 0
+setprop game_driver_all_apps 2
+setprop heat_suppression 0
+setprop performance_mode_enable 1
+setprop speed_mode_enable 1
+setprop persist.sys.glc.16x_msaa_enabled true
+setprop persist.sys.glc.msaa_samples 16
+setprop hardware_accelerated_rendering_enabled 1
+setprop system_ui_hw_accelerated 1
+setprop ui_hardware_enabled 1
+setprop video_encoder.hw 1
+setprop webview_accelerated_rendering_enabled 1
+setprop force_hw_ui 1
+setprop status_bar_hw_rendering_enabled 1
+setprop gridview_hw_accelerated 1
+setprop hscrollview_hw_accelerated 1
+setprop sysui_config_enable_hw 1
+setprop sysui_config_enable_hw_accelerated_game 1
+setprop sysui_config_enable_hw_accelerated_gpu 1
+setprop sysui_config_enable_hw_accelerated_cpu 1
+setprop sysui_config_enable_hw_accelerated_keyguard 1
+setprop sysui_config_enable_hw_accelerated_transitions 1
+setprop sysui_config_enable_hw_accelerated_launcher 1
+setprop sysui_config_enable_hw_keyguard 1
+setprop sem_enhanced_cpu_responsiveness 1
+setprop low_power 0
+setprop force_hwc_ui 1
+setprop force_high_performance 1
+setprop thread_priority highest HIGHEST
+setprop remove_animations 1
+setprop reduce_animations 1
+setprop fancy_ime_animations 0
+setprop reduce_transitions 1
+setprop remove_transitions 1
+setprop enable_hardware_acceleration 1
+setprop hardware_accelerated_graphics_decoding 1
+setprop hardware_accelerated_video_decode 1
+setprop hardware_accelerated_video_encode 1
+setprop media.sf.hwaccel 1
+setprop ro.config.enable.hw_accel true
+setprop ro.hwui.renderer.disable_opaque false
+setprop disable_hw_overlays 1
+setprop overlay_disable_force_hwc 1
+setprop omap.enhancement true
+setprop enhanced_processing 1
+setprop game_low_latency_mode 1
+setprop debug.hwc.force_gpu_vsync 0
+setprop debug.hwc.fakevsync 0
+setprop debug.hwc.disabletonemapping true
+setprop ro.surface_flinger.enable_layer_caching true
+setprop ro.surface_flinger.refresh_rate_switching false
+setprop ro.surface_flinger.has_wide_color_display true
+setprop persist.sys.color.adaptive false
+setprop persist.sys.sf.disable_blurs 1
+setprop persist.sys.disable_blur_view true
+setprop sys.output.10bit true
+setprop sys.fb.bits 32
+setprop persist.media.hls.enhancements true
+setprop ro.sf.use_latest_hwc_vsync_period 0
+setprop ro.config.avoid_gfx_accel false
+setprop force_gpu_render 1
+setprop force_gpu_rendering 1
+setprop gpu_rendering_mode 1
+setprop opengl_trace false
+setprop hw2d.force 1
+setprop hw3d.force 1
+setprop persist.sys.force_hw_ui true
+setprop persist.sys.ui.hw 1
+setprop com.qc.hardware true
+setprop debug.qc.hardware true
+setprop debug.cpurend.vsync false
+setprop debug.gpurend.vsync false
+setprop debug.egl.trace 0
+
 
 
 setprop audio.deep_buffer.media false
