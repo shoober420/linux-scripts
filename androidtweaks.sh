@@ -224,8 +224,8 @@ settings put global persist.sys.force_hw_ui true
 settings put global persist.sys.ui.hw 1
 settings put global com.qc.hardware true
 settings put global debug.qc.hardware true
-settings put global debug.cpurend.vsync true
-settings put global debug.gpurend.vsync true
+settings put global debug.cpurend.vsync false
+settings put global debug.gpurend.vsync false
 settings put global debug.egl.trace 0
 
 
@@ -390,6 +390,10 @@ setprop debug.hwui.render_dirty_regions false
 setprop debug.sf.hw true
 setprop debug.egl.force_msaa true
 setprop debug.egl.force_ssaa true
+setprop debug.vk.force_msaa true
+setprop debug.vk.force_ssaa true
+setprop debug.vulkan.force_msaa true
+setprop debug.vulkan.force_ssaa true
 setprop video.accelerate.hw true
 setprop persist.sys.force_highendgfx true
 setprop debug.power.profile high_performance
@@ -401,13 +405,18 @@ setprop debug.hwui.forcegpu true
 setprop debug.hwui.force.gpu true
 setprop debug.hwui.force_gpu true
 setprop debug.egl.msaa-sample 16
+setprop debug.vk.msaa-sample 16
+setprop debug.vulkan.msaa-sample 16
 setprop debug.sf.msaa 16
 setprop debug.hwui.use_hint_manager true
 setprop debug.egl.hw 1
 setprop debug.egl.swapinterval 0
 setprop debug.gl.hw 1
+setprop debug.vk.hw 1
+setprip debug.vulkan.hw 1
 setprop debug.gl.swapinterval 0
 setprop debug.gr.swapinterval 0
+setprop debug.vk.swapinterval 0
 setprop debug.dev.ssrm.turbo true
 setprop debug.rs.max-threads 8
 setprop debug.rs.min-threads 8
@@ -464,6 +473,8 @@ setprop debug.renderengine.backend skiavk
 setprop debug.stagefright.renderengine.backend skiavk
 setprop debug.mediatek.composition.type gpu
 setprop debug.egl.composition_type gpu
+setprop debug.vk.composition_type gpu
+setprop debug.vulkan.composition_type gpu
 setprop debug.composition.type gpu
 setprop debug.renderengine.graphite skiavk
 setprop debug.renderengine.skia_use_perfetto_track_events false
