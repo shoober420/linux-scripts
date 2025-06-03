@@ -520,6 +520,7 @@ settings put system ro.vendor.audio.game.effect false
 settings put system ro.audio.soundfx.dirac false
 settings put system media.stagefright.use-awesome true
 settings put system persist.media.lowlatency.enable true
+settings put system ro.vendor.audio.sdk.ssr false
 
 
 
