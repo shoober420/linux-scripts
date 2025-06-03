@@ -538,6 +538,7 @@ setprop debug.sf.enable_transaction_tracing false
 setprop debug.sf.dump 0
 setprop debug.sf.enable_layer_caching true
 setprop debug.sf.enable_sdr_dimming false
+setprop debug.sf.disable_sdr_dimming true
 setprop debug.sf.support_hdr_by_wide_color_gamut true
 setprop debug.sf.numframebuffers 1
 setprop debug.mdlogger.Running 0
