@@ -31,7 +31,13 @@
 # You must unplug USB-C from phone when changing "Default USB configuration" developer option
 
 setprop debug.performance.tuning 1
+settings put global debug.performance.tuning 1
+settings put system debug.performance.tuning 1
+settings put secure debug.performance.tuning 1
 setprop debug.perf.tuning 1
+settings put global debug.perf.tuning 1
+settings put system debug.perf.tuning 1
+settings put secure debug.perf.tuning 1
 
 cmd power set-fixed-performance-mode-enabled true
 
@@ -330,10 +336,6 @@ settings put system ro.surface_flinger.has_wide_color_display true
 
 
 
-device_config put systemui window_cornerRadius 0
-device_config put systemui window_blur 0
-device_config put systemui window_shadow 0
-
 cmd looper_stats disable
 cmd display ab-logging-disable
 cmd display dwb-logging-disable
@@ -355,6 +357,7 @@ settings put secure ro.surface_flinger.supports_background_blur 0
 # Disable Adaptive Refresh Rate / Motion Smoothing
 settings put global vendor.display.use_smooth_motion 0
 settings put system vendor.display.use_smooth_motion 0
+settings put secure vendor.display.use_smooth_motion 0
 
 settings put system persist.qfp false
 settings put global persist.qfp false
@@ -842,6 +845,11 @@ netsh interface ipv6 set interface cellular disabled
 # Turn On "Disable HW overlays"
 # REQUIRES ROOT
 service call SurfaceFlinger 1008 i32 1
+
+# REQUIRED ROOT
+device_config put systemui window_cornerRadius 0
+device_config put systemui window_blur 0
+device_config put systemui window_shadow 0
 
 # Restart SystemUI, Settings, and App Launcher so Vulkan is used
 am crash com.android.systemui
