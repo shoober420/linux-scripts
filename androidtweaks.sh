@@ -82,8 +82,6 @@ settings put secure high_priority 1
 settings put system low_power 0
 settings put system force_hwc_ui 1
 settings put system force_high_performance 1
-settings put system sysui_config_enable_hw_keyguard 1
-settings put system sysui_config_enable_hw_keyguard 1
 settings put system ro.hwui.use_vulkan true
 settings put global ro.hwui.use_vulkan true
 settings put system enable_hw_2d 1
