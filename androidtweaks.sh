@@ -294,7 +294,7 @@ settings put global force_high_performance 1
 settings put system game_low_latency_mode 1
 settings put system sys.debug.watchdog 0
 settings put system debug.hwc.force_gpu_vsync 0
-settings put syetem debug.hwc.fakevsync 0
+settings put system debug.hwc.fakevsync 0
 settings put system debug.hwc.disabletonemapping true
 settings put system persist.sys.color.adaptive false
 settings put system persist.sys.sf.disable_blurs 1
