@@ -597,10 +597,11 @@ settings put secure ro.surface_flinger.supports_background_blur 0
 
 
 # Force High Refresh Rate
-# DONT DISABLE, FORCES 60HZ
+# DONT DISABLE, USES 60HZ WHEN 0
 settings put global vendor.display.use_smooth_motion 1
 settings put system vendor.display.use_smooth_motion 1
 settings put secure vendor.display.use_smooth_motion 1
+setprop vendor.display.use_smooth_motion 1
 
 settings put system persist.qfp false
 settings put global persist.qfp false
