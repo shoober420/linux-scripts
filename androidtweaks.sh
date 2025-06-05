@@ -456,6 +456,26 @@ settings put secure debug.hwc.lock_refresh_rate true
 settings put global debug.hwc.refresh_rate 120
 settings put system debug.hwc.refresh_rate 120
 settings put secure debug.hwc.refresh_rate 120
+settings put system shadow_animation_scale 0
+settings put secure shadow_animation_scale 0
+settings put global window_animation_scale 0
+settings put system window_animation_scale 0
+settings put secure window_animation_scale 0
+settings put global transition_animation_scale 0
+settings put system transition_animation_scale 0
+settings put secure transition_animation_scale 0
+settings put global animator_duration_scale 0
+settings put system animator_duration_scale 0
+settings put secure animator_duration_scale 0
+settings put secure screensaver_enabled 0
+settings put global screensaver_enabled 0
+settings put system screensaver_enabled 0
+settings put secure screensaver_activate_on_sleep 0
+settings put global screensaver_activate_on_sleep 0
+settings put system screensaver_activate_on_sleep 0
+settings put secure screensaver_activate_on_dock 0
+settings put global screensaver_activate_on_dock 0
+settings put system screensaver_activate_on_dock 0
 
 
 
