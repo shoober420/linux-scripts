@@ -479,6 +479,102 @@ settings put system screensaver_activate_on_dock 0
 settings put global debug.refresh_rate.min_fps 120
 settings put system debug.refresh_rate.min_fps 120
 settings put secure debug.refresh_rate.min_fps 120
+settings put global debug.hwui.force_gpu_for_2d true
+settings put system debug.hwui.force_gpu_for_2d true
+settings put secure debug.hwui.force_gpu_for_2d true
+settings put global debug.disable.hwacc 0
+settings put system debug.disable.hwacc 0
+settings put secure debug.disable.hwacc 0
+settings put global debug.graphics.game_default_frame_rate.disabled true
+settings put system debug.graphics.game_default_frame_rate.disabled true
+settings put secure debug.graphics.game_default_frame_rate.disabled true
+settings put global debug.hwui.renderer skiavk
+settings put system debug.hwui.renderer skiavk
+settings put secure debug.hwui.renderer skiavk
+settings put global debug.hwui.rendering skiavk
+settings put system debug.hwui.rendering skiavk
+settings put secure debug.hwui.rendering skiavk
+settings put global debug.hwui.render_engine_backend skiavk
+settings put system debug.hwui.render_engine_backend skiavk
+settings put secure debug.hwui.render_engine_backend skiavk
+settings put global debug.hwui.rendering_type skiavk
+settings put system debug.hwui.rendering_type skiavk
+settings put secure debug.hwui.rendering_type skiavk
+settings put global debug.hwui.render_type gpu
+settings put system debug.hwui.render_type gpu
+settings put secure debug.hwui.render_type gpu
+settings put global debug.hwui.composition_type gpu
+settings put system debug.hwui.composition_type gpu
+settings put secure debug.hwui.composition_type gpu
+settings put global debug.hwui.disabledither false
+settings put system debug.hwui.disabledither false
+settings put secure debug.hwui.disabledither false
+settings put global debug.hwui.disable_vsync true
+settings put system debug.hwui.disable_vsync true
+settings put secure debug.hwui.disable_vsync true
+settings put global debug.hdr.disable false
+settings put system debug.hdr.disable false
+settings put secure debug.hdr.disable false
+settings put global debug.hdr.disabled false
+settings put system debug.hdr.disabled false
+settings put secure debug.hdr.disabled false
+settings put global debug.hdr.enable true
+settings put system debug.hdr.enable true
+settings put secure debug.hdr.enable true
+settings put global debug.hdr.enabled true
+settings put system debug.hdr.enabled true
+settings put secure debug.hdr.enabled true
+settings put global debug.sf.support_hdr_by_wide_color_gamut true
+settings put system debug.sf.support_hdr_by_wide_color_gamut true
+settings put secure debug.sf.support_hdr_by_wide_color_gamut true
+settings put global debug.vk.force_msaa true
+settings put system debug.vk.force_msaa true
+settings put secure debug.vk.force_msaa true
+settings put global debug.vk.force_ssaa true
+settings put system debug.vk.force_ssaa true
+settings put secure debug.vk.force_ssaa true
+settings put global debug.vulkan.force_msaa true
+settings put system debug.vulkan.force_msaa true
+settings put secure debug.vulkan.force_msaa true
+settings put global debug.vulkan.force_ssaa true
+settings put system debug.vulkan.force_ssaa true
+settings put secure debug.vulkan.force_ssaa true
+settings put global debug.vk.msaa-sample 16
+settings put system debug.vk.msaa-sample 16
+settings put secure debug.vk.msaa-sample 16
+settings put global debug.vulkan.msaa-sample 16
+settings put system debug.vulkan.msaa-sample 16
+settings put secure debug.vulkan.msaa-sample 16
+settings put global debug.vk.msaa 16
+settings put system debug.vk.msaa 16
+settings put secure debug.vk.msaa 16
+settings put global debug.vulkan.msaa 16
+settings put system debug.vulkan.msaa 16
+settings put secure debug.vulkan.msaa 16
+settings put global debug.vk.composition_type gpu
+settings put system debug.vk.composition_type gpu
+settings put secure debug.vk.composition_type gpu
+settings put global debug.vulkan.composition_type gpu
+settings put system debug.vulkan.composition_type gpu
+settings put secure debug.vulkan.composition_type gpu
+settings put global debug.renderengine.backend skiavk
+settings put system debug.renderengine.backend skiavk
+settings put secure debug.renderengine.backend skiavk
+settings put global debug.stagefright.renderengine.backend skiavk
+settings put system debug.stagefright.renderengine.backend skiavk
+settings put secure debug.stagefright.renderengine.backend skiavk
+settings put global debug.composition.type gpu
+settings put system debug.composition.type gpu
+settings put secure debug.composition.type gpu
+settings put global debug.renderengine.graphite skiavk
+settings put system debug.renderengine.graphite skiavk
+settings put secure debug.renderengine.graphite skiavk
+settings put global debug.vk.swapinterval 0
+settings put system debug.vk.swapinterval 0
+settings put secure debug.vk.swapinterval 0
+settings put global debug.vulkan.swapinterval 0
+settings put system debug.vulkan.swapinterval 0
+settings put secure debug.vulkan.swapinterval 0
 
 
 
@@ -1007,6 +1103,8 @@ setprop debug.cpurend.vsync false
 setprop debug.gpurend.vsync false
 setprop debug.egl.trace 0
 setprop debug.refresh_rate.min_fps 120
+setprop debug.hdr.enable true
+setprop debug.hdr.enabled true
 
 
 
