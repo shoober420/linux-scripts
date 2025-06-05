@@ -126,6 +126,11 @@ Wallpaper & style > Home screen:
  - Icons > Themed Icons: Off
  - Layout: Medium
 
+Battery:
+ - Schedule and reminders > Turn on based on battery level: Off
+ - Schedule and reminders > Battery Saver reminders: Off
+ - Battery Saver > Adaptive Battery: Off
+
 System:
  - Keyboard > On-screen keyboard > Gboard: On
   - Preferences:
