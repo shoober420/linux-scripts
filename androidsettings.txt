@@ -221,6 +221,8 @@ SetEdit requires root to edit tables
 /system/build.prop contains Android Properties
  + requires unlocked bootloader to edit
 
+Downloads: /storage/self/primary/Download
+
 Unlocking bootloader requires factory resetting phone
  + makes phone insecure, especially physical access (evil maid attack)
 
