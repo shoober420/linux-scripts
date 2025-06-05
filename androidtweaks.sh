@@ -662,6 +662,12 @@ settings put secure persist.sys.vk.msaa_samples 16
 settings put global persist.sys.vulkan.msaa_samples 16
 settings put system persist.sys.vulkan.msaa_samples 16
 settings put secure persist.sys.vulkan.msaa_samples 16
+settings put global debug.scaling_governor performance
+settings put system debug.scaling_governor performance
+settings put secure debug.scaling_governor performance
+settings put global debug.sys.thermal.protection 0
+settings put system debug.sys.thermal.protection 0
+settings put secure debug.sys.thermal.protection 0
 
 
 
