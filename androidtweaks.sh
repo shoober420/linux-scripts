@@ -575,6 +575,93 @@ settings put secure debug.vk.swapinterval 0
 settings put global debug.vulkan.swapinterval 0
 settings put system debug.vulkan.swapinterval 0
 settings put secure debug.vulkan.swapinterval 0
+settings put global window_cornerRadius 0
+settings put system window_cornerRadius 0
+settings put secure window_cornerRadius 0
+settings put global window_blur 0
+settings put system window_blur 0
+settings put secure window_blur 0
+settings put global window_shadow 0
+settings put system window_shadow 0
+settings put secure window_shadow 0
+settings put global debug.hwui.forcegpu true
+settings put system debug.hwui.forcegpu true
+settings put secure debug.hwui.forcegpu true
+settings put global debug.hwui.force.gpu true
+settings put system debug.hwui.force.gpu true
+settings put secure debug.hwui.force.gpu true
+settings put global debug.hwui.force_gpu true
+settings put system debug.hwui.force_gpu true
+settings put secure debug.hwui.force_gpu true
+settings put global debug.swapinterval 0
+settings put system debug.swapinterval 0
+settings put secure debug.swapinterval 0
+settings put global debug.sys.display.fps 120
+settings put system debug.sys.display.fps 120
+settings put secure debug.sys.display.fps 120
+settings put global debug.sys.game.minfps 120
+settings put system debug.sys.game.minfps 120
+settings put secure debug.sys.game.minfps 120
+settings put global debug.sys.game.maxfps 120
+settings put system debug.sys.game.maxfps 120
+settings put secure debug.sys.game.maxfps 120
+settings put global debug.sys.game.maxframerate 120
+settings put system debug.sys.game.maxframerate 120
+settings put secure debug.sys.game.maxframerate 120
+settings put global debug.sys.sf.fps 120
+settings put system debug.sys.sf.fps 120
+settings put secure debug.sys.sf.fps 120
+settings put global debug.sys.fps_unlock_allowed 120
+settings put system debug.sys.fps_unlock_allowed 120
+settings put secure debug.sys.fps_unlock_allowed 120
+settings put global debug.sys.display.max_fps 120
+settings put system debug.sys.display.max_fps 120
+settings put secure debug.sys.display.max_fps 120
+settings put global debug.sys.video.max.fps 120
+settings put system debug.sys.video.max.fps 120
+settings put secure debug.sys.video.max.fps 120
+settings put global debug.sys.surfaceflinger.idle_reduce_framerate_enable no
+settings put system debug.sys.surfaceflinger.idle_reduce_framerate_enable no
+settings put secure debug.sys.surfaceflinger.idle_reduce_framerate_enable no
+settings put global debug.sys.surfaceflinger.enable_gpu 1
+settings put system debug.sys.surfaceflinger.enable_gpu 1
+settings put secure debug.sys.surfaceflinger.enable_gpu 1
+settings put global debug.sys.vsync_optimization_enable false
+settings put system debug.sys.vsync_optimization_enable false
+settings put secure debug.sys.vsync_optimization_enable false
+settings put global debug.sys.hwui.dyn_vsync 0
+settings put system debug.sys.hwui.dyn_vsync 0
+settings put secure debug.sys.hwui.dyn_vsync 0
+settings put global debug.sys.vsync false
+settings put system debug.sys.vsync false
+settings put secure debug.sys.vsync false
+settings put global debug.sf.max_frame_latency 1
+settings put system debug.sf.max_frame_latency 1
+settings put secure debug.sf.max_frame_latency 1
+settings put global debug.sf.no_hw_vsync true
+settings put system debug.sf.no_hw_vsync true
+settings put secure debug.sf.no_hw_vsync true
+settings put global debug.sf.numframebuffers 1
+settings put system debug.sf.numframebuffers 1
+settings put secure debug.sf.numframebuffers 1
+settings put global debug.vk.numframebuffers 1
+settings put system debug.vk.numframebuffers 1
+settings put secure debug.vk.numframebuffers 1
+settings put global debug.vulkan.numframebuffers 1
+settings put system debug.vulkan.numframebuffers 1
+settings put secure debug.vulkan.numframebuffers 1
+settings put global persist.sys.vk.16x_msaa_enabled true
+settings put system persist.sys.vk.16x_msaa_enabled true
+settings put secure persist.sys.vk.16x_msaa_enabled true
+settings put global persist.sys.vulkan.16x_msaa_enabled true
+settings put system persist.sys.vulkan.16x_msaa_enabled true
+settings put secure persist.sys.vulkan.16x_msaa_enabled true
+settings put global persist.sys.vk.msaa_samples 16
+settings put system persist.sys.vk.msaa_samples 16
+settings put secure persist.sys.vk.msaa_samples 16
+settings put global persist.sys.vulkan.msaa_samples 16
+settings put system persist.sys.vulkan.msaa_samples 16
+settings put secure persist.sys.vulkan.msaa_samples 16
 
 
 
@@ -1106,6 +1193,14 @@ setprop debug.egl.trace 0
 setprop debug.refresh_rate.min_fps 120
 setprop debug.hdr.enable true
 setprop debug.hdr.enabled true
+setprop window_cornerRadius 0
+setprop window_blur 0
+setprop window_shadow 0
+setprop debug.swapinterval 0
+setprop persist.sys.vulkan.16x_msaa_enabled true
+setprop persist.sys.vk.16x_msaa_enabled true
+setprop persist.sys.vk.msaa_samples 16
+setprop persist.sys.vulkan.msaa_samples 16
 
 
 
