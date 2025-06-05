@@ -476,6 +476,9 @@ settings put system screensaver_activate_on_sleep 0
 settings put secure screensaver_activate_on_dock 0
 settings put global screensaver_activate_on_dock 0
 settings put system screensaver_activate_on_dock 0
+settings put global debug.refresh_rate.min_fps 120
+settings put system debug.refresh_rate.min_fps 120
+settings put secure debug.refresh_rate.min_fps 120
 
 
 
@@ -1003,6 +1006,7 @@ setprop debug.qc.hardware true
 setprop debug.cpurend.vsync false
 setprop debug.gpurend.vsync false
 setprop debug.egl.trace 0
+setprop debug.refresh_rate.min_fps 120
 
 
 
