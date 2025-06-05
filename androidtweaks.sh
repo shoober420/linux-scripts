@@ -1082,7 +1082,7 @@ setprop debug.hwc.disabletonemapping true
 setprop ro.surface_flinger.enable_layer_caching true
 setprop ro.surface_flinger.refresh_rate_switching false
 setprop ro.surface_flinger.has_wide_color_display true
-setprop persist.sys.color.adaptive false
+setprop persist.sys.color.adaptive true
 setprop persist.sys.sf.disable_blurs 1
 setprop persist.sys.disable_blur_view true
 setprop sys.output.10bit true
