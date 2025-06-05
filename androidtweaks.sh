@@ -435,6 +435,15 @@ settings put secure debug.hwui.refresh_rate_forced 120
 settings put global debug.hwui.refresh_rate 120
 settings put system debug.hwui.refresh_rate 120
 settings put secure debug.hwui.refresh_rate 120
+settings put global debug.sys.min_refresh_rate 120
+settings put system debug.sys.min_refresh_rate 120
+settings put secure debug.sys.min_refresh_rate 120
+settings put global debug.sys.max_refresh_rate 120
+settings put system debug.sys.max_refresh_rate 120
+settings put secure debug.sys.max_refresh_rate 120
+settings put global debug.sys.peak_refresh_rate 120
+settings put system debug.sys.peak_refresh_rate 120
+settings put secure debug.sys.peak_refresh_rate 120
 
 
 
