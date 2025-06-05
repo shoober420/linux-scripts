@@ -109,6 +109,8 @@ settings put global shadow_animation_scale 0
 settings put global render_shadows_in_compositor true
 settings put global sys.disable_ext_animation 1
 settings put global sys.refresh.dirty 0
+settings put system sys.refresh.dirty 0
+settings put secure sys.refresh.dirty 0
 settings put global enable_hardware_acceleration 1
 settings put global hardware_accelerated_graphics_decoding 1
 settings put global hardware_accelerated_video_decode 1
@@ -209,7 +211,7 @@ settings put global debug.hwc.disabletonemapping true
 settings put global ro.surface_flinger.enable_layer_caching true
 settings put global ro.surface_flinger.refresh_rate_switching false
 settings put global ro.surface_flinger.has_wide_color_display true
-settings put global persist.sys.color.adaptive false
+settings put global persist.sys.color.adaptive true
 settings put global persist.sys.sf.disable_blurs 1
 settings put global persist.sys.disable_blur_view true
 settings put global sys.output.10bit true
@@ -296,7 +298,7 @@ settings put system sys.debug.watchdog 0
 settings put system debug.hwc.force_gpu_vsync 0
 settings put system debug.hwc.fakevsync 0
 settings put system debug.hwc.disabletonemapping true
-settings put system persist.sys.color.adaptive false
+settings put system persist.sys.color.adaptive true
 settings put system persist.sys.sf.disable_blurs 1
 settings put system persist.sys.disable_blur_view true
 settings put system sys.output.10bit true
@@ -394,7 +396,7 @@ settings put secure debug.hwc.disabletonemapping true
 settings put secure ro.surface_flinger.enable_layer_caching true
 settings put secure ro.surface_flinger.refresh_rate_switching false
 settings put secure ro.surface_flinger.has_wide_color_display true
-settings put secure persist.sys.color.adaptive false
+settings put secure persist.sys.color.adaptive true
 settings put secure persist.sys.sf.disable_blurs 1
 settings put secure persist.sys.disable_blur_view true
 settings put secure sys.output.10bit true
@@ -424,6 +426,15 @@ settings put secure vendor.display.enable_sdr_histogram 0
 settings put secure vendor.display.disable_hdr_histogram 0
 settings put secure vendor.display.enable_hdr_histogram 1
 settings put secure vendor.display.enable_hdr10_gpu_target 1
+settings put global debug.hwui.force_refresh_rate 120
+settings put system debug.hwui.force_refresh_rate 120
+settings put secure debug.hwui.force_refresh_rate 120
+settings put global debug.hwui.refresh_rate_forced 120
+settings put system debug.hwui.refresh_rate_forced 120
+settings put secure debug.hwui.refresh_rate_forced 120
+settings put global debug.hwui.refresh_rate 120
+settings put system debug.hwui.refresh_rate 120
+settings put secure debug.hwui.refresh_rate 120
 
 
 
@@ -445,10 +456,11 @@ settings put secure ro.surface_flinger.supports_background_blur 0
 
 
 
-# Disable Adaptive Refresh Rate / Motion Smoothing
-settings put global vendor.display.use_smooth_motion 0
-settings put system vendor.display.use_smooth_motion 0
-settings put secure vendor.display.use_smooth_motion 0
+# Force High Refresh Rate
+# DONT DISABLE, FORCES 60HZ
+settings put global vendor.display.use_smooth_motion 1
+settings put system vendor.display.use_smooth_motion 1
+settings put secure vendor.display.use_smooth_motion 1
 
 settings put system persist.qfp false
 settings put global persist.qfp false
