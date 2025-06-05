@@ -444,6 +444,18 @@ settings put secure debug.sys.max_refresh_rate 120
 settings put global debug.sys.peak_refresh_rate 120
 settings put system debug.sys.peak_refresh_rate 120
 settings put secure debug.sys.peak_refresh_rate 120
+settings put global debug.sys.display.min_refresh_rate 120
+settings put system debug.sys.display.min_refresh_rate 120
+settings put secure debug.sys.display.min_refresh_rate 120
+settings put global debug.hwc.dynamic_refresh_rate false
+settings put system debug.hwc.dynamic_refresh_rate false
+settings put secure debug.hwc.dynamic_refresh_rate false
+settings put global debug.hwc.lock_refresh_rate true
+settings put system debug.hwc.lock_refresh_rate true
+settings put secure debug.hwc.lock_refresh_rate true
+settings put global debug.hwc.refresh_rate 120
+settings put system debug.hwc.refresh_rate 120
+settings put secure debug.hwc.refresh_rate 120
 
 
 
