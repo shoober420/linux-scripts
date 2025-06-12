@@ -7,6 +7,9 @@ Enroll in Android beta program
  - google "android beta program" and opt-in for supported device
  - Settings > System > Software updates > System update > Check for update
 
+Join Google system services public beta
+ - https://developers.google.com/android/guides/beta-program
+
 Enroll in app beta programs
  - google ":APPNAME: beta program"
   + DONT enroll in the same app beta program on two different google accounts or the app will have issues updating 
