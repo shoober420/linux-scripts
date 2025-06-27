@@ -3,6 +3,10 @@
 # Requires Desktop ADB or Termux
 # Needs executed every phone restart
 
+# sh androidtweaks.sh
+# ./androidtweaks.sh  WILL NOT WORK
+
+
 # List Apps
 # pm list packages
 
