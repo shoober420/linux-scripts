@@ -109,6 +109,7 @@ Display & touch:
  - Display size and text > Display size: 5/5 (highest)
  - Display size and text > Bold text: Off
  - Display size and text > High contrast text: Off
+ - Navigation mode: Gesture navigation
  - Night Light: Off
  - Colors: Adaptive
  - Color contrast: Default
