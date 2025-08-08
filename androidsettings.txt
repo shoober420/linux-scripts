@@ -273,6 +273,13 @@ Tweak settings without Desktop ADB
 - Connect with "adb connect"
 
 
+
+Diagnostics App:
+------------------
+Phone App > #*#7287​#*#
+
+
+
 !!! WARNING !!!
 
 When done using ADB / Termux
