@@ -58,6 +58,7 @@ Apps:
  - Android Beta Feedback: Disabled
  - Android System Intelligence: Disabled
  - Camerakit Plugin: Uninstall
+ - Cross-Device Services: Disabled
  - Dreams: Disabled
  - Emoji Workshop Wallpaper: Disabled
  - Google: Disabled
