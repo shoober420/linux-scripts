@@ -74,6 +74,7 @@ Apps:
  - Pixel VIPs: Disabled
  - Pixel Weather: Disabled
  - Sound Amplifier: Disabled
+ - Sounds: Disabled
  - Speech Recognition and Synthesis from Google: Disabled
  - Thermometer: Disabled
  - YouTube Music: Disabled
