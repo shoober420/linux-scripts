@@ -274,7 +274,7 @@ Tweak settings without Desktop ADB
 
 
 
-Diagnostics App:
+Diagnostics App: (NOT WORKING)
 ------------------
  - Open Phone app
 #*#7287​#*#
