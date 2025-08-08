@@ -67,6 +67,7 @@ Apps:
  - Live Transcribe & Sound Notifications: Disabled
  - Meet: Disabled
  - Pixel Buds: Disabled
+ - Pixel Launcher: CANT DISABLE
  - Pixel Live Wallpaper: Disabled
  - Pixel Screenshots: Disabled
  - Pixel Tips: Disabled
