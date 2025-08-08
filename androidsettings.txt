@@ -278,6 +278,7 @@ Diagnostics App: (NOT WORKING)
 ------------------
  - Open Phone app
 #*#7287​#*#
+*#0*#
 
 
 
