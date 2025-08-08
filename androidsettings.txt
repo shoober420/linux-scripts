@@ -59,6 +59,7 @@ Apps:
  - Android System Intelligence: Disabled
  - Camerakit Plugin: Uninstall
  - Cross-Device Services: Disabled
+ - Digital Wellbeing: CANT DISABLE
  - Dreams: Disabled
  - Emoji Workshop Wallpaper: Disabled
  - Google: Disabled
