@@ -277,7 +277,7 @@ Tweak settings without Desktop ADB
 Diagnostics App:
 ------------------
  - Open Phone app
- - #*#7287​#*#
+#*#7287​#*#
 
 
 
