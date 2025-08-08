@@ -56,6 +56,7 @@ Apps:
  - Android Accessibility Suite: Disabled
  - Android Auto: Disabled
  - Android Beta Feedback: Disabled
+ - Android System Intelligence: Disabled
  - Dreams: Disabled
  - Emoji Workshop Wallpaper: Disabled
  - Google: Disabled
