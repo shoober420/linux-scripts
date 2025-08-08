@@ -71,6 +71,7 @@ Apps:
  - Pixel Live Wallpaper: Disabled
  - Pixel Screenshots: Disabled
  - Pixel Tips: Disabled
+ - Pixel VIPs: Disabled
  - Pixel Weather: Disabled
  - Sound Amplifier: Disabled
  - Speech Recognition and Synthesis from Google: Disabled
