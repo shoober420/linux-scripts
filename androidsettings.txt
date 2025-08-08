@@ -53,6 +53,7 @@ Connected devices > Connection preferences:
 
 Apps:
  - AICore: Disabled
+ - Android Accessibility Suite: Disabled
  - Android Auto: Disabled
  - Android Beta Feedback: Disabled
  - Dreams: Disabled
