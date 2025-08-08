@@ -57,6 +57,7 @@ Apps:
  - Android Auto: Disabled
  - Android Beta Feedback: Disabled
  - Android System Intelligence: Disabled
+ - Camerakit Plugin: Uninstall
  - Dreams: Disabled
  - Emoji Workshop Wallpaper: Disabled
  - Google: Disabled
